@@ -1,0 +1,17 @@
+{
+  "name": "values-runner",
+  "version": "3.0.0",
+  "description": "Kuaishou Values Runner — HR culture training game (local build)",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "uuid": "^14.0.1"
+  }
+}
