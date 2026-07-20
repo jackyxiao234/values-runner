@@ -322,7 +322,7 @@ canvas{display:block}
     <div class="rules-section">
       <h3>🏃 玩法</h3>
       <div class="rules-row"><span class="rules-key">躲避障碍</span><span class="rules-val">跳过火焰与菠萝，撞到会掉一颗心</span></div>
-      <div class="rules-row"><span class="rules-key">香蕉人 🍌</span><span class="rules-val">7级后会迎面跑来（高层也有），跑到平台尽头会往下跳 — 跳过它！</span></div>
+      <div class="rules-row"><span class="rules-key">香蕉人 🍌</span><span class="rules-val">7级后会迎面跑来；高层的会在平台上来回巡逻 — 跳过它！</span></div>
       <div class="rules-row"><span class="rules-key">收集小快</span><span class="rules-val">路上的小快角色有五种，效果各不同（见下）</span></div>
       <div class="rules-row"><span class="rules-key">多层平台</span><span class="rules-val">高层障碍减半、金币更多 — 越高越安全，回报也更高</span></div>
       <div class="rules-row"><span class="rules-key">配对小游戏</span><span class="rules-val">最多允许 3 次错误，用完即失败</span></div>
@@ -528,8 +528,10 @@ for(let i=0;i<3;i++){const im=new Image();im.onload=()=>{boardLoaded++};im.onerr
 const SPIKE_IMG=new Image();let spikeOk=false;SPIKE_IMG.onload=()=>{spikeOk=true};SPIKE_IMG.onerror=()=>{spikeOk=false};SPIKE_IMG.src='assets/characters/spikeball.png';
 const ORIE_IMG=new Image();let orieOk=false;ORIE_IMG.onload=()=>{orieOk=true};ORIE_IMG.onerror=()=>{orieOk=false};ORIE_IMG.src='assets/characters/oriestar.png';
 // Bananaman — a running enemy (level 7+, ground sections only)
-const BANANA_FRAMES=[];let bananaLoaded=0;
+// Two frame sets: left-facing (runs at the player) and right-facing (patrol return leg).
+const BANANA_FRAMES=[],BANANA_R_FRAMES=[];let bananaLoaded=0,bananaRLoaded=0;
 for(let i=0;i<3;i++){const im=new Image();im.onload=()=>{bananaLoaded++};im.onerror=()=>{};im.src=`assets/characters/banana_${i}.png`;BANANA_FRAMES.push(im);}
+for(let i=0;i<3;i++){const im=new Image();im.onload=()=>{bananaRLoaded++};im.onerror=()=>{};im.src=`assets/characters/banana_r_${i}.png`;BANANA_R_FRAMES.push(im);}
 
 // Fire images (small and big variants)
 const FIRE_SMALL=new Image();let fireSmallOk=false;
@@ -938,11 +940,12 @@ function genChunk(sx,len){
             }
           }
           // Bananamen on layers too (level 7+), less frequent than on the ground.
-          // When one runs off the left end of its platform, it drops a layer down.
+          // Layer bananamen PATROL back and forth along their platform.
           if(lv>=7&&layerLen>240&&Math.random()<0.14*Math.pow(0.6,l-1)){
             const bx=platX+layerLen*(0.45+Math.random()*0.45);
             if(clearOf(bx)){
-              it.push({t:'b',x:bx,y:py,w:40,h:62,hit:false,layer:l,ph:Math.random()*6.28});
+              it.push({t:'b',x:bx,y:py,w:40,h:62,hit:false,layer:l,ph:Math.random()*6.28,
+                       minX:platX+24,maxX:platX+layerLen-24,dir:Math.random()<0.5?-1:1});
               occupied.push(bx);
             }
           }
@@ -1198,10 +1201,15 @@ function drawG(g){
 }
 
 // Bananaman — running enemy. it.y is his FEET (ground line), it.x world coords.
+// Direction picks the sprite set: left-facing when moving toward the player,
+// mirrored right-facing frames on a patrol's return leg.
 function drawBanana(b){
   const sx=b.x-dist;
   const fi=Math.floor(fc/7)%3;
-  const img=bananaLoaded>=3?BANANA_FRAMES[fi]:null;
+  const goingRight=(b.dir||-1)>0;
+  const set=goingRight?BANANA_R_FRAMES:BANANA_FRAMES;
+  const loaded=goingRight?bananaRLoaded>=3:bananaLoaded>=3;
+  const img=loaded?set[fi]:null;
   const bob=Math.abs(Math.sin(fc*0.18+b.ph))*3;
   const dh=b.h+16,ar=img?img.width/img.height:0.72,dw=dh*ar;
   if(img){cx.drawImage(img,sx-dw/2,b.y-dh+bob-2,dw,dh);}
@@ -1808,32 +1816,19 @@ function upd(){
   if(st==='running'&&!dead&&li>0&&fc%90===0&&dist-lastPopDist>4000&&Math.random()<0.015){
     lastPopDist=dist;showQ('pop',rollDiff());
   }
-  // Bananamen run toward the player at 0.4x scroll speed (closing speed ~1.4x).
-  // A layer bananaman that runs off the left end of his platform falls to the
-  // next surface below (a lower platform if one is under him, else the ground).
+  // Ground bananamen run toward the player at 0.4x scroll speed (closing ~1.4x).
+  // Layer bananamen PATROL back and forth along their platform at a fixed pace,
+  // bouncing at the platform ends (dir flips, and the sprite set flips with it).
+  const BANANA_PATROL=2.4; // world px/frame
   if(!flightMode)for(let i=0;i<items.length;i++){
     const b=items[i];if(b.t!=='b'||b.hit)continue;
-    b.x-=spd*0.4*curDt;
-    if(b.fall){
-      b.vy=(b.vy||0)+grav*curDt;
-      const ny=b.y+b.vy*curDt;
-      // Land on the highest surface between old and new feet positions
-      let landY=gY,landLayer=0;
-      for(let j=0;j<platforms.length;j++){
-        const p=platforms[j];
-        if(p.layer>=b.layer)continue; // only surfaces below his old layer
-        if(b.x>=p.x+4&&b.x<=p.x+p.w-4&&p.y>=b.y-1&&p.y<=ny+2&&p.y<landY){landY=p.y;landLayer=p.layer;}
-      }
-      if(ny>=landY){b.y=landY;b.layer=landLayer;b.fall=false;b.vy=0;}
-      else b.y=ny;
-    }else if(b.layer>0){
-      // Still on a platform? If he's run past its left end, start falling.
-      let on=false;
-      for(let j=0;j<platforms.length;j++){
-        const p=platforms[j];
-        if(p.layer===b.layer&&b.x>=p.x+4&&b.x<=p.x+p.w-4&&Math.abs(p.y-b.y)<8){on=true;break;}
-      }
-      if(!on){b.fall=true;b.vy=0;}
+    if(b.layer>0&&b.minX!=null){
+      b.x+=BANANA_PATROL*(b.dir||-1)*curDt;
+      if(b.x<=b.minX){b.x=b.minX;b.dir=1;}
+      else if(b.x>=b.maxX){b.x=b.maxX;b.dir=-1;}
+    }else{
+      b.x-=spd*0.4*curDt;
+      b.dir=-1;
     }
   }
   items=items.filter(i=>{if(i.t==='c'&&i.got)return false;if(i.t==='o'&&i.hit)return false;if(i.t==='b'&&i.hit)return false;if(i.t==='g'&&i.trig)return false;return(i.x-dist)>-100});
