@@ -1,0 +1,1462 @@
+{
+  "metadata": {
+    "title": "Project Management Knowledge Quiz",
+    "description": "Kuaishou HR game project management knowledge bank, covering Agile Scrum/Kanban, requirements management, project lifecycle, risk management, schedule management, quality assurance, etc.",
+    "language": "en-US",
+    "total_questions": 120,
+    "difficulty_distribution": {
+      "easy": 40,
+      "medium": 40,
+      "hard": 40
+    },
+    "created_at": "2026-07-06"
+  },
+  "questions": {
+    "easy": [
+      {
+        "id": "E01",
+        "question": "In Scrum, what is the recommended duration of a Sprint?",
+        "options": [
+          "1 week",
+          "2-4 weeks",
+          "6 weeks",
+          "3 months"
+        ],
+        "answer": "2-4 weeks",
+        "explanation": "The Scrum Guide recommends Sprint durations of 2-4 weeks, with 2-week Sprints being the most common."
+      },
+      {
+        "id": "E02",
+        "question": "What are the three roles in Scrum?",
+        "options": [
+          "Product Owner, Scrum Master, Development Team",
+          "Project Manager, Tech Lead, Tester",
+          "Product Manager, Designer, Engineer",
+          "PO, PM, QA"
+        ],
+        "answer": "Product Owner, Scrum Master, Development Team",
+        "explanation": "The Scrum framework defines three core roles: Product Owner, Scrum Master, and Development Team."
+      },
+      {
+        "id": "E03",
+        "question": "What does a Burndown Chart show?",
+        "options": [
+          "How remaining work changes over time",
+          "How the number of bugs changes across versions",
+          "How lines of code change with each commit",
+          "Team members working hours"
+        ],
+        "answer": "How remaining work changes over time",
+        "explanation": "A Burndown Chart is a visualization tool in Scrum for tracking Sprint progress, with the y-axis representing remaining work and the x-axis representing time."
+      },
+      {
+        "id": "E04",
+        "question": "In Scrum, what is the primary purpose of the Sprint Planning meeting?",
+        "options": [
+          "Determine the Sprint Goal and select backlog items",
+          "Review issues from the previous Sprint",
+          "Demo Sprint outcomes",
+          "Assign tasks to team members"
+        ],
+        "answer": "Determine the Sprint Goal and select backlog items",
+        "explanation": "Sprint Planning is used to define the Sprint Goal and select work items from the Product Backlog to be completed in the Sprint."
+      },
+      {
+        "id": "E05",
+        "question": "What does the O in OKR stand for?",
+        "options": [
+          "Objective",
+          "Output",
+          "Operation",
+          "Opportunity"
+        ],
+        "answer": "Objective",
+        "explanation": "OKR = Objectives and Key Results. O stands for Objective, and KR stands for Key Results."
+      },
+      {
+        "id": "E06",
+        "question": "What does WBS stand for?",
+        "options": [
+          "Work Breakdown Structure",
+          "Requirements Analysis Document",
+          "Project Schedule Plan",
+          "Risk Register"
+        ],
+        "answer": "Work Breakdown Structure",
+        "explanation": "WBS (Work Breakdown Structure) is a hierarchical decomposition of the project into manageable work packages."
+      },
+      {
+        "id": "E07",
+        "question": "In Kanban, what is the purpose of WIP limits?",
+        "options": [
+          "Limit the number of tasks in progress simultaneously to avoid overload",
+          "Limit the number of tasks completed per day",
+          "Limit the team size",
+          "Limit working hours"
+        ],
+        "answer": "Limit the number of tasks in progress simultaneously to avoid overload",
+        "explanation": "WIP (Work In Progress) limits are a core Kanban practice that exposes bottlenecks and improves efficiency by limiting the amount of work in progress."
+      },
+      {
+        "id": "E08",
+        "question": "In Scrum, what is the recommended duration of the Daily Standup?",
+        "options": [
+          "5 minutes",
+          "15 minutes",
+          "30 minutes",
+          "1 hour"
+        ],
+        "answer": "15 minutes",
+        "explanation": "The Daily Scrum should be completed within 15 minutes. Each member briefly shares what they did yesterday, what they plan to do today, and any impediments."
+      },
+      {
+        "id": "E09",
+        "question": "In the PDCA cycle, what does C stand for?",
+        "options": [
+          "Check",
+          "Control",
+          "Continue",
+          "Change"
+        ],
+        "answer": "Check",
+        "explanation": "PDCA = Plan-Do-Check-Act. C stands for Check, meaning to verify whether execution results meet expectations."
+      },
+      {
+        "id": "E10",
+        "question": "Who is responsible for managing the Product Backlog?",
+        "options": [
+          "Product Owner",
+          "Scrum Master",
+          "Development Team",
+          "Project Manager"
+        ],
+        "answer": "Product Owner",
+        "explanation": "The Product Owner is responsible for the content and prioritization of the Product Backlog."
+      },
+      {
+        "id": "E11",
+        "question": "What is a Gantt chart primarily used to display?",
+        "options": [
+          "Task schedules and progress of a project",
+          "The organizational structure of a team",
+          "Prioritization of risks",
+          "Functional decomposition of requirements"
+        ],
+        "answer": "Task schedules and progress of a project",
+        "explanation": "A Gantt chart uses a time-based axis with bar charts to show the start, end, and progress of project tasks."
+      },
+      {
+        "id": "E12",
+        "question": "What is the primary purpose of the Sprint Retrospective?",
+        "options": [
+          "Continuous improvement of the teams processes and ways of working",
+          "Demo the product increment",
+          "Plan the next Sprint",
+          "Assess project risks"
+        ],
+        "answer": "Continuous improvement of the teams processes and ways of working",
+        "explanation": "The Sprint Retrospective focuses on the teams own process improvement, not the product itself."
+      },
+      {
+        "id": "E13",
+        "question": "In change management, what does CCB stand for?",
+        "options": [
+          "Change Control Board",
+          "Code Review Board",
+          "Configuration Control Board",
+          "Customer Communication Board"
+        ],
+        "answer": "Change Control Board",
+        "explanation": "CCB (Change Control Board) is responsible for reviewing and approving or rejecting change requests."
+      },
+      {
+        "id": "E14",
+        "question": "What does the Iron Triangle of project management refer to?",
+        "options": [
+          "Scope, Time, and Cost",
+          "Scope, Quality, and Risk",
+          "Time, Cost, and Personnel",
+          "Requirements, Design, and Testing"
+        ],
+        "answer": "Scope, Time, and Cost",
+        "explanation": "The Iron Triangle: Scope, Time, and Cost constrain each other - changing one inevitably affects the others."
+      },
+      {
+        "id": "E15",
+        "question": "In Scrum, who participates in the Sprint Review?",
+        "options": [
+          "The Scrum Team and stakeholders",
+          "Only the Development Team",
+          "Only the Product Owner",
+          "Only the Scrum Master"
+        ],
+        "answer": "The Scrum Team and stakeholders",
+        "explanation": "The Sprint Review invites the Scrum Team and stakeholders to inspect the Sprint outcomes and adjust the Product Backlog."
+      },
+      {
+        "id": "E16",
+        "question": "In the Critical Path Method (CPM), what characterizes the critical path?",
+        "options": [
+          "Total float is zero",
+          "Shortest duration",
+          "Least resource consumption",
+          "Highest risk"
+        ],
+        "answer": "Total float is zero",
+        "explanation": "Activities on the critical path have no float time - any delay directly causes the project to be late."
+      },
+      {
+        "id": "E17",
+        "question": "What is the core purpose of DevOps?",
+        "options": [
+          "Break down silos between development and operations to enable continuous delivery",
+          "Reduce the number of developers",
+          "Lower server costs",
+          "Replace project managers"
+        ],
+        "answer": "Break down silos between development and operations to enable continuous delivery",
+        "explanation": "DevOps emphasizes collaboration between development and operations, achieving continuous integration and continuous delivery through automation."
+      },
+      {
+        "id": "E18",
+        "question": "What do Story Points measure?",
+        "options": [
+          "The relative complexity and effort of user stories",
+          "Lines of code",
+          "Number of bugs",
+          "Development time in hours"
+        ],
+        "answer": "The relative complexity and effort of user stories",
+        "explanation": "Story Points are an Agile estimation method for the relative size of user stories, combining complexity, effort, and uncertainty."
+      },
+      {
+        "id": "E19",
+        "question": "In Scrum, what is the purpose of the Definition of Done?",
+        "options": [
+          "Clarify the criteria for when an increment is considered complete",
+          "Define the length of a Sprint",
+          "Define the teams working hours",
+          "Define the products feature list"
+        ],
+        "answer": "Clarify the criteria for when an increment is considered complete",
+        "explanation": "DoD is a team-agreed completion standard that ensures every increment meets a certain quality level."
+      },
+      {
+        "id": "E20",
+        "question": "In version control, what is the primary use of a branch?",
+        "options": [
+          "Develop different features in parallel without affecting each other",
+          "Back up code",
+          "Compress file size",
+          "Encrypt source code"
+        ],
+        "answer": "Develop different features in parallel without affecting each other",
+        "explanation": "Branches allow team members to develop features or fix bugs in parallel without affecting the mainline."
+      },
+      {
+        "id": "E21",
+        "question": "A risk assessment matrix typically evaluates risks along which two dimensions?",
+        "options": [
+          "Probability of occurrence and impact severity",
+          "Time and cost",
+          "Scope and quality",
+          "Personnel and technology"
+        ],
+        "answer": "Probability of occurrence and impact severity",
+        "explanation": "A risk assessment matrix uses probability and impact as two dimensions to evaluate and prioritize risks."
+      },
+      {
+        "id": "E22",
+        "question": "In project retrospectives, what is the primary purpose of the 5 Whys analysis?",
+        "options": [
+          "Trace the root cause of a problem",
+          "Assess project costs",
+          "Develop a project plan",
+          "Assign team tasks"
+        ],
+        "answer": "Trace the root cause of a problem",
+        "explanation": "5 Whys digs into the root cause behind the symptoms by repeatedly asking why."
+      },
+      {
+        "id": "E23",
+        "question": "Among the four values of the Agile Manifesto, which one comes first?",
+        "options": [
+          "Individuals and interactions over processes and tools",
+          "Comprehensive documentation over working software",
+          "Contract negotiation over customer collaboration",
+          "Following a plan over responding to change"
+        ],
+        "answer": "Individuals and interactions over processes and tools",
+        "explanation": "The first value of the Agile Manifesto: Individuals and interactions over processes and tools."
+      },
+      {
+        "id": "E24",
+        "question": "In stakeholder management, who is typically the most important stakeholder?",
+        "options": [
+          "The project sponsor or customer",
+          "The development team",
+          "Suppliers",
+          "External auditors"
+        ],
+        "answer": "The project sponsor or customer",
+        "explanation": "Project sponsors and customers are the ultimate beneficiaries and decision-makers of project outcomes, typically the most important stakeholders."
+      },
+      {
+        "id": "E25",
+        "question": "What does CI stand for in CI/CD?",
+        "options": [
+          "Continuous Integration",
+          "Continuous Improvement",
+          "Code Inspection",
+          "Change Integration"
+        ],
+        "answer": "Continuous Integration",
+        "explanation": "CI stands for Continuous Integration, where developers frequently integrate code into the mainline, with each integration verified through automated builds and tests."
+      },
+      {
+        "id": "E26",
+        "question": "In Scrum, how is the product increment defined?",
+        "options": [
+          "The sum of all Product Backlog items completed during the Sprint",
+          "The amount of code written during the Sprint",
+          "The number of bugs fixed during the Sprint",
+          "The number of new users added during the Sprint"
+        ],
+        "answer": "The sum of all Product Backlog items completed during the Sprint",
+        "explanation": "The product increment is the sum of all Product Backlog items completed during the Sprint. It must be usable and conform to the DoD."
+      },
+      {
+        "id": "E27",
+        "question": "In the project lifecycle, which phase has the highest cost of change?",
+        "options": [
+          "Closing phase",
+          "Initiation phase",
+          "Planning phase",
+          "Execution phase"
+        ],
+        "answer": "Closing phase",
+        "explanation": "The later in the project, the higher the cost of change, because completed work may need rework."
+      },
+      {
+        "id": "E28",
+        "question": "What is the difference between Quality Assurance (QA) and Quality Control (QC)?",
+        "options": [
+          "QA focuses on processes, QC focuses on products",
+          "QA focuses on products, QC focuses on processes",
+          "QA and QC are exactly the same",
+          "QA is testing, QC is development"
+        ],
+        "answer": "QA focuses on processes, QC focuses on products",
+        "explanation": "QA prevents defects through process improvement, while QC discovers defects in the product through inspection."
+      },
+      {
+        "id": "E29",
+        "question": "In Scrum, which Sprint event happens last?",
+        "options": [
+          "Sprint Retrospective",
+          "Sprint Planning",
+          "Daily Scrum",
+          "Sprint Review"
+        ],
+        "answer": "Sprint Retrospective",
+        "explanation": "At the end of a Sprint, the typical sequence is: Sprint Review, Sprint Retrospective, then Sprint Planning for the next Sprint."
+      },
+      {
+        "id": "E30",
+        "question": "In requirements management, what does the S in MoSCoW stand for?",
+        "options": [
+          "Should have",
+          "Secondary",
+          "Simple",
+          "Specific"
+        ],
+        "answer": "Should have",
+        "explanation": "MoSCoW = Must have, Should have, Could have, Wont have, used for requirements prioritization."
+      },
+      {
+        "id": "E31",
+        "question": "In project metrics, what does Velocity refer to?",
+        "options": [
+          "The total number of story points completed by the team in a Sprint",
+          "Code commit frequency",
+          "Bug fix speed",
+          "Number of team members"
+        ],
+        "answer": "The total number of story points completed by the team in a Sprint",
+        "explanation": "Velocity is the total story points completed by an Agile team in a Sprint, used to predict future delivery capacity."
+      },
+      {
+        "id": "E32",
+        "question": "In Scrum, who is responsible for the Sprint Backlog?",
+        "options": [
+          "Development Team",
+          "Product Owner",
+          "Scrum Master",
+          "Project Manager"
+        ],
+        "answer": "Development Team",
+        "explanation": "The Sprint Backlog belongs to the Development Team, who decide how to accomplish the Sprint Goal."
+      },
+      {
+        "id": "E33",
+        "question": "In resource allocation, what is the primary purpose of resource leveling?",
+        "options": [
+          "Eliminate over-allocation and smooth out resource demand",
+          "Increase resource investment",
+          "Reduce project costs",
+          "Accelerate the critical path"
+        ],
+        "answer": "Eliminate over-allocation and smooth out resource demand",
+        "explanation": "Resource leveling resolves resource conflicts by adjusting task schedules, preventing certain resources from being overused."
+      },
+      {
+        "id": "E34",
+        "question": "What is a key characteristic of a milestone?",
+        "options": [
+          "A significant point in time with zero duration",
+          "A task lasting one week",
+          "The starting point of a project",
+          "The time of the daily standup"
+        ],
+        "answer": "A significant point in time with zero duration",
+        "explanation": "A milestone is a significant event in the project with zero duration, used to mark the completion of key phases."
+      },
+      {
+        "id": "E35",
+        "question": "In test management, what is the purpose of regression testing?",
+        "options": [
+          "Verify that modified code has not introduced new issues",
+          "Test new features",
+          "Performance testing",
+          "Security testing"
+        ],
+        "answer": "Verify that modified code has not introduced new issues",
+        "explanation": "Regression testing ensures that code changes have not broken existing functionality."
+      },
+      {
+        "id": "E36",
+        "question": "In the release process, what is the primary purpose of a canary release?",
+        "options": [
+          "Gradually expand the release scope to reduce risk",
+          "Encrypt release content",
+          "Speed up the release",
+          "Reduce the number of servers"
+        ],
+        "answer": "Gradually expand the release scope to reduce risk",
+        "explanation": "A canary release validates on a small scale before gradually expanding, reducing the risk of a full rollout."
+      },
+      {
+        "id": "E37",
+        "question": "In Scrum, who can cancel a Sprint if the Sprint Goal becomes obsolete?",
+        "options": [
+          "Product Owner",
+          "Scrum Master",
+          "Development Team",
+          "Project Manager"
+        ],
+        "answer": "Product Owner",
+        "explanation": "Only the Product Owner has the authority to cancel a Sprint, usually because the Sprint Goal is no longer valuable."
+      },
+      {
+        "id": "E38",
+        "question": "In requirements change management, what aspects should impact analysis evaluate?",
+        "options": [
+          "Schedule, cost, quality, and scope",
+          "Only cost",
+          "Only schedule",
+          "Only personnel"
+        ],
+        "answer": "Schedule, cost, quality, and scope",
+        "explanation": "Change impact analysis must comprehensively evaluate the combined impact on the Iron Triangle (scope, time, cost) and quality."
+      },
+      {
+        "id": "E39",
+        "question": "In product-engineering collaboration, what is the primary goal of a requirements review meeting?",
+        "options": [
+          "Ensure product and engineering teams share the same understanding and eliminate ambiguity",
+          "Assign coding tasks",
+          "Estimate the project budget",
+          "Develop a release plan"
+        ],
+        "answer": "Ensure product and engineering teams share the same understanding and eliminate ambiguity",
+        "explanation": "Requirements review is a key alignment step between product and engineering, preventing rework caused by misunderstandings later on."
+      },
+      {
+        "id": "E40",
+        "question": "What does a self-organizing team mean in Agile?",
+        "options": [
+          "The team decides how to accomplish their work without external assignment",
+          "The team has no leader",
+          "The team can change goals at will",
+          "The team doesnt need any process"
+        ],
+        "answer": "The team decides how to accomplish their work without external assignment",
+        "explanation": "A self-organizing team has the autonomy to decide how to complete their work, but is still accountable for the Sprint Goal."
+      }
+    ],
+    "medium": [
+      {
+        "id": "M01",
+        "question": "In Scrum, what do the two parts of Sprint Planning focus on respectively?",
+        "options": [
+          "What to do and how to do it",
+          "Why to do it and who will do it",
+          "When to do it and where to do it",
+          "How much to do and how long it will take"
+        ],
+        "answer": "What to do and how to do it",
+        "explanation": "Sprint Planning is divided into two parts: Part 1 determines the Sprint Goal (what to do), Part 2 creates the implementation plan (how to do it)."
+      },
+      {
+        "id": "M02",
+        "question": "In Kanban, how is flow efficiency calculated?",
+        "options": [
+          "Actual work time divided by total lead time",
+          "Completed tasks divided by team size",
+          "Story points divided by Sprint days",
+          "Completed requirements divided by total requirements"
+        ],
+        "answer": "Actual work time divided by total lead time",
+        "explanation": "Flow efficiency = actual touch time / total lead time. It reveals the proportion of wait time, which is typically only 15-20% in organizations."
+      },
+      {
+        "id": "M03",
+        "question": "In OKR setting, what characteristics should Key Results have?",
+        "options": [
+          "Quantifiable, measurable, and challenging",
+          "Qualitative descriptions suffice",
+          "Must be 100% completed to be considered successful",
+          "Can only be set by superiors"
+        ],
+        "answer": "Quantifiable, measurable, and challenging",
+        "explanation": "KRs must be quantifiable and challenging (70% completion is considered excellent), and strongly related to the Objective."
+      },
+      {
+        "id": "M04",
+        "question": "In risk management, what are the four basic risk response strategies?",
+        "options": [
+          "Avoid, Transfer, Mitigate, and Accept",
+          "Prevent, Monitor, Report, and Close",
+          "Analyze, Assess, Prioritize, and Execute",
+          "Identify, Record, Track, and Close"
+        ],
+        "answer": "Avoid, Transfer, Mitigate, and Accept",
+        "explanation": "Four risk response strategies: Avoid (eliminate the risk source), Transfer (e.g., insurance), Mitigate (reduce probability or impact), Accept (acknowledge the risk exists)."
+      },
+      {
+        "id": "M05",
+        "question": "What does a burn-up in a Burndown Chart typically indicate?",
+        "options": [
+          "New requirements were added mid-Sprint or estimates were adjusted",
+          "Team efficiency has improved",
+          "The project is nearly complete",
+          "Risks have been eliminated"
+        ],
+        "answer": "New requirements were added mid-Sprint or estimates were adjusted",
+        "explanation": "A burn-up in the Burndown Chart indicates remaining work has increased, usually due to scope creep or re-estimation of remaining work."
+      },
+      {
+        "id": "M06",
+        "question": "In WBS decomposition, what does the 100% rule mean?",
+        "options": [
+          "The WBS must cover 100% of the projects work scope",
+          "The WBS must have 100 work packages",
+          "Each work package requires 100 hours",
+          "Completion must reach 100%"
+        ],
+        "answer": "The WBS must cover 100% of the projects work scope",
+        "explanation": "The 100% rule requires the WBS to fully cover all project work - nothing omitted, nothing beyond scope."
+      },
+      {
+        "id": "M07",
+        "question": "In the Critical Path Method, how is free float defined?",
+        "options": [
+          "The time an activity can be delayed without delaying the early start of any subsequent activity",
+          "The time an activity can be delayed without delaying the project completion",
+          "Float time on the critical path",
+          "The sum of total float of all activities"
+        ],
+        "answer": "The time an activity can be delayed without delaying the early start of any subsequent activity",
+        "explanation": "Free Float is the amount of time an activity can be delayed without affecting the earliest start time of any successor activity."
+      },
+      {
+        "id": "M08",
+        "question": "In Scrum, what is the core constraint of a Timebox?",
+        "options": [
+          "Time is fixed, scope is negotiable",
+          "Scope is fixed, time is negotiable",
+          "Both time and scope are fixed",
+          "Both time and scope are negotiable"
+        ],
+        "answer": "Time is fixed, scope is negotiable",
+        "explanation": "The core of a timebox is that time is immutable. If not all work can be completed, scope is reduced rather than extending the Sprint."
+      },
+      {
+        "id": "M09",
+        "question": "In cross-team collaboration, what is the most important practice for dependency management?",
+        "options": [
+          "Identify, visualize, and manage dependencies across teams",
+          "Eliminate all dependencies",
+          "Each team works independently without communication",
+          "Rely only on documents to convey information"
+        ],
+        "answer": "Identify, visualize, and manage dependencies across teams",
+        "explanation": "In large-scale Agile, cross-team dependencies are a major bottleneck that need proactive identification, visualization, and coordination."
+      },
+      {
+        "id": "M10",
+        "question": "In DevOps practices, what is the main benefit of Infrastructure as Code?",
+        "options": [
+          "Infrastructure configurations can be versioned, reproducible, and auditable",
+          "Reduce the number of developers",
+          "Replace all operations work",
+          "Lower server specifications"
+        ],
+        "answer": "Infrastructure configurations can be versioned, reproducible, and auditable",
+        "explanation": "IaC defines infrastructure as code, enabling version control, automated deployment, and audit trails for configurations."
+      },
+      {
+        "id": "M11",
+        "question": "In Story Point estimation, what is the process of Planning Poker?",
+        "options": [
+          "Each person independently plays a card, discusses differences, replays, and reaches consensus",
+          "The manager directly assigns points",
+          "Vote for the maximum value",
+          "Take the average"
+        ],
+        "answer": "Each person independently plays a card, discusses differences, replays, and reaches consensus",
+        "explanation": "Planning Poker avoids anchoring bias through independent estimation, resolves understanding gaps through discussing differences, and iterates to consensus."
+      },
+      {
+        "id": "M12",
+        "question": "In the PDCA cycle, what is the core task of the Act phase?",
+        "options": [
+          "Standardize successful practices and feed unresolved issues into the next PDCA cycle",
+          "Immediately implement all improvement plans",
+          "Terminate the current process",
+          "Create an entirely new plan from scratch"
+        ],
+        "answer": "Standardize successful practices and feed unresolved issues into the next PDCA cycle",
+        "explanation": "The Act phase solidifies effective measures as standards, while unresolved issues enter the next PDCA cycle."
+      },
+      {
+        "id": "M13",
+        "question": "In project metrics, what is the difference between Cycle Time and Lead Time?",
+        "options": [
+          "Cycle Time starts when work begins, Lead Time starts when the request is made",
+          "They are exactly the same",
+          "Cycle Time is longer",
+          "Lead Time only counts development time"
+        ],
+        "answer": "Cycle Time starts when work begins, Lead Time starts when the request is made",
+        "explanation": "Cycle Time is from start to completion, Lead Time is from when the customer makes the request to delivery (including wait time)."
+      },
+      {
+        "id": "M14",
+        "question": "In the change management process, when should impact assessment be performed?",
+        "options": [
+          "After the change request is submitted, but before approval",
+          "After the change has been implemented",
+          "At project initiation",
+          "At project closing"
+        ],
+        "answer": "After the change request is submitted, but before approval",
+        "explanation": "Impact assessment is performed after a change request is submitted, providing the CCB with the basis for their approval decision and avoiding blind changes."
+      },
+      {
+        "id": "M15",
+        "question": "In Scrum, what are the respective responsibilities of the Product Owner and Development Team regarding the Sprint Backlog?",
+        "options": [
+          "PO decides what to do, the team decides how to do it",
+          "PO decides how to do it, the team decides what to do",
+          "Both jointly decide what and how",
+          "Scrum Master decides everything"
+        ],
+        "answer": "PO decides what to do, the team decides how to do it",
+        "explanation": "The PO determines what to do through the Sprint Goal (content), while the Development Team autonomously decides how to do it (implementation)."
+      },
+      {
+        "id": "M16",
+        "question": "In Agile, how is technical debt defined?",
+        "options": [
+          "Code quality sacrificed for short-term delivery speed, requiring extra cost to repay in the future",
+          "Project budget overrun",
+          "Insufficient team personnel",
+          "Unpaid server bills"
+        ],
+        "answer": "Code quality sacrificed for short-term delivery speed, requiring extra cost to repay in the future",
+        "explanation": "Technical debt is the hidden cost accumulated by choosing fast but imperfect solutions, similar to financial debt, and needs to be paid down regularly."
+      },
+      {
+        "id": "M17",
+        "question": "In quality assurance, which of the following is NOT a type of peer review?",
+        "options": [
+          "Pair programming",
+          "Walkthrough",
+          "Inspection",
+          "Passaround"
+        ],
+        "answer": "Pair programming",
+        "explanation": "Pair programming is a development practice, not a review type. Main types of peer review include walkthrough, inspection, passaround, and technical review."
+      },
+      {
+        "id": "M18",
+        "question": "In project lifecycle models, what is the core difference between the incremental model and the iterative model?",
+        "options": [
+          "Incremental adds features step by step, iterative improves features step by step",
+          "They are exactly the same",
+          "Incremental is slower, iterative is faster",
+          "Incremental is for small projects, iterative is for large projects"
+        ],
+        "answer": "Incremental adds features step by step, iterative improves features step by step",
+        "explanation": "The incremental model delivers new feature modules each time, while the iterative model improves the quality of existing features each time. The two can be combined."
+      },
+      {
+        "id": "M19",
+        "question": "In the Sprint Retrospective, what is the Start-Stop-Continue method used for?",
+        "options": [
+          "Collect what the team should start doing, stop doing, and continue doing",
+          "Plan next Sprints tasks",
+          "Evaluate product features",
+          "Calculate project costs"
+        ],
+        "answer": "Collect what the team should start doing, stop doing, and continue doing",
+        "explanation": "Start-Stop-Continue is a common retrospective framework that helps teams identify new practices, discard ineffective ones, and reinforce effective ones."
+      },
+      {
+        "id": "M20",
+        "question": "In the release process, what is the primary function of a Feature Flag?",
+        "options": [
+          "Control turning features on and off without redeploying",
+          "Encrypt feature code",
+          "Speed up feature development",
+          "Replace version control"
+        ],
+        "answer": "Control turning features on and off without redeploying",
+        "explanation": "Feature flags allow code to be deployed without activating the feature, facilitating canary releases, A/B testing, and emergency rollbacks."
+      },
+      {
+        "id": "M21",
+        "question": "In schedule management, what is the risk of fast-tracking?",
+        "options": [
+          "It may increase rework risk, as parallel activities may create conflicts",
+          "It will definitely shorten the schedule",
+          "There is no risk at all",
+          "It only affects cost, not schedule"
+        ],
+        "answer": "It may increase rework risk, as parallel activities may create conflicts",
+        "explanation": "Fast-tracking parallelizes originally sequential activities, which may lead to rework if dependencies are not resolved."
+      },
+      {
+        "id": "M22",
+        "question": "In stakeholder management, what strategy should be adopted for high power - high interest stakeholders?",
+        "options": [
+          "Manage closely",
+          "Keep satisfied",
+          "Keep informed",
+          "Monitor only"
+        ],
+        "answer": "Manage closely",
+        "explanation": "In the power-interest grid, stakeholders with high power and high interest need to be managed closely and actively involved in project decisions."
+      },
+      {
+        "id": "M23",
+        "question": "In Agile estimation, why is the Fibonacci sequence recommended?",
+        "options": [
+          "Larger items are harder to estimate precisely; the increasing gaps in the Fibonacci sequence reflect growing uncertainty",
+          "It is mathematically more elegant",
+          "It is convenient for calculating averages",
+          "It conforms to binary encoding rules"
+        ],
+        "answer": "Larger items are harder to estimate precisely; the increasing gaps in the Fibonacci sequence reflect growing uncertainty",
+        "explanation": "The larger the estimate, the higher the uncertainty. The widening gaps between larger Fibonacci numbers reflect this pattern."
+      },
+      {
+        "id": "M24",
+        "question": "In Scrum, what should the team do if they realize mid-Sprint that they cannot complete all the work?",
+        "options": [
+          "Negotiate with the PO to reduce scope and ensure the Sprint Goal can be met",
+          "Extend the Sprint duration",
+          "Work overtime to catch up",
+          "Cancel the entire Sprint"
+        ],
+        "answer": "Negotiate with the PO to reduce scope and ensure the Sprint Goal can be met",
+        "explanation": "Scope negotiation rather than time extension should be used, maintaining the integrity of the timebox."
+      },
+      {
+        "id": "M25",
+        "question": "In version control, what is the main difference between Git Flow and GitHub Flow?",
+        "options": [
+          "Git Flow has explicit release branches, GitHub Flow is simpler with only mainline plus feature branches",
+          "They are exactly the same",
+          "GitHub Flow is more complex",
+          "Git Flow doesnt require merging"
+        ],
+        "answer": "Git Flow has explicit release branches, GitHub Flow is simpler with only mainline plus feature branches",
+        "explanation": "Git Flow suits projects with defined release cycles, while GitHub Flow suits continuous deployment projects and is more lightweight."
+      },
+      {
+        "id": "M26",
+        "question": "In project metrics, what does a CPI (Earned Value Management) less than 1 indicate?",
+        "options": [
+          "Cost overrun",
+          "Ahead of schedule",
+          "Cost savings",
+          "Project is complete"
+        ],
+        "answer": "Cost overrun",
+        "explanation": "CPI = Earned Value / Actual Cost. CPI < 1 means actual costs exceed planned costs - the project is over budget."
+      },
+      {
+        "id": "M27",
+        "question": "In the STAR method for project retrospectives, what does R stand for?",
+        "options": [
+          "Result",
+          "Review",
+          "Risk",
+          "Resource"
+        ],
+        "answer": "Result",
+        "explanation": "STAR = Situation, Task, Action, Result, used for structured retrospectives. R represents the result of the actions taken."
+      },
+      {
+        "id": "M28",
+        "question": "In Kanban, what are the four types of Classes of Service?",
+        "options": [
+          "Standard, Expedite, Fixed Date, and Dateless",
+          "High, Medium, Low, None",
+          "Urgent, Important, Normal, Deferred",
+          "A, B, C, D"
+        ],
+        "answer": "Standard, Expedite, Fixed Date, and Dateless",
+        "explanation": "Four CoS in Kanban: Standard, Expedite, Fixed Date, and Dateless."
+      },
+      {
+        "id": "M29",
+        "question": "In requirements management, what does V stand for in the INVEST principle?",
+        "options": [
+          "Valuable",
+          "Verifiable",
+          "Variable",
+          "Visual"
+        ],
+        "answer": "Valuable",
+        "explanation": "INVEST = Independent, Negotiable, Valuable, Estimable, Small, Testable. V represents that user stories must have business value."
+      },
+      {
+        "id": "M30",
+        "question": "In product-engineering collaboration, what is the purpose of requirements freeze?",
+        "options": [
+          "Prevent scope creep during the Sprint and protect delivery cadence",
+          "Absolutely disallow any changes",
+          "Reduce development workload",
+          "Lower testing requirements"
+        ],
+        "answer": "Prevent scope creep during the Sprint and protect delivery cadence",
+        "explanation": "Requirements freeze doesnt mean changes are absolutely forbidden, but rather establishes a threshold for changes, protecting team focus and delivery cadence."
+      },
+      {
+        "id": "M31",
+        "question": "In Scrum, what does transparency of the Sprint Backlog mean?",
+        "options": [
+          "Everyone can see the Sprints work content and progress in real time",
+          "Only the Scrum Master can see it",
+          "Code must be open source",
+          "Meetings must be public"
+        ],
+        "answer": "Everyone can see the Sprints work content and progress in real time",
+        "explanation": "One of the three pillars of Scrum, transparency requires the Sprint Backlog to be visible to everyone, ensuring information sharing."
+      },
+      {
+        "id": "M32",
+        "question": "In resource allocation, what is the purpose of buffers in Critical Chain Project Management?",
+        "options": [
+          "Absorb delays caused by uncertainty and protect the projects on-time completion",
+          "Increase project duration",
+          "Reduce team pressure",
+          "Lower costs"
+        ],
+        "answer": "Absorb delays caused by uncertainty and protect the projects on-time completion",
+        "explanation": "CCPM places a project buffer at the end of the critical chain and feeding buffers where non-critical chains merge, to absorb uncertainty."
+      },
+      {
+        "id": "M33",
+        "question": "In test management, what does shift-left testing mean?",
+        "options": [
+          "Move testing activities earlier in development, even to the requirements phase",
+          "Move the testing team to the left",
+          "Reduce testing time",
+          "Only use the left brain for testing"
+        ],
+        "answer": "Move testing activities earlier in development, even to the requirements phase",
+        "explanation": "Shift-left testing emphasizes testing as early as possible, involving testing during requirements review and design phases to lower defect fix costs."
+      },
+      {
+        "id": "M34",
+        "question": "In Scrum, what Agile principle do inspection and adaptation embody?",
+        "options": [
+          "Regularly reflect on how to become more effective and adjust behavior accordingly",
+          "Strictly follow the initial plan",
+          "Documentation over working software",
+          "Process over individuals"
+        ],
+        "answer": "Regularly reflect on how to become more effective and adjust behavior accordingly",
+        "explanation": "The 12th principle of the Agile Manifesto: At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly."
+      },
+      {
+        "id": "M35",
+        "question": "In schedule management, what is the difference between resource smoothing and resource leveling?",
+        "options": [
+          "Resource smoothing does not change the project duration, resource leveling may change it",
+          "They are exactly the same",
+          "Resource leveling does not change the project duration",
+          "Resource smoothing only adjusts personnel"
+        ],
+        "answer": "Resource smoothing does not change the project duration, resource leveling may change it",
+        "explanation": "Resource smoothing adjusts within float time and doesnt change the schedule; resource leveling may extend the critical path to resolve conflicts."
+      },
+      {
+        "id": "M36",
+        "question": "In DevOps, what is the core principle of blue-green deployment?",
+        "options": [
+          "Maintain two identical environments and switch traffic between them for zero-downtime releases",
+          "Use blue and green to distinguish test environments",
+          "Run two versions simultaneously",
+          "Deploy across two data centers"
+        ],
+        "answer": "Maintain two identical environments and switch traffic between them for zero-downtime releases",
+        "explanation": "Blue-green deployment switches traffic between two identical environments (blue and green), enabling zero-downtime releases and quick rollbacks."
+      },
+      {
+        "id": "M37",
+        "question": "In OKR setting, what does alignment mean?",
+        "options": [
+          "OKRs at all levels maintain vertical consistency and horizontal coordination",
+          "All OKRs must be identical",
+          "OKRs can only be set top-down",
+          "OKRs dont need to be public"
+        ],
+        "answer": "OKRs at all levels maintain vertical consistency and horizontal coordination",
+        "explanation": "OKR alignment ensures organizational goals cascade top-down while allowing bottom-up contributions and horizontal coordination across teams."
+      },
+      {
+        "id": "M38",
+        "question": "In Scrum, what commitment corresponds to the Sprint Backlog?",
+        "options": [
+          "Focus",
+          "Transparency",
+          "Courage",
+          "Openness"
+        ],
+        "answer": "Focus",
+        "explanation": "The 2020 Scrum Guide added three commitments: Product Backlog corresponds to commitment, Sprint Backlog corresponds to Focus, and the Increment corresponds to Definition of Done."
+      },
+      {
+        "id": "M39",
+        "question": "In cross-team Scrum, who attends the Scrum of Scrums?",
+        "options": [
+          "Representatives from each team (typically 1-3 per team)",
+          "All team members",
+          "All Scrum Masters",
+          "All Product Owners"
+        ],
+        "answer": "Representatives from each team (typically 1-3 per team)",
+        "explanation": "Scrum of Scrums is attended by representatives from each team, coordinating cross-team dependencies and integration issues."
+      },
+      {
+        "id": "M40",
+        "question": "In project closing, what is the main difference between administrative closure and contract closure?",
+        "options": [
+          "Administrative closure covers the entire project, contract closure targets specific contracts",
+          "They are exactly the same",
+          "Administrative closure only handles documents, contract closure only handles payments",
+          "Administrative closure happens before contract closure"
+        ],
+        "answer": "Administrative closure covers the entire project, contract closure targets specific contracts",
+        "explanation": "Administrative closure is the formal end of the project at the project level, while contract closure is the formal end of each procurement contract."
+      }
+    ],
+    "hard": [
+      {
+        "id": "H01",
+        "question": "In Scrum, if a product increment does not meet the Definition of Done, how should it be handled in the Sprint Review?",
+        "options": [
+          "It should not be presented as completed work and must be returned to the Sprint Backlog",
+          "Present it normally and mark it as incomplete",
+          "Let the Scrum Master decide",
+          "Cancel the Sprint Review"
+        ],
+        "answer": "It should not be presented as completed work and must be returned to the Sprint Backlog",
+        "explanation": "Work that does not meet the DoD cannot be counted as part of the increment and should not be presented as completed in the review."
+      },
+      {
+        "id": "H02",
+        "question": "In a Kanban system, if flow efficiency is 20% and lead time is 10 days, what is the actual touch time?",
+        "options": [
+          "2 days",
+          "5 days",
+          "8 days",
+          "0.2 days"
+        ],
+        "answer": "2 days",
+        "explanation": "Flow efficiency = touch time / lead time. Touch time = 20% x 10 days = 2 days."
+      },
+      {
+        "id": "H03",
+        "question": "In Earned Value Management, if SPI=0.8 and CPI=1.2, what is the project status?",
+        "options": [
+          "Behind schedule, under budget",
+          "Ahead of schedule, over budget",
+          "Ahead of schedule, under budget",
+          "Behind schedule, over budget"
+        ],
+        "answer": "Behind schedule, under budget",
+        "explanation": "SPI < 1 means behind schedule, CPI > 1 means under budget. The two indicators point in opposite directions, requiring a balance between schedule and cost."
+      },
+      {
+        "id": "H04",
+        "question": "In the Critical Path Method, a project has path A:3d+B:5d+C:2d and path A:3d+D:4d+E:3d. What is the critical path length?",
+        "options": [
+          "10 days",
+          "9 days",
+          "8 days",
+          "7 days"
+        ],
+        "answer": "10 days",
+        "explanation": "Path 1: 3+5+2=10 days, Path 2: 3+4+3=10 days. Both paths are equal in length, so both are critical paths."
+      },
+      {
+        "id": "H05",
+        "question": "In Scrum, what are the deliverables of the Sprint Review and Sprint Retrospective respectively?",
+        "options": [
+          "The Review delivers an adjusted Product Backlog, the Retrospective delivers improvement action items",
+          "The Review delivers code, the Retrospective delivers a test report",
+          "The Review delivers the Sprint Backlog, the Retrospective delivers a risk list",
+          "Both deliver the same document"
+        ],
+        "answer": "The Review delivers an adjusted Product Backlog, the Retrospective delivers improvement action items",
+        "explanation": "The Review produces an updated Product Backlog, and the Retrospective produces specific action items for team process improvement."
+      },
+      {
+        "id": "H06",
+        "question": "In the OKR framework, if a KR consistently achieves over 95% completion, what does this typically indicate?",
+        "options": [
+          "The KR is set too conservatively and lacks challenge",
+          "The KR is set appropriately",
+          "The team is extremely efficient",
+          "The OKR system is running well"
+        ],
+        "answer": "The KR is set too conservatively and lacks challenge",
+        "explanation": "KRs in OKR should be challenging. 70% completion is considered excellent. An overly high completion rate indicates the goal isnt ambitious enough."
+      },
+      {
+        "id": "H07",
+        "question": "In requirements management, what is the core value of a Requirements Traceability Matrix (RTM)?",
+        "options": [
+          "Establish a complete traceability chain from requirements to design to code to test cases",
+          "Record minutes of requirements discussions",
+          "Manage requirements priorities",
+          "Replace the Product Backlog"
+        ],
+        "answer": "Establish a complete traceability chain from requirements to design to code to test cases",
+        "explanation": "RTM ensures every requirement has corresponding design, implementation, and verification, preventing requirements from falling through the cracks and ensuring full coverage."
+      },
+      {
+        "id": "H08",
+        "question": "In DevOps, what is the core idea of ChatOps?",
+        "options": [
+          "Integrate operations into chat tools, triggering automated workflows through conversation",
+          "Replace all meetings with chat",
+          "Write code in chat",
+          "Manage team attendance through chat"
+        ],
+        "answer": "Integrate operations into chat tools, triggering automated workflows through conversation",
+        "explanation": "ChatOps integrates automation scripts and tools into a chat platform, triggering operations through commands and improving collaboration transparency."
+      },
+      {
+        "id": "H09",
+        "question": "In risk management, what is the primary use of Monte Carlo simulation?",
+        "options": [
+          "Predict the range of project duration and cost through probability distributions and random sampling",
+          "Precisely calculate the final cost of the project",
+          "Eliminate all project risks",
+          "Replace the Critical Path Method"
+        ],
+        "answer": "Predict the range of project duration and cost through probability distributions and random sampling",
+        "explanation": "Monte Carlo simulation uses a large number of random simulations to produce a probability distribution of project duration or cost, rather than a single-point estimate."
+      },
+      {
+        "id": "H10",
+        "question": "In Agile teams, what might velocity fluctuation of +/-30% indicate?",
+        "options": [
+          "Inconsistent estimation, team composition changes, or external dependency disruptions",
+          "The team is continuously improving",
+          "Velocity fluctuation is normal and requires no attention",
+          "The project is nearly complete"
+        ],
+        "answer": "Inconsistent estimation, team composition changes, or external dependency disruptions",
+        "explanation": "Large velocity fluctuations are usually not normal. Root causes need to be investigated, such as estimation bias, personnel changes, or dependency bottlenecks."
+      },
+      {
+        "id": "H11",
+        "question": "In WBS decomposition, what is the purpose of a control account?",
+        "options": [
+          "Serve as a management control node in the WBS, integrating scope, schedule, and cost",
+          "A server account storing WBS documents",
+          "Control team member permissions",
+          "Control requirements changes"
+        ],
+        "answer": "Serve as a management control node in the WBS, integrating scope, schedule, and cost",
+        "explanation": "A control account is a management control point in the WBS for performance measurement, integrating scope, schedule, and cost data for each control account."
+      },
+      {
+        "id": "H12",
+        "question": "In Scrum, what is the difference between Definition of Done and Acceptance Criteria?",
+        "options": [
+          "DoD is a team-level general quality standard, AC is specific acceptance conditions for an individual item",
+          "They are exactly the same",
+          "DoD is product-level, AC is team-level",
+          "DoD is defined by the customer, AC is defined by the team"
+        ],
+        "answer": "DoD is a team-level general quality standard, AC is specific acceptance conditions for an individual item",
+        "explanation": "DoD applies to all increments (e.g., code review, unit testing), while AC is the functional acceptance criteria specific to each user story."
+      },
+      {
+        "id": "H13",
+        "question": "In Kanban, what is the key mechanism for achieving continuous improvement?",
+        "options": [
+          "Limit WIP to expose bottlenecks and systematically optimize by improving flow",
+          "Increase WIP limits",
+          "Increase team size",
+          "Lower quality standards to speed up"
+        ],
+        "answer": "Limit WIP to expose bottlenecks and systematically optimize by improving flow",
+        "explanation": "Kanban makes bottlenecks visible through WIP limits and continuously optimizes by improving flow rather than adding people."
+      },
+      {
+        "id": "H14",
+        "question": "In cross-team collaboration, PI Planning is a core event of which framework?",
+        "options": [
+          "SAFe (Scaled Agile Framework)",
+          "Scrum",
+          "Kanban",
+          "XP (Extreme Programming)"
+        ],
+        "answer": "SAFe (Scaled Agile Framework)",
+        "explanation": "PI Planning is a core ceremony in the SAFe framework, where all teams on an Agile Release Train jointly plan the next Program Increment."
+      },
+      {
+        "id": "H15",
+        "question": "In change management, what is the difference between scope creep and gold plating?",
+        "options": [
+          "Scope creep is uncontrolled addition of external requirements, gold plating is the team adding features beyond requirements on their own",
+          "They are exactly the same",
+          "Gold plating is requested by the customer, scope creep is voluntary by the team",
+          "Scope creep is good, gold plating is bad"
+        ],
+        "answer": "Scope creep is uncontrolled addition of external requirements, gold plating is the team adding features beyond requirements on their own",
+        "explanation": "Scope creep comes from external stakeholders adding requirements, gold plating comes from the team embellishing beyond what was asked. Both need to be managed."
+      },
+      {
+        "id": "H16",
+        "question": "In Scrum, what is the core purpose of the Sprint Goal?",
+        "options": [
+          "Provide a coherent direction and boundary of flexibility for the Sprint, allowing the team to negotiate and swap work within scope",
+          "Strictly dictate all work in the Sprint",
+          "Only used for reporting to management",
+          "Replace the Product Backlog"
+        ],
+        "answer": "Provide a coherent direction and boundary of flexibility for the Sprint, allowing the team to negotiate and swap work within scope",
+        "explanation": "The Sprint Goal helps the team understand why they are doing this work, and allows flexible adjustment of specific work items within the goals scope."
+      },
+      {
+        "id": "H17",
+        "question": "In version control, what is the difference in commit history between rebase and merge?",
+        "options": [
+          "Rebase creates a linear history, Merge preserves branch history",
+          "Rebase preserves branch history, Merge creates a linear history",
+          "Both produce identical history",
+          "Rebase deletes all history"
+        ],
+        "answer": "Rebase creates a linear history, Merge preserves branch history",
+        "explanation": "Rebase replays commits on top of the target branch, producing a linear history; Merge preserves the branch fork and merge point."
+      },
+      {
+        "id": "H18",
+        "question": "In Earned Value Management, if Estimate at Completion uses the formula EAC = BAC / CPI, what is the underlying assumption?",
+        "options": [
+          "The projects future cost efficiency will remain the same as the current one",
+          "The projects future efficiency will improve",
+          "The projects future efficiency will worsen",
+          "The project will be completed on the original budget"
+        ],
+        "answer": "The projects future cost efficiency will remain the same as the current one",
+        "explanation": "EAC = BAC / CPI assumes the current cost performance index CPI will continue through to project completion. This is the most commonly used EAC calculation method."
+      },
+      {
+        "id": "H19",
+        "question": "In Scrum, if important new work is discovered during the Sprint, what is the correct approach?",
+        "options": [
+          "Negotiate with the PO; if it falls outside the Sprint Goal scope, add it to the Product Backlog for prioritization",
+          "Immediately add it to the Sprint Backlog",
+          "Ignore the new discovery",
+          "Cancel the current Sprint"
+        ],
+        "answer": "Negotiate with the PO; if it falls outside the Sprint Goal scope, add it to the Product Backlog for prioritization",
+        "explanation": "Emergent work or requirements should be assessed by the PO for priority. Work that doesnt affect the Sprint Goal goes into the next Sprint."
+      },
+      {
+        "id": "H20",
+        "question": "In portfolio management, what is the core difference between a portfolio and a program?",
+        "options": [
+          "A portfolio is a strategic-level selection of which projects to do, a program coordinates interdependent projects",
+          "They are exactly the same",
+          "A program is larger",
+          "A portfolio only manages one project"
+        ],
+        "answer": "A portfolio is a strategic-level selection of which projects to do, a program coordinates interdependent projects",
+        "explanation": "Portfolio management focuses on doing the right things (project selection), while Program management focuses on doing things right (inter-project coordination)."
+      },
+      {
+        "id": "H21",
+        "question": "In quality assurance, what is the defect rate standard for Six Sigma?",
+        "options": [
+          "3.4 defects per million opportunities",
+          "3.4 defects per thousand opportunities",
+          "Zero defects",
+          "34 defects per million opportunities"
+        ],
+        "answer": "3.4 defects per million opportunities",
+        "explanation": "Six Sigma corresponds to 3.4 DPMO (Defects Per Million Opportunities), representing an extremely high quality level."
+      },
+      {
+        "id": "H22",
+        "question": "In Agile estimation, what scenario is T-shirt sizing best suited for?",
+        "options": [
+          "Early rough estimation when theres not enough information for precise estimation",
+          "Sprint-level precise planning",
+          "Bug fix estimation",
+          "Post-release retrospective"
+        ],
+        "answer": "Early rough estimation when theres not enough information for precise estimation",
+        "explanation": "T-shirt sizes (XS/S/M/L/XL) are used for rough relative estimation in the early stages when information is insufficient."
+      },
+      {
+        "id": "H23",
+        "question": "In Kanban, what law describes the relationship between delivery rate and lead time?",
+        "options": [
+          "Littles Law",
+          "Murphys Law",
+          "Pareto Principle",
+          "Heisenberg Uncertainty Principle"
+        ],
+        "answer": "Littles Law",
+        "explanation": "Littles Law: L = lambda*W, meaning average work in progress = throughput rate x average lead time. This is the mathematical foundation of Kanban flow management."
+      },
+      {
+        "id": "H24",
+        "question": "In Scrum, how does the Scrum Master embody servant leadership?",
+        "options": [
+          "Serving the team by removing impediments, coaching Scrum practices, and fostering team self-organization",
+          "Directing the team to complete work",
+          "Making decisions on behalf of the PO",
+          "Managing team performance reviews"
+        ],
+        "answer": "Serving the team by removing impediments, coaching Scrum practices, and fostering team self-organization",
+        "explanation": "The Scrum Master leads through service rather than command, with core responsibilities of removing impediments, coaching, and facilitating."
+      },
+      {
+        "id": "H25",
+        "question": "In the release process, what is the core difference between canary release and blue-green deployment?",
+        "options": [
+          "Canary gradually validates with a small number of users, blue-green is a full traffic switch between two environments",
+          "They are exactly the same",
+          "Canary release is faster",
+          "Blue-green deployment is safer"
+        ],
+        "answer": "Canary gradually validates with a small number of users, blue-green is a full traffic switch between two environments",
+        "explanation": "Canary is a gradual rollout (5% to 10% to 100%), blue-green is a full traffic switch between two environments."
+      },
+      {
+        "id": "H26",
+        "question": "In project metrics, if a Sprints velocity history is 34, 42, 38, 40, 36, 39, using a 3-period moving average, the predicted next Sprint velocity is approximately?",
+        "options": [
+          "38",
+          "39",
+          "40",
+          "42"
+        ],
+        "answer": "38",
+        "explanation": "Simple moving average using the most recent 3 Sprints: (40+36+39)/3 = approximately 38."
+      },
+      {
+        "id": "H27",
+        "question": "In stakeholder management, what is the difference between the Interest-Influence Matrix and the Power-Interest Matrix?",
+        "options": [
+          "The Interest-Influence Matrix replaces power with influence on the project, focusing more on actual impact",
+          "They are exactly the same",
+          "The former only looks at internal stakeholders",
+          "The latter is not applicable to Agile projects"
+        ],
+        "answer": "The Interest-Influence Matrix replaces power with influence on the project, focusing more on actual impact",
+        "explanation": "The Interest-Influence Matrix substitutes power with the more practical influence dimension, focusing on stakeholders actual ability to impact the project."
+      },
+      {
+        "id": "H28",
+        "question": "In Scrum, what are the three components of the Sprint Backlog?",
+        "options": [
+          "Sprint Goal, selected Product Backlog items for achieving the goal, and an actionable plan",
+          "User story list, bug list, and technical tasks",
+          "Requirements document, design document, and test document",
+          "Milestones, risks, and dependencies"
+        ],
+        "answer": "Sprint Goal, selected Product Backlog items for achieving the goal, and an actionable plan",
+        "explanation": "The 2020 Scrum Guide explicitly defines three parts of the Sprint Backlog: Sprint Goal, selected PB items, and action plan."
+      },
+      {
+        "id": "H29",
+        "question": "In DevOps practices, how is SREs error budget defined?",
+        "options": [
+          "The maximum allowable downtime, based on the gap between the SLA reliability target and actual performance",
+          "The budget for developer mistakes",
+          "The operations teams budget",
+          "The budget for security vulnerabilities"
+        ],
+        "answer": "The maximum allowable downtime, based on the gap between the SLA reliability target and actual performance",
+        "explanation": "Error budget = 1 - SLA target. When depleted, reliability takes priority over new features."
+      },
+      {
+        "id": "H30",
+        "question": "In project management, what is the key difference between an Agile contract and a traditional contract?",
+        "options": [
+          "Agile contracts allow scope changes and are based on time and materials billing, while traditional contracts fix the scope",
+          "They are exactly the same",
+          "Agile contracts are cheaper",
+          "Traditional contracts dont need change management"
+        ],
+        "answer": "Agile contracts allow scope changes and are based on time and materials billing, while traditional contracts fix the scope",
+        "explanation": "Agile contracts are based on time and materials, allowing flexible scope adjustments within timeboxes."
+      },
+      {
+        "id": "H31",
+        "question": "In Kanban, what is the best way to identify a bottleneck?",
+        "options": [
+          "Observe WIP accumulation at each stage - the stage with the most WIP buildup is the bottleneck",
+          "See who is the busiest",
+          "See which step is the slowest",
+          "Count the step with the highest error rate"
+        ],
+        "answer": "Observe WIP accumulation at each stage - the stage with the most WIP buildup is the bottleneck",
+        "explanation": "Kanban visualizes bottlenecks through WIP buildup - the step with the most accumulation is the bottleneck constraining the entire system."
+      },
+      {
+        "id": "H32",
+        "question": "In Scrum, what is the recommended time allocation for Product Backlog refinement?",
+        "options": [
+          "5% to 10% of Sprint capacity",
+          "50% of Sprint capacity",
+          "1% of Sprint capacity",
+          "No time needed"
+        ],
+        "answer": "5% to 10% of Sprint capacity",
+        "explanation": "The Scrum Guide suggests the team spend 5-10% of Sprint capacity on Product Backlog refinement."
+      },
+      {
+        "id": "H33",
+        "question": "In project risk management, what is the difference between risk appetite and risk tolerance?",
+        "options": [
+          "Risk appetite is the type and degree of risk an organization is willing to take, risk tolerance is the acceptable range of specific variation",
+          "They are exactly the same",
+          "Risk appetite is quantitative, risk tolerance is qualitative",
+          "Risk tolerance is always higher"
+        ],
+        "answer": "Risk appetite is the type and degree of risk an organization is willing to take, risk tolerance is the acceptable range of specific variation",
+        "explanation": "Risk appetite is a strategic-level attitude, risk tolerance is a quantified acceptable boundary."
+      },
+      {
+        "id": "H34",
+        "question": "In product-engineering collaboration, what is the core idea of Dual-Track Agile?",
+        "options": [
+          "Discovery track and delivery track run in parallel",
+          "Development and testing run in parallel",
+          "Two Scrum teams run in parallel",
+          "Two product managers work simultaneously"
+        ],
+        "answer": "Discovery track and delivery track run in parallel",
+        "explanation": "Dual-Track Agile runs product discovery (validating hypotheses) and product delivery (building features) as two parallel tracks."
+      },
+      {
+        "id": "H35",
+        "question": "In schedule management, what is the core difference between crashing and fast-tracking?",
+        "options": [
+          "Crashing shortens the schedule by adding resources, fast-tracking shortens it by parallelizing activities",
+          "They are exactly the same",
+          "Crashing is cheaper",
+          "Fast-tracking requires more personnel"
+        ],
+        "answer": "Crashing shortens the schedule by adding resources, fast-tracking shortens it by parallelizing activities",
+        "explanation": "Crashing = adding people or resources (increases cost), Fast-tracking = parallelizing (increases risk)."
+      },
+      {
+        "id": "H36",
+        "question": "In Scrum, what are the three attributes of a Product Backlog item?",
+        "options": [
+          "Description, order, and estimate",
+          "Title, status, and assignee",
+          "Requirements, design, and testing",
+          "Goal, scope, and time"
+        ],
+        "answer": "Description, order, and estimate",
+        "explanation": "Core attributes of a Product Backlog item: description (what it is), order (priority), and estimate (size or effort)."
+      },
+      {
+        "id": "H37",
+        "question": "In test management, what is the correct order of the test pyramid from bottom to top?",
+        "options": [
+          "Unit tests, integration tests, end-to-end tests, manual exploratory tests",
+          "Manual tests, automated tests, performance tests",
+          "End-to-end tests, integration tests, unit tests",
+          "Alpha testing, Beta testing, canary testing"
+        ],
+        "answer": "Unit tests, integration tests, end-to-end tests, manual exploratory tests",
+        "explanation": "Test pyramid: a large base of fast, stable unit tests, a moderate middle layer of integration tests, and a small top layer of slower E2E tests."
+      },
+      {
+        "id": "H38",
+        "question": "In cross-team collaboration, what is the order of dependency types from weakest to strongest constraint?",
+        "options": [
+          "Loose, Discretionary, Shared, Hard",
+          "Hard, Shared, Discretionary, Loose",
+          "All dependency types have the same constraint strength",
+          "There is no strength difference"
+        ],
+        "answer": "Loose, Discretionary, Shared, Hard",
+        "explanation": "SAFe defines dependencies from weakest to strongest: Loose, Discretionary, Shared, Hard. The stronger the constraint, the higher the coordination cost."
+      },
+      {
+        "id": "H39",
+        "question": "In project metrics, what does an increasing gap between two lines in a Cumulative Flow Diagram indicate?",
+        "options": [
+          "WIP in that stage is increasing, meaning a bottleneck is forming",
+          "The project is nearly complete",
+          "Team efficiency has improved",
+          "Risk has decreased"
+        ],
+        "answer": "WIP in that stage is increasing, meaning a bottleneck is forming",
+        "explanation": "In a CFD, an increasing vertical gap between adjacent areas means WIP in that stage is increasing, potentially forming a bottleneck."
+      },
+      {
+        "id": "H40",
+        "question": "In Scrum, what happens to completed work when a Sprint is canceled?",
+        "options": [
+          "Work that meets the DoD is delivered as an increment; work that doesnt is returned to the Product Backlog for re-prioritization",
+          "All work is discarded",
+          "Continue completing the remaining work",
+          "After cancellation, those features will never be built"
+        ],
+        "answer": "Work that meets the DoD is delivered as an increment; work that doesnt is returned to the Product Backlog for re-prioritization",
+        "explanation": "When a Sprint is canceled, work that meets the Definition of Done is still delivered as a usable increment, while the rest returns to the Product Backlog for the PO to re-prioritize."
+      }
+    ]
+  }
+}

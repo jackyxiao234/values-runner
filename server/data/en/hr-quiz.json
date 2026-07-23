@@ -1,0 +1,1462 @@
+{
+  "metadata": {
+    "title": "HR Knowledge Quiz",
+    "description": "Kuaishou HR game knowledge bank covering recruitment, employee benefits, performance reviews, compensation systems, culture building, and more",
+    "language": "en-US",
+    "total_questions": 120,
+    "difficulty_distribution": {
+      "easy": 40,
+      "medium": 40,
+      "hard": 40
+    },
+    "created_at": "2026-07-06"
+  },
+  "questions": {
+    "easy": [
+      {
+        "id": "E01",
+        "question": "What insurance benefits does Kuaishou provide for employees?",
+        "options": [
+          "Six insurances and one housing fund",
+          "Five insurances and one housing fund",
+          "Five insurances and two housing funds",
+          "Seven insurances and one housing fund"
+        ],
+        "answer": "Six insurances and one housing fund",
+        "explanation": "Kuaishou provides six insurances and one housing fund, which includes one additional supplementary insurance beyond the statutory five insurances and one housing fund."
+      },
+      {
+        "id": "E02",
+        "question": "How much is the daily meal allowance at Kuaishou?",
+        "options": [
+          "80 RMB",
+          "100 RMB",
+          "120 RMB",
+          "150 RMB"
+        ],
+        "answer": "120 RMB",
+        "explanation": "Kuaishou's meal allowance is 120 RMB per person per day."
+      },
+      {
+        "id": "E03",
+        "question": "How much is Kuaishou's monthly team-building budget per person?",
+        "options": [
+          "100 RMB",
+          "150 RMB",
+          "250 RMB",
+          "500 RMB"
+        ],
+        "answer": "250 RMB",
+        "explanation": "Kuaishou's team-building budget is 250 RMB per person per month."
+      },
+      {
+        "id": "E04",
+        "question": "How much is Kuaishou's rental subsidy?",
+        "options": [
+          "500 RMB/month",
+          "800 RMB/month",
+          "1,000 RMB/month",
+          "1,500 RMB/month"
+        ],
+        "answer": "1,000 RMB/month",
+        "explanation": "Kuaishou provides a rental subsidy of 1,000 RMB/month."
+      },
+      {
+        "id": "E05",
+        "question": "After what time can Kuaishou employees get taxi fare reimbursement?",
+        "options": [
+          "After 9 PM",
+          "After 10 PM",
+          "After 11 PM",
+          "After 12 AM"
+        ],
+        "answer": "After 10 PM",
+        "explanation": "Kuaishou policy allows taxi fare reimbursement for rides after 10 PM."
+      },
+      {
+        "id": "E06",
+        "question": "What is the core philosophy of Kuaishou Pai's value system?",
+        "options": [
+          "Obsessed with Customers",
+          "Innovative & Pragmatic",
+          "Highest Standard",
+          "Dare to Act"
+        ],
+        "answer": "Obsessed with Customers",
+        "explanation": "The core philosophy of Kuaishou Pai's value system is: Obsessed with Customers."
+      },
+      {
+        "id": "E07",
+        "question": "What does KR stand for in OKR?",
+        "options": [
+          "Key Results",
+          "Key Resources",
+          "Key Requirements",
+          "Key Reports"
+        ],
+        "answer": "Key Results",
+        "explanation": "OKR = Objectives and Key Results. KR measures the degree to which objectives are achieved."
+      },
+      {
+        "id": "E08",
+        "question": "What does BP stand for in HRBP?",
+        "options": [
+          "Business Partner",
+          "Business Plan",
+          "Best Practice",
+          "Business Process"
+        ],
+        "answer": "Business Partner",
+        "explanation": "HRBP = Human Resources Business Partner, a strategic HR role embedded in business teams."
+      },
+      {
+        "id": "E09",
+        "question": "What home-purchase benefit does Kuaishou offer employees?",
+        "options": [
+          "Interest-free loan",
+          "Low-interest loan",
+          "Home purchase subsidy",
+          "Housing provident fund"
+        ],
+        "answer": "Interest-free loan",
+        "explanation": "Kuaishou provides interest-free home-purchase loans for employees who have been with the company for over 1 year."
+      },
+      {
+        "id": "E10",
+        "question": "What is the eligibility requirement for Kuaishou's interest-free home-purchase loan?",
+        "options": [
+          "Employed for over 1 year",
+          "Employed for over 3 years",
+          "Available at any time",
+          "Only for senior executives"
+        ],
+        "answer": "Employed for over 1 year",
+        "explanation": "The interest-free home-purchase loan requires the employee to have completed at least 1 year of service."
+      },
+      {
+        "id": "E11",
+        "question": "What is the maximum standard working hours per week under labor law?",
+        "options": [
+          "40 hours",
+          "44 hours",
+          "48 hours",
+          "36 hours"
+        ],
+        "answer": "40 hours",
+        "explanation": "Labor law stipulates no more than 8 hours per day and no more than 40 hours per week."
+      },
+      {
+        "id": "E12",
+        "question": "What is the maximum legal probation period?",
+        "options": [
+          "6 months",
+          "3 months",
+          "1 month",
+          "12 months"
+        ],
+        "answer": "6 months",
+        "explanation": "The Labor Contract Law states that for contracts of three years or more, the probation period may not exceed 6 months."
+      },
+      {
+        "id": "E13",
+        "question": "In the Kuaishou Pai value system, which dimension does 'Candid & Clear' belong to?",
+        "options": [
+          "How We Work Together",
+          "Core Philosophy",
+          "How We Get Things Done",
+          "Independent Dimension"
+        ],
+        "answer": "How We Work Together",
+        "explanation": "Candid & Clear belongs to 'How We Work Together', alongside Dare to Act."
+      },
+      {
+        "id": "E14",
+        "question": "What fitness facilities does Kuaishou provide for free?",
+        "options": [
+          "Free gym",
+          "Paid gym",
+          "Only outdoor sports",
+          "No fitness facilities"
+        ],
+        "answer": "Free gym",
+        "explanation": "Kuaishou provides a free gym for employees."
+      },
+      {
+        "id": "E15",
+        "question": "What does '100% compliance training' mean?",
+        "options": [
+          "All employees must complete compliance training with 100% coverage",
+          "Training content is 100% compliant",
+          "Training duration is 100 hours",
+          "Exam score must be 100"
+        ],
+        "answer": "All employees must complete compliance training with 100% coverage",
+        "explanation": "100% compliance training requires all employees to complete the training, ensuring everyone understands compliance requirements."
+      },
+      {
+        "id": "E16",
+        "question": "What does EAP stand for?",
+        "options": [
+          "Employee Assistance Program",
+          "Enterprise Application Platform",
+          "Employee Assessment Process",
+          "Education Advancement Program"
+        ],
+        "answer": "Employee Assistance Program",
+        "explanation": "EAP is the Employee Assistance Program, providing employees with psychological counseling, legal aid, and other support services."
+      },
+      {
+        "id": "E17",
+        "question": "In the Kuaishou Pai value system, which dimension does 'Innovative & Pragmatic' belong to?",
+        "options": [
+          "How We Get Things Done",
+          "Core Philosophy",
+          "How We Work Together",
+          "Independent Dimension"
+        ],
+        "answer": "How We Get Things Done",
+        "explanation": "Innovative & Pragmatic belongs to 'How We Get Things Done', alongside Highest Standard."
+      },
+      {
+        "id": "E18",
+        "question": "What is the primary purpose of 'talent review'?",
+        "options": [
+          "Assess the organization's talent landscape, identify key talent and gaps",
+          "Inventory office equipment",
+          "Count employee headcount",
+          "Calculate salary costs"
+        ],
+        "answer": "Assess the organization's talent landscape, identify key talent and gaps",
+        "explanation": "Talent review is a systematic assessment of the organization's talent to inform talent development decisions."
+      },
+      {
+        "id": "E19",
+        "question": "What does KPI stand for?",
+        "options": [
+          "Key Performance Indicator",
+          "Key Product Index",
+          "Knowledge Process Integration",
+          "Key Priority Item"
+        ],
+        "answer": "Key Performance Indicator",
+        "explanation": "KPI = Key Performance Indicator, a measurable value that demonstrates how effectively objectives are being met."
+      },
+      {
+        "id": "E20",
+        "question": "In the Kuaishou Pai value system, which dimension does 'Dare to Act' belong to?",
+        "options": [
+          "How We Work Together",
+          "Core Philosophy",
+          "How We Get Things Done",
+          "Independent Dimension"
+        ],
+        "answer": "How We Work Together",
+        "explanation": "Dare to Act belongs to 'How We Work Together', alongside Candid & Clear."
+      },
+      {
+        "id": "E21",
+        "question": "What is the main difference between campus recruitment and social recruitment?",
+        "options": [
+          "Campus recruitment targets current students, social recruitment targets experienced professionals",
+          "Campus recruitment offers higher salaries",
+          "Social recruitment doesn't require interviews",
+          "Campus recruitment only hires managers"
+        ],
+        "answer": "Campus recruitment targets current students, social recruitment targets experienced professionals",
+        "explanation": "Campus recruitment targets fresh graduates, while social recruitment targets professionals with work experience."
+      },
+      {
+        "id": "E22",
+        "question": "What is the legal condition for terminating a labor contract during probation?",
+        "options": [
+          "Proof that the employee does not meet employment conditions",
+          "Employee voluntarily resigns",
+          "Company is experiencing financial difficulties",
+          "Employee takes sick leave"
+        ],
+        "answer": "Proof that the employee does not meet employment conditions",
+        "explanation": "Termination during probation requires proof that the employee fails to meet the stated employment conditions; otherwise, it constitutes unlawful termination."
+      },
+      {
+        "id": "E23",
+        "question": "What does Kuaishou's afternoon tea benefit include?",
+        "options": [
+          "Tea and snacks provided on weekday afternoons",
+          "An extra hour of afternoon break",
+          "Afternoon tea party activities",
+          "Discounted afternoon meals"
+        ],
+        "answer": "Tea and snacks provided on weekday afternoons",
+        "explanation": "Kuaishou provides afternoon tea for employees, serving tea and snacks on weekday afternoons."
+      },
+      {
+        "id": "E24",
+        "question": "In the 'onboarding process', what does a new employee typically need to complete on their first day?",
+        "options": [
+          "Complete onboarding paperwork, sign contracts, learn company policies",
+          "Start working immediately",
+          "Take annual leave",
+          "No procedures required"
+        ],
+        "answer": "Complete onboarding paperwork, sign contracts, learn company policies",
+        "explanation": "On the first day, new employees must complete contract signing, badge issuance, and policy orientation."
+      },
+      {
+        "id": "E25",
+        "question": "What is the core objective of 'employee relations' management?",
+        "options": [
+          "Build and maintain healthy employment relationships, prevent and resolve labor disputes",
+          "Control employee headcount",
+          "Monitor employee work",
+          "Manage employee social media"
+        ],
+        "answer": "Build and maintain healthy employment relationships, prevent and resolve labor disputes",
+        "explanation": "Employee relations management focuses on the health and harmony of the employer-employee relationship, handling disputes, communication, and compliance."
+      },
+      {
+        "id": "E26",
+        "question": "In the Kuaishou Pai value system, which dimension does 'Highest Standard' belong to?",
+        "options": [
+          "How We Get Things Done",
+          "Core Philosophy",
+          "How We Work Together",
+          "Independent Dimension"
+        ],
+        "answer": "How We Get Things Done",
+        "explanation": "Highest Standard belongs to 'How We Get Things Done', alongside Innovative & Pragmatic."
+      },
+      {
+        "id": "E27",
+        "question": "What does the 'one fund' in 'six insurances and one housing fund' refer to?",
+        "options": [
+          "Housing provident fund",
+          "Pension fund",
+          "Penalty fund",
+          "Enterprise annuity"
+        ],
+        "answer": "Housing provident fund",
+        "explanation": "The 'one fund' refers to the housing provident fund, a statutory housing savings program."
+      },
+      {
+        "id": "E28",
+        "question": "What is the primary purpose of 'team building' activities?",
+        "options": [
+          "Enhance team cohesion and collaboration",
+          "Complete work tasks",
+          "Evaluate performance",
+          "Recruit new members"
+        ],
+        "answer": "Enhance team cohesion and collaboration",
+        "explanation": "Team building activities strengthen trust, communication, and collaboration through shared experiences."
+      },
+      {
+        "id": "E29",
+        "question": "What is the core vehicle for 'culture building' at Kuaishou?",
+        "options": [
+          "Kuaishou Pai value system",
+          "Employee handbook",
+          "Office environment",
+          "Annual gala slogans"
+        ],
+        "answer": "Kuaishou Pai value system",
+        "explanation": "The Kuaishou Pai value system is the core vehicle and guiding principle for Kuaishou's culture building."
+      },
+      {
+        "id": "E30",
+        "question": "In 'offboarding management', what is the main purpose of an 'exit interview'?",
+        "options": [
+          "Force the employee to stay",
+          "Understand reasons for leaving and collect improvement suggestions",
+          "Process social security and housing fund transfers",
+          "Evaluate employee performance and assign blame"
+        ],
+        "answer": "Understand reasons for leaving and collect improvement suggestions",
+        "explanation": "Exit interviews are an important channel for gathering authentic feedback to help the organization identify issues and improve."
+      },
+      {
+        "id": "E31",
+        "question": "Under the Labor Contract Law, what happens if an employer fails to sign a contract within one month to one year of the employee's start date?",
+        "options": [
+          "The employer must pay double wages to the worker each month",
+          "A retroactive contract is sufficient",
+          "No consequences",
+          "Pay one month's wages"
+        ],
+        "answer": "The employer must pay double wages to the worker each month",
+        "explanation": "Article 82 of the Labor Contract Law stipulates that failing to sign a contract after 1 month requires the employer to pay double wages."
+      },
+      {
+        "id": "E32",
+        "question": "What is the primary purpose of 'equity incentive' plans?",
+        "options": [
+          "Align employee interests with the company's long-term growth, incentivize key talent",
+          "Reduce salary costs",
+          "Decrease headcount",
+          "Replace social security contributions"
+        ],
+        "answer": "Align employee interests with the company's long-term growth, incentivize key talent",
+        "explanation": "Equity incentives use options or restricted stock to let employees share in the company's growth, aligning interests."
+      },
+      {
+        "id": "E33",
+        "question": "What is the primary use of 'employee satisfaction surveys'?",
+        "options": [
+          "Understand employee satisfaction across work dimensions and guide management improvements",
+          "Determine promotion lists",
+          "Calculate salaries",
+          "Evaluate performance"
+        ],
+        "answer": "Understand employee satisfaction across work dimensions and guide management improvements",
+        "explanation": "Employee satisfaction surveys help organizations identify management issues and employee needs to drive improvement."
+      },
+      {
+        "id": "E34",
+        "question": "Under labor law, what determines the number of annual leave days?",
+        "options": [
+          "Cumulative years of service",
+          "Tenure at the current company",
+          "Job level",
+          "Salary level"
+        ],
+        "answer": "Cumulative years of service",
+        "explanation": "Paid annual leave is determined by cumulative years of service: 1-10 years = 5 days, 10-20 years = 10 days, 20+ years = 15 days."
+      },
+      {
+        "id": "E35",
+        "question": "In 'contractor management', what is the main difference between contractor and full-time employees?",
+        "options": [
+          "Contractor employees automatically become full-time after one year",
+          "Contractor employees always earn higher salaries",
+          "Contractor employees sign contracts with the contracting firm and have no direct employment relationship with the host company",
+          "Contractor employees don't need to follow the host company's policies"
+        ],
+        "answer": "Contractor employees sign contracts with the contracting firm and have no direct employment relationship with the host company",
+        "explanation": "Contractor employees establish employment relationships with the contracting firm; the host company uses their labor through the contractor."
+      },
+      {
+        "id": "E36",
+        "question": "When did Kuaishou go public and on which exchange?",
+        "options": [
+          "February 5, 2021, Hong Kong Stock Exchange",
+          "2020, Shanghai Stock Exchange",
+          "2022, New York Stock Exchange",
+          "2019, Shenzhen Stock Exchange"
+        ],
+        "answer": "February 5, 2021, Hong Kong Stock Exchange",
+        "explanation": "Kuaishou listed on the Hong Kong Stock Exchange on February 5, 2021, stock code 01024."
+      },
+      {
+        "id": "E37",
+        "question": "In a 'compensation system', what is the typical relationship between base salary and performance pay?",
+        "options": [
+          "Base salary is fixed and guaranteed, performance pay fluctuates with results",
+          "Both are fixed",
+          "Both fluctuate",
+          "Base salary fluctuates, performance pay is fixed"
+        ],
+        "answer": "Base salary is fixed and guaranteed, performance pay fluctuates with results",
+        "explanation": "Base salary provides stable income, while performance pay is tied to individual/team/company results as a variable incentive."
+      },
+      {
+        "id": "E38",
+        "question": "What is the common cycle for 'performance reviews'?",
+        "options": [
+          "Quarterly or semi-annually",
+          "Once a year",
+          "Once a month",
+          "Once a week"
+        ],
+        "answer": "Quarterly or semi-annually",
+        "explanation": "Common performance review cycles are quarterly (typically for OKR) or semi-annually (common for KPI)."
+      },
+      {
+        "id": "E39",
+        "question": "In 'salary negotiation', what is the purpose of understanding market compensation levels?",
+        "options": [
+          "Directly determine the employee's job grade",
+          "Ensure the company's salaries are the highest in the industry",
+          "Provide a reasonable reference benchmark for negotiation, ensuring fair competitiveness and budget control",
+          "Replace the role of performance reviews"
+        ],
+        "answer": "Provide a reasonable reference benchmark for negotiation, ensuring fair competitiveness and budget control",
+        "explanation": "Market compensation research provides data support for salary negotiations, balancing attractiveness and internal equity."
+      },
+      {
+        "id": "E40",
+        "question": "Which of the following is NOT a category of 'employee training' by content?",
+        "options": [
+          "Travel training",
+          "Onboarding training",
+          "Compliance training",
+          "Skills training"
+        ],
+        "answer": "Travel training",
+        "explanation": "Employee training by content includes onboarding, compliance, skills, and management training. Travel training is not a training category."
+      }
+    ],
+    "medium": [
+      {
+        "id": "M01",
+        "question": "Among Kuaishou's employee benefits, what additional insurance does 'Six insurances and one housing fund' have over 'Five insurances and one housing fund'?",
+        "options": [
+          "Supplementary medical insurance",
+          "Maternity insurance",
+          "Unemployment insurance",
+          "Work injury insurance"
+        ],
+        "answer": "Supplementary medical insurance",
+        "explanation": "Six insurances and one housing fund adds supplementary medical insurance on top of the five insurances and one housing fund, providing more comprehensive medical reimbursement."
+      },
+      {
+        "id": "M02",
+        "question": "When OKR and KPI are used together, what is the core difference between them?",
+        "options": [
+          "OKR focuses on goal direction and challenge, KPI focuses on quantifiable performance metrics",
+          "They are completely identical",
+          "OKR is only for frontline staff",
+          "KPI is more challenging"
+        ],
+        "answer": "OKR focuses on goal direction and challenge, KPI focuses on quantifiable performance metrics",
+        "explanation": "OKR emphasizes goal alignment and stretch (70% completion is excellent), while KPI emphasizes measurable targets and performance-linked assessment."
+      },
+      {
+        "id": "M03",
+        "question": "In the HRBP model, what is the core difference between HRBP and traditional HR?",
+        "options": [
+          "HRBP is embedded in business teams as a strategic partner, traditional HR is more functionally oriented",
+          "They are completely identical",
+          "HRBP doesn't handle recruitment",
+          "Traditional HR is more embedded in business"
+        ],
+        "answer": "HRBP is embedded in business teams as a strategic partner, traditional HR is more functionally oriented",
+        "explanation": "HRBP = Business Partner, requiring deep business understanding to provide HR solutions from a strategic perspective; traditional HR focuses more on process execution."
+      },
+      {
+        "id": "M04",
+        "question": "In 'talent review', what are the two dimensions of the 'nine-box grid' model?",
+        "options": [
+          "Performance and potential",
+          "Salary and tenure",
+          "Education and experience",
+          "Age and gender"
+        ],
+        "answer": "Performance and potential",
+        "explanation": "The nine-box grid uses performance (x-axis) and potential (y-axis) as two dimensions, categorizing talent into 9 types to guide development decisions."
+      },
+      {
+        "id": "M05",
+        "question": "In Kuaishou's information security system, what is the core requirement for 'contractor security management'?",
+        "options": [
+          "Contractors must receive security training, sign confidentiality agreements, and follow least-privilege access",
+          "Contractors are not bound by security management",
+          "Contractors have the highest access privileges",
+          "Contractors don't need to sign any agreements"
+        ],
+        "answer": "Contractors must receive security training, sign confidentiality agreements, and follow least-privilege access",
+        "explanation": "Contractor security management requires the same information security standards as full-time employees with even stricter access controls."
+      },
+      {
+        "id": "M06",
+        "question": "Under 'labor regulations', what is the calculation base for economic compensation N?",
+        "options": [
+          "The employee's average monthly salary over the 12 months prior to termination",
+          "Base salary",
+          "Minimum wage standard",
+          "Local average social wage"
+        ],
+        "answer": "The employee's average monthly salary over the 12 months prior to termination",
+        "explanation": "Economic compensation is calculated based on years of service at the company, paying one month's salary per year of service, using the average salary of the 12 months before termination."
+      },
+      {
+        "id": "M07",
+        "question": "In performance reviews, what does '360-degree assessment' mean?",
+        "options": [
+          "Comprehensive evaluation from multiple perspectives: supervisors, subordinates, peers, and self-assessment",
+          "A maximum score of 360 points",
+          "360 indicators",
+          "A 360-day evaluation cycle"
+        ],
+        "answer": "Comprehensive evaluation from multiple perspectives: supervisors, subordinates, peers, and self-assessment",
+        "explanation": "360-degree assessment collects feedback from multiple perspectives, providing a comprehensive performance profile and reducing single-evaluator bias."
+      },
+      {
+        "id": "M08",
+        "question": "In Kuaishou's information security standards, what is the core function of the 'integrity reporting' mechanism?",
+        "options": [
+          "Encourage employees to report corruption and violations, maintaining an ethical business environment",
+          "Punish whistleblowers",
+          "Collect business intelligence",
+          "Monitor competitors"
+        ],
+        "answer": "Encourage employees to report corruption and violations, maintaining an ethical business environment",
+        "explanation": "The integrity reporting mechanism provides employees with a safe channel to report corruption and fraud, protecting whistleblower privacy."
+      },
+      {
+        "id": "M09",
+        "question": "In 'career development', how is the 'dual-track' promotion system designed?",
+        "options": [
+          "Management track and professional track run in parallel; technical talent don't have to switch to management",
+          "Only a management track exists",
+          "Only a professional track exists",
+          "Random promotions"
+        ],
+        "answer": "Management track and professional track run in parallel; technical talent don't have to switch to management",
+        "explanation": "The dual-track system allows professional talent to advance on the technical track to the same level as management, avoiding the need to switch to management roles."
+      },
+      {
+        "id": "M10",
+        "question": "In 'employee relations' management, what is the statute of limitations for 'labor arbitration'?",
+        "options": [
+          "1 year from when the party knew or should have known their rights were infringed",
+          "6 months",
+          "2 years",
+          "3 months"
+        ],
+        "answer": "1 year from when the party knew or should have known their rights were infringed",
+        "explanation": "The statute of limitations for labor dispute arbitration is 1 year, starting from when the party knew or should have known their rights were violated."
+      },
+      {
+        "id": "M11",
+        "question": "In the 'Kirkpatrick Four-Level Evaluation Model' for employee training, what is the third level?",
+        "options": [
+          "Behavior level evaluation (post-training behavior change)",
+          "Reaction level evaluation",
+          "Learning level evaluation",
+          "Results level evaluation"
+        ],
+        "answer": "Behavior level evaluation (post-training behavior change)",
+        "explanation": "Kirkpatrick's four levels: Reaction -> Learning -> Behavior -> Results. The third level assesses whether training translates into actual behavior change."
+      },
+      {
+        "id": "M12",
+        "question": "What does Kuaishou's 'avoiding conflicts of interest' policy require employees to do?",
+        "options": [
+          "Proactively disclose potential conflicts of interest and recuse from related decisions",
+          "Avoid all social activities",
+          "Don't communicate with external parties",
+          "Reject all external cooperation"
+        ],
+        "answer": "Proactively disclose potential conflicts of interest and recuse from related decisions",
+        "explanation": "The conflict of interest policy requires employees to proactively disclose conflicts and recuse from relevant decisions to ensure fairness."
+      },
+      {
+        "id": "M13",
+        "question": "In 'compensation system' design, what is the relationship between internal equity and external competitiveness?",
+        "options": [
+          "Both must be balanced: internal equity maintains incentive consistency, external competitiveness ensures talent attraction",
+          "Only internal equity matters",
+          "Only external competitiveness matters",
+          "They are unrelated"
+        ],
+        "answer": "Both must be balanced: internal equity maintains incentive consistency, external competitiveness ensures talent attraction",
+        "explanation": "Compensation design must consider both internal equity (equal pay for equal work, reasonable internal differentials) and external competitiveness (benchmarking against market levels to attract talent)."
+      },
+      {
+        "id": "M14",
+        "question": "In 'performance reviews', what are the pros and cons of 'forced distribution'?",
+        "options": [
+          "Pro: clear differentiation; Con: may undermine collaboration and create internal competition",
+          "Pro: everyone is satisfied",
+          "Con: cannot differentiate performance",
+          "No pros or cons at all"
+        ],
+        "answer": "Pro: clear differentiation; Con: may undermine collaboration and create internal competition",
+        "explanation": "Forced distribution (e.g., 2-7-1) forces differentiation of performance levels, but may lead to unhealthy competition between teams."
+      },
+      {
+        "id": "M15",
+        "question": "In the 'onboarding process', when is 'background verification' typically conducted?",
+        "options": [
+          "Before issuing the offer or before onboarding, to verify the authenticity of the candidate's information",
+          "3 months after onboarding",
+          "During the probation period",
+          "At the time of departure"
+        ],
+        "answer": "Before issuing the offer or before onboarding, to verify the authenticity of the candidate's information",
+        "explanation": "Background verification is conducted before the offer to verify education, work history, integrity, and other information, reducing hiring risks."
+      },
+      {
+        "id": "M16",
+        "question": "What is the core principle of Kuaishou's 'employee account and access management'?",
+        "options": [
+          "Least privilege principle, grant access on demand, regular audits",
+          "Everyone gets maximum privileges",
+          "Access never changes once granted",
+          "Only administrators have access"
+        ],
+        "answer": "Least privilege principle, grant access on demand, regular audits",
+        "explanation": "Access management follows the least privilege principle, with regular audits to ensure access matches job responsibilities."
+      },
+      {
+        "id": "M17",
+        "question": "In 'campus recruitment', what is the difference between 'early batch' and 'regular batch'?",
+        "options": [
+          "Early batch targets top candidates with an earlier timeline, regular batch is open to all graduates",
+          "They are completely identical",
+          "Early batch offers lower salaries",
+          "Regular batch doesn't require written exams"
+        ],
+        "answer": "Early batch targets top candidates with an earlier timeline, regular batch is open to all graduates",
+        "explanation": "The early batch typically launches before the official fall recruitment, targeting outstanding students from target universities with a more flexible process."
+      },
+      {
+        "id": "M18",
+        "question": "In 'probation management', probation salary must not be less than what percentage of the post-probation salary?",
+        "options": [
+          "80%",
+          "90%",
+          "70%",
+          "60%"
+        ],
+        "answer": "80%",
+        "explanation": "The Labor Contract Law stipulates that probation salary must not be less than 80% of the agreed salary and must not be below the local minimum wage."
+      },
+      {
+        "id": "M19",
+        "question": "What is the core requirement of Kuaishou's 'anti-corruption policy'?",
+        "options": [
+          "Strict prohibition of commercial bribery and illicit benefits transfer, with prevention and reporting mechanisms",
+          "Small bribes are allowed",
+          "Only applies to senior executives",
+          "No reporting mechanism needed"
+        ],
+        "answer": "Strict prohibition of commercial bribery and illicit benefits transfer, with prevention and reporting mechanisms",
+        "explanation": "The anti-corruption policy strictly prohibits any form of commercial bribery and establishes prevention, oversight, and reporting systems."
+      },
+      {
+        "id": "M20",
+        "question": "In 'talent review', what are the typical criteria for identifying 'key talent'?",
+        "options": [
+          "Position scarcity, performance level, departure impact, and market replaceability",
+          "Only salary level",
+          "Only tenure",
+          "Only education"
+        ],
+        "answer": "Position scarcity, performance level, departure impact, and market replaceability",
+        "explanation": "Key talent identification considers position importance, individual performance, replacement difficulty, and departure risk impact."
+      },
+      {
+        "id": "M21",
+        "question": "In 'compensation systems', what is the difference between broadband compensation and traditional graded compensation?",
+        "options": [
+          "Broadband compensation has wider salary ranges per level, more flexible to accommodate capability differences",
+          "They are completely identical",
+          "Broadband compensation has narrower ranges",
+          "Traditional compensation is more flexible"
+        ],
+        "answer": "Broadband compensation has wider salary ranges per level, more flexible to accommodate capability differences",
+        "explanation": "Broadband compensation reduces the number of job grades and expands salary ranges per level, rewarding capability growth rather than just promotions."
+      },
+      {
+        "id": "M22",
+        "question": "What does Kuaishou's 'vendor information security management' require?",
+        "options": [
+          "Vendors must sign security agreements, undergo security assessments, and comply with data protection requirements",
+          "Vendors don't need to follow information security requirements",
+          "Vendors have exemptions",
+          "Only verbal agreements are needed"
+        ],
+        "answer": "Vendors must sign security agreements, undergo security assessments, and comply with data protection requirements",
+        "explanation": "Vendor security management requires third-party vendors to meet equivalent standards for data handling and security."
+      },
+      {
+        "id": "M23",
+        "question": "In 'offboarding management', what is the formula for calculating 'turnover rate'?",
+        "options": [
+          "Number of departures divided by average headcount",
+          "Number of departures divided by headcount at year start",
+          "Number of departures divided by new hires",
+          "Number of departures divided by total headcount"
+        ],
+        "answer": "Number of departures divided by average headcount",
+        "explanation": "Turnover rate = departures during the period / ((headcount at period start + headcount at period end) / 2), i.e., average headcount."
+      },
+      {
+        "id": "M24",
+        "question": "What services does 'EAP' (Employee Assistance Program) typically provide?",
+        "options": [
+          "Psychological counseling, legal aid, financial consulting, crisis intervention",
+          "Only fitness services",
+          "Only legal aid",
+          "Only career planning"
+        ],
+        "answer": "Psychological counseling, legal aid, financial consulting, crisis intervention",
+        "explanation": "EAP is a comprehensive employee support service covering psychological, legal, financial, and other aspects."
+      },
+      {
+        "id": "M25",
+        "question": "In 'culture building', what does 'values operationalization' mean?",
+        "options": [
+          "Translating abstract values into specific, observable, and evaluable behavioral standards",
+          "Just slogans",
+          "Values have nothing to do with behavior",
+          "Only used for recruitment"
+        ],
+        "answer": "Translating abstract values into specific, observable, and evaluable behavioral standards",
+        "explanation": "Values operationalization makes values actionable. For example, 'Candid & Clear' translates into specific behaviors like 'promptly providing differing opinions.'"
+      },
+      {
+        "id": "M26",
+        "question": "What is the core content of Kuaishou's 'physical and environmental security management'?",
+        "options": [
+          "Ensuring physical security of office premises and equipment, preventing unauthorized access and physical damage",
+          "Physical exercise safety management",
+          "Environmental protection policies",
+          "Physics research"
+        ],
+        "answer": "Ensuring physical security of office premises and equipment, preventing unauthorized access and physical damage",
+        "explanation": "Physical and environmental security management includes access control, surveillance, equipment protection, and disaster recovery."
+      },
+      {
+        "id": "M27",
+        "question": "In the 'HRBP model', what are the three roles of the 'three-pillar model'?",
+        "options": [
+          "COE (Center of Expertise), HRBP (Business Partner), SSC (Shared Service Center)",
+          "Recruitment, Compensation, Training",
+          "CEO, CFO, CHRO",
+          "Strategic HR, Operational HR, Technical HR"
+        ],
+        "answer": "COE (Center of Expertise), HRBP (Business Partner), SSC (Shared Service Center)",
+        "explanation": "Three-pillar model: COE handles strategy and solution design, HRBP handles business implementation, SSC handles standardized transaction processing."
+      },
+      {
+        "id": "M28",
+        "question": "What are the core principles of Kuaishou's 'data security management'?",
+        "options": [
+          "Data classification and grading, minimum necessity principle, encrypted transmission and storage",
+          "All data is public",
+          "Data doesn't need management",
+          "Only encrypted storage"
+        ],
+        "answer": "Data classification and grading, minimum necessity principle, encrypted transmission and storage",
+        "explanation": "Data security management requires classification-based data protection, following the minimum necessity principle, and ensuring encrypted transmission and storage."
+      },
+      {
+        "id": "M29",
+        "question": "In 'employee satisfaction' surveys, what does the eNPS metric mean?",
+        "options": [
+          "Employee Net Promoter Score, measuring how willing employees are to recommend the company as a workplace",
+          "Electronic performance system",
+          "Employee net profit sharing",
+          "Employee count indicator"
+        ],
+        "answer": "Employee Net Promoter Score, measuring how willing employees are to recommend the company as a workplace",
+        "explanation": "eNPS = Promoters% - Detractors%, ranging from -100 to 100, reflecting overall employee loyalty and satisfaction."
+      },
+      {
+        "id": "M30",
+        "question": "In 'salary negotiation', what is the core of the 'Total Package' strategy?",
+        "options": [
+          "Present the total value of the overall compensation package (base + performance + equity + benefits) rather than just discussing base salary",
+          "Only discuss base salary",
+          "Only discuss equity",
+          "Only discuss benefits"
+        ],
+        "answer": "Present the total value of the overall compensation package (base + performance + equity + benefits) rather than just discussing base salary",
+        "explanation": "Total Package emphasizes comprehensive returns, letting candidates see the full value and enhancing attractiveness."
+      },
+      {
+        "id": "M31",
+        "question": "What steps are typically included in Kuaishou's 'security incident emergency response' process?",
+        "options": [
+          "Detection -> Reporting -> Analysis -> Remediation -> Recovery -> Review",
+          "Only reporting",
+          "Only remediation",
+          "Just ignore it"
+        ],
+        "answer": "Detection -> Reporting -> Analysis -> Remediation -> Recovery -> Review",
+        "explanation": "Emergency response follows a standard process: timely detection, rapid reporting, root cause analysis, effective remediation, system recovery, and post-incident review."
+      },
+      {
+        "id": "M32",
+        "question": "In 'equity incentives', how is the 'vesting schedule' for options typically designed?",
+        "options": [
+          "4-year vesting with a 1-year cliff, then monthly vesting",
+          "All vest at once",
+          "Fully vested in 2 years",
+          "No vesting period restrictions"
+        ],
+        "answer": "4-year vesting with a 1-year cliff, then monthly vesting",
+        "explanation": "Typical option vesting: 4-year period, 1-year cliff (25% after 1 year), then monthly vesting of 1/48."
+      },
+      {
+        "id": "M33",
+        "question": "What is the core requirement of Kuaishou's 'log management'?",
+        "options": [
+          "Operation logs must be retained, traceable, tamper-proof, and regularly audited",
+          "No logs needed",
+          "Logs can be freely modified",
+          "Only record error logs"
+        ],
+        "answer": "Operation logs must be retained, traceable, tamper-proof, and regularly audited",
+        "explanation": "Log management ensures operations are traceable, logs are tamper-proof, and provides a basis for security audits."
+      },
+      {
+        "id": "M34",
+        "question": "In 'team building', what does 'psychological safety' mean?",
+        "options": [
+          "Team members believe they can freely express opinions and make mistakes without being punished",
+          "Physical safety",
+          "The team has no conflict",
+          "Everyone agrees on everything"
+        ],
+        "answer": "Team members believe they can freely express opinions and make mistakes without being punished",
+        "explanation": "Psychological safety is a core characteristic of high-performing teams. Google research found it to be the key factor in team success."
+      },
+      {
+        "id": "M35",
+        "question": "What is the core requirement of Kuaishou's 'privacy protection standards'?",
+        "options": [
+          "Personal information collection requires clear notification and consent, minimum necessary collection, protection of user privacy rights",
+          "No user consent needed",
+          "Collect all information",
+          "Privacy protection is unimportant"
+        ],
+        "answer": "Personal information collection requires clear notification and consent, minimum necessary collection, protection of user privacy rights",
+        "explanation": "Privacy protection follows the informed consent principle and minimum necessity principle, safeguarding personal information security."
+      },
+      {
+        "id": "M36",
+        "question": "In 'employee relations', what is the primary legal risk of 'involuntary termination'?",
+        "options": [
+          "Unlawful termination requires double economic compensation (2N), and the employee may demand reinstatement",
+          "No risk",
+          "Only N is required",
+          "Only verbal notice is needed"
+        ],
+        "answer": "Unlawful termination requires double economic compensation (2N), and the employee may demand reinstatement",
+        "explanation": "The consequence of unlawful termination is paying compensation of 2N, and the employee may also choose to demand continued performance of the contract."
+      },
+      {
+        "id": "M37",
+        "question": "In Kuaishou's 'system development and maintenance security management', what does 'shift left security' mean?",
+        "options": [
+          "Integrating security measures early in the development cycle rather than patching vulnerabilities after deployment",
+          "The security team sits on the left",
+          "Only perform post-deployment security testing",
+          "Security checks are unimportant"
+        ],
+        "answer": "Integrating security measures early in the development cycle rather than patching vulnerabilities after deployment",
+        "explanation": "Shift left security integrates security testing into requirements, design, and development phases, reducing the cost of fixing security vulnerabilities."
+      },
+      {
+        "id": "M38",
+        "question": "In 'performance reviews', what is the relationship between 'Management by Objectives' (MBO) and OKR?",
+        "options": [
+          "OKR is an evolution of MBO, emphasizing alignment and stretch while decoupling from performance assessment",
+          "They are completely contradictory",
+          "MBO has been entirely phased out",
+          "OKR doesn't set objectives"
+        ],
+        "answer": "OKR is an evolution of MBO, emphasizing alignment and stretch while decoupling from performance assessment",
+        "explanation": "OKR inherits MBO's core goal-management philosophy but emphasizes transparent alignment, stretch targets, and decoupling from performance reviews."
+      },
+      {
+        "id": "M39",
+        "question": "In Kuaishou's 'vulnerability handling standards', how are vulnerability severity levels typically classified?",
+        "options": [
+          "By CVSS score into Critical, High, Medium, and Low",
+          "Only High and Low",
+          "No classification needed",
+          "Sorted by discovery time"
+        ],
+        "answer": "By CVSS score into Critical, High, Medium, and Low",
+        "explanation": "Vulnerabilities are classified by CVSS (Common Vulnerability Scoring System), with different levels corresponding to different response timelines."
+      },
+      {
+        "id": "M40",
+        "question": "In 'career development', what does IDP mean and what is its purpose?",
+        "options": [
+          "Individual Development Plan, mapping personal growth paths and actions",
+          "Internal Data Platform",
+          "Integrated Design Process",
+          "International Development Program"
+        ],
+        "answer": "Individual Development Plan, mapping personal growth paths and actions",
+        "explanation": "IDP is a development plan co-created by the employee and their manager, clarifying goals, gaps, and specific improvement actions."
+      }
+    ],
+    "hard": [
+      {
+        "id": "H01",
+        "question": "In the HRBP three-pillar model, how are the responsibilities of COE and SSC divided?",
+        "options": [
+          "COE handles strategic solution design, SSC handles standardized transaction processing, HRBP handles business implementation bridging",
+          "All three have identical responsibilities",
+          "COE handles transaction processing",
+          "SSC handles strategic design"
+        ],
+        "answer": "COE handles strategic solution design, SSC handles standardized transaction processing, HRBP handles business implementation bridging",
+        "explanation": "COE = solution design experts, SSC = transaction execution (onboarding/transfers/payroll etc.), HRBP = business understanding + solution implementation."
+      },
+      {
+        "id": "H02",
+        "question": "What are the audit cycle and scope of Kuaishou's 'information system security inspection and audit'?",
+        "options": [
+          "Regular comprehensive audits plus special audits, covering policy compliance, technical controls, and operational processes",
+          "Only annual audits",
+          "No audits required",
+          "Only financial data audits"
+        ],
+        "answer": "Regular comprehensive audits plus special audits, covering policy compliance, technical controls, and operational processes",
+        "explanation": "Security audits include regular comprehensive audits and event-driven special audits, covering both management and technical aspects."
+      },
+      {
+        "id": "H03",
+        "question": "In the 'talent review' nine-box grid, what is the management strategy for 'high performance, low potential' talent?",
+        "options": [
+          "Maintain current role contributions, provide recognition and rewards, don't force promotion",
+          "Focus on developing them",
+          "Prioritize for elimination",
+          "Mandatory transfer"
+        ],
+        "answer": "Maintain current role contributions, provide recognition and rewards, don't force promotion",
+        "explanation": "High performance, low potential (expert-type) talent continue to deliver high value in their current roles and shouldn't be forced onto the management track."
+      },
+      {
+        "id": "H04",
+        "question": "In 'equity incentives', what determines the 'exercise price' (using listed companies as an example)?",
+        "options": [
+          "Not lower than the fair market price, typically the stock price or valuation at the time of option grant",
+          "Arbitrary pricing",
+          "Fixed at 1 RMB",
+          "Based on the highest stock price"
+        ],
+        "answer": "Not lower than the fair market price, typically the stock price or valuation at the time of option grant",
+        "explanation": "The exercise price must comply with the fairness principle. For listed companies, it's typically not lower than the closing price on the grant date or the average price over a period."
+      },
+      {
+        "id": "H05",
+        "question": "In 'compensation systems', which of the following is NOT a common method for 'job value evaluation'?",
+        "options": [
+          "360-degree assessment method",
+          "Hay method",
+          "Mercer IPE method",
+          "Point factor method"
+        ],
+        "answer": "360-degree assessment method",
+        "explanation": "Job value evaluation methods include the Hay method, Mercer IPE, and point factor method. 360-degree assessment is a performance evaluation method."
+      },
+      {
+        "id": "H06",
+        "question": "Under 'labor regulations', which of the following is NOT a valid condition for a non-compete agreement?",
+        "options": [
+          "Taking effect without requiring compensation payments",
+          "Reasonable scope of restrictions",
+          "Compensation not below the statutory standard",
+          "Duration not exceeding 2 years"
+        ],
+        "answer": "Taking effect without requiring compensation payments",
+        "explanation": "A non-compete agreement requires all of the following to be valid: reasonable scope, compensation (not less than 30% of average salary), and duration not exceeding 2 years."
+      },
+      {
+        "id": "H07",
+        "question": "In 'performance reviews', what is the core function of a 'calibration session'?",
+        "options": [
+          "Eliminate rating standard differences across managers, ensuring consistency and fairness in performance ratings",
+          "Calibrate machine precision",
+          "Unify everyone's scores",
+          "Lower performance scores"
+        ],
+        "answer": "Eliminate rating standard differences across managers, ensuring consistency and fairness in performance ratings",
+        "explanation": "Calibration sessions allow managers to compare and discuss ratings, ensuring cross-team performance standards are consistent and avoiding leniency/severity bias."
+      },
+      {
+        "id": "H08",
+        "question": "Under Kuaishou's 'personnel information security' requirements, what security measures apply after an employee leaves?",
+        "options": [
+          "Timely revocation of access and devices, account deactivation, data clearing, continuation of confidentiality obligations",
+          "Retain all access",
+          "Don't recover equipment",
+          "No measures at all"
+        ],
+        "answer": "Timely revocation of access and devices, account deactivation, data clearing, continuation of confidentiality obligations",
+        "explanation": "Offboarding security measures include access revocation, equipment recovery, account deactivation, and continued confidentiality agreement effectiveness."
+      },
+      {
+        "id": "H09",
+        "question": "In 'salary negotiation', how does the 'anchoring effect' influence negotiation outcomes?",
+        "options": [
+          "The first number proposed becomes the negotiation anchor, and subsequent discussions revolve around that anchor",
+          "The anchoring effect doesn't influence negotiations",
+          "Can only adjust upward",
+          "The anchor must be the market price"
+        ],
+        "answer": "The first number proposed becomes the negotiation anchor, and subsequent discussions revolve around that anchor",
+        "explanation": "The anchoring effect means the first number proposed (high or low) significantly influences the final result. Salary negotiations should leverage this psychological effect."
+      },
+      {
+        "id": "H10",
+        "question": "In 'OKR setting', what is the core reason for 'decoupling' OKR from performance reviews?",
+        "options": [
+          "Prevent employees from setting low targets due to assessment pressure, ensuring OKRs maintain stretch and innovation",
+          "Reduce management costs",
+          "OKRs don't need evaluation",
+          "Performance reviews have been abolished"
+        ],
+        "answer": "Prevent employees from setting low targets due to assessment pressure, ensuring OKRs maintain stretch and innovation",
+        "explanation": "Decoupling OKR from performance allows employees to set ambitious goals (70% completion is excellent). If tied to reviews, people tend to set easily achievable targets."
+      },
+      {
+        "id": "H11",
+        "question": "In Kuaishou's three-tier ESG governance structure, what is the top-level governance body?",
+        "options": [
+          "Board-level Corporate Governance Committee",
+          "CEO's office",
+          "HR department",
+          "Business line leaders"
+        ],
+        "answer": "Board-level Corporate Governance Committee",
+        "explanation": "ESG three-tier governance: Board-level Corporate Governance Committee -> Management-level ESG Committee -> Executive-level working groups."
+      },
+      {
+        "id": "H12",
+        "question": "In 'employee training', what does the '70-20-10' learning model mean?",
+        "options": [
+          "70% from practice, 20% from feedback from others, 10% from formal training",
+          "Training budget allocation ratio",
+          "Training time schedule",
+          "Assessment score weighting"
+        ],
+        "answer": "70% from practice, 20% from feedback from others, 10% from formal training",
+        "explanation": "The 70-20-10 model indicates that adult learning primarily comes from work experience, followed by interpersonal interactions, with formal training contributing only 10%."
+      },
+      {
+        "id": "H13",
+        "question": "In the 'HRBP model', what is the specific standard for an HRBP to 'understand the business'?",
+        "options": [
+          "Understand business strategy, pain points, key metrics, and organizational capability gaps, and use HR solutions to solve business problems",
+          "Only need to know the business name",
+          "Knowing product features is enough",
+          "Working overtime with the business team"
+        ],
+        "answer": "Understand business strategy, pain points, key metrics, and organizational capability gaps, and use HR solutions to solve business problems",
+        "explanation": "An HRBP's 'understanding the business' means diagnosing business problems from an organizational perspective and designing HR solutions, not just knowing surface-level information."
+      },
+      {
+        "id": "H14",
+        "question": "In Kuaishou's 'information security', what are the typical SLA requirements for 'security incident emergency response'?",
+        "options": [
+          "Critical vulnerabilities must be responded to within 24 hours, high within 72 hours, medium within 7 days",
+          "All vulnerabilities within 1 year",
+          "No response time requirements",
+          "Only handle during business hours"
+        ],
+        "answer": "Critical vulnerabilities must be responded to within 24 hours, high within 72 hours, medium within 7 days",
+        "explanation": "Security incidents have different response SLAs based on severity level; the more critical the level, the stricter the timeline."
+      },
+      {
+        "id": "H15",
+        "question": "In 'talent review', what does the concept of 'talent density' mean?",
+        "options": [
+          "The proportion of high-performance, high-potential talent within a unit of the organization",
+          "Employee headcount density",
+          "Office area personnel density",
+          "Salary density"
+        ],
+        "answer": "The proportion of high-performance, high-potential talent within a unit of the organization",
+        "explanation": "Talent density = high-performance, high-potential talent / total headcount. Higher density means stronger organizational innovation capability."
+      },
+      {
+        "id": "H16",
+        "question": "In 'offboarding management', what data is typically used to build 'turnover prediction models'?",
+        "options": [
+          "Attendance anomalies, salary competitiveness, promotion stagnation, satisfaction decline, market activity level, and other multi-dimensional features",
+          "Only turnover rate data",
+          "Only tenure data",
+          "Random guessing"
+        ],
+        "answer": "Attendance anomalies, salary competitiveness, promotion stagnation, satisfaction decline, market activity level, and other multi-dimensional features",
+        "explanation": "Turnover prediction models use multi-dimensional behavioral and attitudinal data to identify high-risk departure groups for early intervention."
+      },
+      {
+        "id": "H17",
+        "question": "In Kuaishou's 'employee account and access management', what is the core requirement for 'privileged account management'?",
+        "options": [
+          "Minimize privileged accounts, dual-person approval, operation auditing, regular review",
+          "Privileged accounts are unrestricted",
+          "Only administrators can use privileged accounts",
+          "Privileged accounts don't need auditing"
+        ],
+        "answer": "Minimize privileged accounts, dual-person approval, operation auditing, regular review",
+        "explanation": "Privileged accounts (root/admin) have the strictest management: minimized count, approval-based usage, full auditing, and regular cleanup."
+      },
+      {
+        "id": "H18",
+        "question": "In 'equity incentives', what is the core difference between 'restricted stock' and 'options'?",
+        "options": [
+          "Restricted stock grants shares first with sale restrictions, options grant the right to purchase first with future exercise",
+          "They are completely identical",
+          "Options carry less risk",
+          "Restricted stock doesn't require a vesting period"
+        ],
+        "answer": "Restricted stock grants shares first with sale restrictions, options grant the right to purchase first with future exercise",
+        "explanation": "Restricted stock = shares are granted upfront but with sale restrictions; Options = the right to purchase at a predetermined price in the future."
+      },
+      {
+        "id": "H19",
+        "question": "In 'culture building', what is the most effective way to 'embed culture'?",
+        "options": [
+          "Integrate values into core management processes such as recruitment screening, performance evaluation, and promotion decisions",
+          "Rely only on promotional slogans",
+          "Displaying at annual galas",
+          "Shouting slogans"
+        ],
+        "answer": "Integrate values into core management processes such as recruitment screening, performance evaluation, and promotion decisions",
+        "explanation": "The key to embedding culture is integrating values into systems and processes, creating a full-chain behavioral guide across hire-assess-promote-exit."
+      },
+      {
+        "id": "H20",
+        "question": "Which of the following is NOT a Kuaishou ESG public welfare project under the mission 'Technology connects kindness'?",
+        "options": [
+          "Employee year-end bonus distribution",
+          "Happiness Lecture Hall",
+          "Enlightening Future Academy",
+          "Intangible Cultural Heritage Learning Academy"
+        ],
+        "answer": "Employee year-end bonus distribution",
+        "explanation": "ESG public welfare projects include Happiness Lecture Hall, Enlightening Future Academy, and Intangible Cultural Heritage Learning Academy. Year-end bonuses are not a public welfare project."
+      },
+      {
+        "id": "H21",
+        "question": "In 'compensation systems', what does 'compa-ratio' (internal salary ratio) mean?",
+        "options": [
+          "The ratio of actual salary to the midpoint of the salary range",
+          "The ratio of highest salary to lowest salary",
+          "The ratio of base salary to performance pay",
+          "The ratio of internal salary to external salary"
+        ],
+        "answer": "The ratio of actual salary to the midpoint of the salary range",
+        "explanation": "Compa-ratio = actual salary / salary range midpoint. 1.0 means exactly at the midpoint, used to determine salary positioning."
+      },
+      {
+        "id": "H22",
+        "question": "In Kuaishou's 2022 ESG report, how many people were supported in employment?",
+        "options": [
+          "36.21 million",
+          "10 million",
+          "5 million",
+          "100 million"
+        ],
+        "answer": "36.21 million",
+        "explanation": "In 2022, Kuaishou supported employment for 36.21 million people."
+      },
+      {
+        "id": "H23",
+        "question": "In 'employee relations', what is the effectiveness relationship between 'collective agreements' and 'individual labor contracts'?",
+        "options": [
+          "Collective agreement standards must not be lower than statutory minimums, individual contract standards must not be lower than the collective agreement",
+          "Collective agreements have higher authority",
+          "Individual contracts have higher authority",
+          "The two are unrelated"
+        ],
+        "answer": "Collective agreement standards must not be lower than statutory minimums, individual contract standards must not be lower than the collective agreement",
+        "explanation": "Effectiveness hierarchy: Law > Collective Agreement > Individual Labor Contract. Individual contract terms cannot fall below collective agreement standards."
+      },
+      {
+        "id": "H24",
+        "question": "In 'performance reviews', how does 'attribution bias' affect evaluations?",
+        "options": [
+          "Evaluators attribute success to their own factors and failure to external factors, leading to biased evaluations",
+          "Attribution bias doesn't affect evaluations",
+          "Only affects the person being evaluated",
+          "Only affects self-assessments"
+        ],
+        "answer": "Evaluators attribute success to their own factors and failure to external factors, leading to biased evaluations",
+        "explanation": "Attribution bias causes managers to attribute team success to their own leadership and failure to employee capability, resulting in evaluation bias."
+      },
+      {
+        "id": "H25",
+        "question": "What is the core difference between Kuaishou's 'contractor security management' and full-time employee security management?",
+        "options": [
+          "Contractors have more restricted access, narrower data access scope, and stricter device management",
+          "Contractor security management is more lenient",
+          "Completely identical management standards",
+          "Contractors don't need security management"
+        ],
+        "answer": "Contractors have more restricted access, narrower data access scope, and stricter device management",
+        "explanation": "Since contractors don't have an employment relationship with the company, security controls must be stricter: narrower access, stricter device management, and data isolation."
+      },
+      {
+        "id": "H26",
+        "question": "In 'career development', what is the implication of the 'Peter Principle' for organizational management?",
+        "options": [
+          "People get promoted to their level of incompetence; organizations need professional tracks to avoid incompetent promotions",
+          "Promotion is always correct",
+          "People should keep getting promoted",
+          "Capability and level always match"
+        ],
+        "answer": "People get promoted to their level of incompetence; organizations need professional tracks to avoid incompetent promotions",
+        "explanation": "The Peter Principle states that people are promoted based on competence in their current role until they reach a level where they are no longer competent. Dual tracks can mitigate this."
+      },
+      {
+        "id": "H27",
+        "question": "In 'employee satisfaction' surveys, what are the key drivers typically influencing eNPS?",
+        "options": [
+          "Direct manager quality, career development opportunities, sense of purpose at work, salary competitiveness",
+          "Only salary factors",
+          "Only work environment",
+          "Only interpersonal relationships"
+        ],
+        "answer": "Direct manager quality, career development opportunities, sense of purpose at work, salary competitiveness",
+        "explanation": "Research shows that the direct manager is the single largest factor in employee satisfaction, followed by development opportunities and sense of purpose."
+      },
+      {
+        "id": "H28",
+        "question": "In 'compensation system' design, what is the purpose and risk of 'salary overlap'?",
+        "options": [
+          "Purpose: allow adjacent levels to have salary crossover to incentivize capability growth; Risk: blurred differentials reduce promotion incentive",
+          "Overlap has no purpose",
+          "Overlap has no risk",
+          "Purpose is only to reduce costs"
+        ],
+        "answer": "Purpose: allow adjacent levels to have salary crossover to incentivize capability growth; Risk: blurred differentials reduce promotion incentive",
+        "explanation": "Moderate overlap allows high-performing lower-level employees to earn more than low-performing higher-level ones, but excessive overlap diminishes the appeal of promotion."
+      },
+      {
+        "id": "H29",
+        "question": "In Kuaishou's 'vulnerability handling standards', what is the definition of a zero-day (0-day) vulnerability?",
+        "options": [
+          "A vulnerability that has been discovered but not yet publicly disclosed or patched",
+          "A vulnerability found within 1 day of release",
+          "A vulnerability appearing every 100 days",
+          "A vulnerability appearing at midnight"
+        ],
+        "answer": "A vulnerability that has been discovered but not yet publicly disclosed or patched",
+        "explanation": "A zero-day vulnerability is one that has been discovered but the vendor is unaware or has no patch available, posing extremely high exploitation risk."
+      },
+      {
+        "id": "H30",
+        "question": "In the 'HRBP model', what are the typical operational efficiency metrics for SSC (Shared Service Center)?",
+        "options": [
+          "Processing time, first-contact resolution rate, error rate, cost efficiency, employee satisfaction",
+          "Only cost metrics",
+          "Only employee satisfaction",
+          "Only processing volume"
+        ],
+        "answer": "Processing time, first-contact resolution rate, error rate, cost efficiency, employee satisfaction",
+        "explanation": "As a service center, SSC needs to track full-dimension operational metrics: efficiency (time/resolution rate), quality (error rate), cost, and experience."
+      },
+      {
+        "id": "H31",
+        "question": "In 'probation management', what conditions must an employer meet to terminate a contract for 'failing to meet employment conditions'?",
+        "options": [
+          "Must have clearly defined employment conditions communicated to the employee, with evidence proving non-compliance",
+          "No conditions needed",
+          "Only verbal explanation required",
+          "Employee consent is sufficient"
+        ],
+        "answer": "Must have clearly defined employment conditions communicated to the employee, with evidence proving non-compliance",
+        "explanation": "Lawful termination requires three elements: clear employment conditions, prior communication to the employee, and objective evidence of non-compliance."
+      },
+      {
+        "id": "H32",
+        "question": "In the accounting treatment of 'equity incentives', how is option expense recognized?",
+        "options": [
+          "Recognized as expense over the vesting period at fair value, not all at once upon exercise",
+          "Recognized all at once upon exercise",
+          "No expense recognition needed",
+          "Only recognized on the grant date"
+        ],
+        "answer": "Recognized as expense over the vesting period at fair value, not all at once upon exercise",
+        "explanation": "Under IFRS/CAS standards, option expenses are recognized in installments over the vesting period (valued using Black-Scholes or binomial models)."
+      },
+      {
+        "id": "H33",
+        "question": "In Kuaishou's 'privacy protection standards', how is the 'data minimum necessity principle' specifically applied in recruitment?",
+        "options": [
+          "Only collect job-related necessary information, don't mandate collection of sensitive personal information unrelated to the role",
+          "Collect all personal information",
+          "Don't collect any information",
+          "Only collect ID numbers"
+        ],
+        "answer": "Only collect job-related necessary information, don't mandate collection of sensitive personal information unrelated to the role",
+        "explanation": "The minimum necessity principle requires collecting only necessary information during recruitment (education/experience) and not mandating collection of sensitive information like marital/family status."
+      },
+      {
+        "id": "H34",
+        "question": "In 'talent review', what are the key success factors for 'Succession Planning'?",
+        "options": [
+          "Senior leadership involvement, institutionalized processes, multiple candidate pipelines, developmental rather than replacement mindset",
+          "Only a list is needed",
+          "Only focus on current executives",
+          "No process needed"
+        ],
+        "answer": "Senior leadership involvement, institutionalized processes, multiple candidate pipelines, developmental rather than replacement mindset",
+        "explanation": "Successful succession planning requires CEO leadership, institutionalized processes, and 2-3 backup candidates for each key position."
+      },
+      {
+        "id": "H35",
+        "question": "In 'employee relations', what is the legal standard for determining a 'de facto labor relationship'?",
+        "options": [
+          "Existence of employment management, compensation payment, business subordination and other substantive elements, even without a written contract",
+          "A written contract is required",
+          "Based only on verbal agreements",
+          "Only social security contribution records"
+        ],
+        "answer": "Existence of employment management, compensation payment, business subordination and other substantive elements, even without a written contract",
+        "explanation": "De facto labor relationship looks at substance: management-subordination relationship, compensation payment, and work being part of the organization's business."
+      },
+      {
+        "id": "H36",
+        "question": "In Kuaishou's 'security incident emergency response', what is the core principle of the 'zero trust' security model?",
+        "options": [
+          "Never trust, always verify, default deny, least privilege",
+          "Trust the internal network",
+          "Only password authentication needed",
+          "Only verify external threats"
+        ],
+        "answer": "Never trust, always verify, default deny, least privilege",
+        "explanation": "Zero trust abandons the 'trusted internal network' assumption. All access requests require identity and permission verification regardless of source."
+      },
+      {
+        "id": "H37",
+        "question": "In 'performance reviews', how does the 'Halo/Horn Effect' influence evaluations?",
+        "options": [
+          "Evaluators generalize a single good/bad impression across all dimensions, leading to overall over- or under-estimation",
+          "The halo/horn effect improves evaluation accuracy",
+          "Only affects self-assessments",
+          "No impact"
+        ],
+        "answer": "Evaluators generalize a single good/bad impression across all dimensions, leading to overall over- or under-estimation",
+        "explanation": "The halo/horn effect causes managers to let one outstanding characteristic influence ratings across all dimensions. Calibration sessions can help correct this."
+      },
+      {
+        "id": "H38",
+        "question": "In 'employee training' ROI evaluation, what does the Phillips five-level model add beyond the Kirkpatrick four levels?",
+        "options": [
+          "Level 5: Return on Investment (ROI), quantifying the financial returns of training",
+          "An additional exam level",
+          "An additional survey level",
+          "No difference"
+        ],
+        "answer": "Level 5: Return on Investment (ROI), quantifying the financial returns of training",
+        "explanation": "The Phillips model adds the ROI level on top of Kirkpatrick's four levels, converting training benefits into monetary value and comparing against costs."
+      },
+      {
+        "id": "H39",
+        "question": "In Kuaishou's 'data security management', what levels does 'data classification and grading' typically include?",
+        "options": [
+          "Public, Internal, Sensitive, Confidential, and other different levels",
+          "Only Public and Secret",
+          "No classification",
+          "Only classified by department"
+        ],
+        "answer": "Public, Internal, Sensitive, Confidential, and other different levels",
+        "explanation": "Data classification levels typically include: Public -> Internal -> Sensitive -> Confidential -> Top Secret, with different protection measures for each level."
+      },
+      {
+        "id": "H40",
+        "question": "In 'culture building', what are the typical manifestations and solutions for 'subculture conflicts'?",
+        "options": [
+          "Different teams develop conflicting work habits and values, requiring cross-team rotations and co-created norms for alignment",
+          "Subculture conflicts cannot be resolved",
+          "Subculture conflicts are a good thing",
+          "Force uniform behavior across all teams"
+        ],
+        "answer": "Different teams develop conflicting work habits and values, requiring cross-team rotations and co-created norms for alignment",
+        "explanation": "Subculture conflicts are common in rapidly growing organizations and are resolved through personnel rotation, co-created systems, and reaffirmation of core values."
+      }
+    ]
+  }
+}

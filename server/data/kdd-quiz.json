@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "title": "KDD 2026 Trivia",
+    "description": "Fun, general-audience questions about the KDD conference series, ACM SIGKDD, data mining fundamentals, and the KDD Cup — designed for fast booth play.",
+    "language": "zh-CN",
+    "total_questions": 24,
+    "difficulty_distribution": {"easy": 12, "medium": 8, "hard": 4},
+    "created_at": "2026-07-20"
+  },
+  "questions": {
+    "easy": [
+      {"id":"E01","question":"KDD 的英文全称是什么？","options":["知识发现与数据挖掘 (Knowledge Discovery and Data Mining)","关键数据大脑 (Key Data Dashboard)","知识开发与部署 (Knowledge Development & Deployment)","内核数据设计 (Kernel Data Design)"],"answer":"知识发现与数据挖掘 (Knowledge Discovery and Data Mining)","explanation":"KDD = Knowledge Discovery and Data Mining，是数据挖掘领域最权威的年度会议。"},
+      {"id":"E02","question":"哪个组织主办 KDD 会议？","options":["ACM SIGKDD","IEEE","NeurIPS 基金会","OpenAI"],"answer":"ACM SIGKDD","explanation":"KDD 由 ACM 的数据挖掘专业组 SIGKDD 主办。"},
+      {"id":"E03","question":"KDD 2026 在哪里举办？","options":["韩国济州岛 ICC Jeju","美国旧金山","中国北京","新加坡"],"answer":"韩国济州岛 ICC Jeju","explanation":"KDD 2026 于济州国际会议中心 (ICC Jeju) 举办。"},
+      {"id":"E04","question":"KDD 每年举办几次？","options":["一次","两次","三次","每两年一次"],"answer":"一次","explanation":"KDD 是每年一届的旗舰会议。"},
+      {"id":"E05","question":"KDD Cup 是什么？","options":["与会议同期举办的数据挖掘竞赛","会议纪念咖啡杯","最佳论文奖","主题演讲环节"],"answer":"与会议同期举办的数据挖掘竞赛","explanation":"KDD Cup 是数据挖掘领域历史最悠久的国际竞赛。"},
+      {"id":"E06","question":"KDD 主要关注哪个领域？","options":["数据挖掘与知识发现","硬件设计","计算机图形学","操作系统"],"answer":"数据挖掘与知识发现","explanation":"KDD 聚焦从数据中发现知识、模式与洞见。"},
+      {"id":"E07","question":"'数据挖掘' 最贴切的含义是？","options":["从大量数据中发现模式","物理挖掘服务器硬盘","把数据存进数据库","把数据可视化"],"answer":"从大量数据中发现模式","explanation":"数据挖掘旨在从海量数据中发现有价值的模式与关联。"},
+      {"id":"E08","question":"KDD 通常有哪两条投稿主赛道？","options":["Research Track 与 Applied Data Science Track","硬件与软件","学生与教师","开源与商业"],"answer":"Research Track 与 Applied Data Science Track","explanation":"KDD 分为学术研究赛道 (Research) 与应用数据科学赛道 (ADS)。"},
+      {"id":"E09","question":"以下哪项 *不属于* 典型的数据挖掘任务？","options":["渲染 3D 游戏画面","分类","聚类","异常检测"],"answer":"渲染 3D 游戏画面","explanation":"3D 渲染属于图形学；分类、聚类、异常检测都是数据挖掘核心任务。"},
+      {"id":"E10","question":"'监督学习' 需要什么？","options":["带标签的训练数据","一位人类监工","GPU 集群","实时数据流"],"answer":"带标签的训练数据","explanation":"监督学习依赖已知标签的样本进行训练。"},
+      {"id":"E11","question":"'推荐系统' 通常给用户推荐什么？","options":["他们可能感兴趣的物品","随机内容","会议论文","天气预报"],"answer":"他们可能感兴趣的物品","explanation":"推荐系统是数据挖掘的经典应用，也是 KDD 的常年热门话题。"},
+      {"id":"E12","question":"快手在 KDD 2026 的展位号是？","options":["30 号","1 号","88 号","500 号"],"answer":"30 号","explanation":"快手在 KDD 2026 位于 30 号展位——欢迎光临！"}
+    ],
+    "medium": [
+      {"id":"M01","question":"第一届 KDD 会议大约在哪一年举办？","options":["1995 年","2005 年","1985 年","2015 年"],"answer":"1995 年","explanation":"首届正式 KDD 会议于 1995 年在蒙特利尔举办（前身工作坊始于 1989 年）。"},
+      {"id":"M02","question":"'非监督学习' 与监督学习的主要区别是？","options":["不需要标签数据","算力更小","精度更高","速度更慢"],"answer":"不需要标签数据","explanation":"非监督学习从无标签数据中发现结构，如聚类、降维。"},
+      {"id":"M03","question":"下列哪项是常见的聚类算法？","options":["K-Means","决策树","线性回归","朴素贝叶斯"],"answer":"K-Means","explanation":"K-Means 是最经典的聚类算法之一。"},
+      {"id":"M04","question":"'过拟合' 指的是什么？","options":["模型在训练集上表现好、在新数据上很差","模型太小无法学习","数据集太大","GPU 温度过高"],"answer":"模型在训练集上表现好、在新数据上很差","explanation":"过拟合意味着模型记住了训练细节而没有学到泛化规律。"},
+      {"id":"M05","question":"'A/B 测试' 主要用来做什么？","options":["比较两种方案的效果差异","备份数据","编译代码","加密流量"],"answer":"比较两种方案的效果差异","explanation":"A/B 测试通过对照实验衡量改动带来的效果，是应用数据科学的核心工具。"},
+      {"id":"M06","question":"KDD 会议上常见的 'Applied Data Science Track' 主要接收什么类型的论文？","options":["解决真实业务问题的应用型工作","纯理论证明","硬件基准测试","科幻小说"],"answer":"解决真实业务问题的应用型工作","explanation":"ADS Track 专门收录来自工业界、解决真实问题的数据科学工作。"},
+      {"id":"M07","question":"下列哪项是 KDD 长期关注的评审重点？","options":["方法的新颖性与实证效果","作者所在国家","作者名气","论文页数"],"answer":"方法的新颖性与实证效果","explanation":"KDD 强调新颖贡献与充分的实验验证。"},
+      {"id":"M08","question":"'冷启动问题' 是推荐系统中常见挑战，它指的是？","options":["新用户或新物品没有历史数据可用","服务器在冬天启动慢","模型第一次运行很慢","GPU 需要预热"],"answer":"新用户或新物品没有历史数据可用","explanation":"冷启动是推荐系统里的经典难题：没有历史交互就难以做出个性化推荐。"}
+    ],
+    "hard": [
+      {"id":"H01","question":"KDD Cup 的历届冠军队伍通常在什么阶段决出？","options":["现场发布最终排行榜","会前一年","随机抽取","线上投票"],"answer":"现场发布最终排行榜","explanation":"KDD Cup 通常在会议现场揭晓最终排名与获奖队伍。"},
+      {"id":"H02","question":"'AUC' 在分类模型评估中衡量的是什么？","options":["ROC 曲线下的面积","准确率","平均计算时间","样本数量"],"answer":"ROC 曲线下的面积","explanation":"AUC = Area Under the (ROC) Curve，衡量二分类模型排序能力。"},
+      {"id":"H03","question":"'Graph Neural Network (GNN)' 主要处理什么样的数据？","options":["图结构数据（节点与边）","二维图像","一维时间序列","纯文本"],"answer":"图结构数据（节点与边）","explanation":"GNN 是近年来 KDD 上极其热门的方向，专门处理图结构数据。"},
+      {"id":"H04","question":"以下哪种技术属于 '联邦学习 (Federated Learning)'？","options":["多方在不共享原始数据的前提下联合训练模型","中心化的数据仓库查询","单机训练一个巨大模型","把模型部署到 CDN"],"answer":"多方在不共享原始数据的前提下联合训练模型","explanation":"联邦学习让数据留在本地，只交换模型更新——KDD 的热门隐私保护方向。"}
+    ]
+  }
+}

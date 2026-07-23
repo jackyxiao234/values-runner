@@ -1,0 +1,1462 @@
+{
+  "metadata": {
+    "title": "AI Knowledge Quiz (Kuaishou Context)",
+    "description": "Covering LLM usage, training, fine-tuning, inference optimization, AI tools, and other AI professional knowledge",
+    "language": "en-US",
+    "total_questions": 120,
+    "difficulty_distribution": {
+      "easy": 40,
+      "medium": 40,
+      "hard": 40
+    },
+    "created_at": "2026-07-06"
+  },
+  "questions": {
+    "easy": [
+      {
+        "id": "E01",
+        "question": "What is a Large Language Model (LLM)?",
+        "options": [
+          "A type of database",
+          "A large-scale NLP model based on deep learning",
+          "A programming language",
+          "An operating system"
+        ],
+        "answer": "A large-scale NLP model based on deep learning",
+        "explanation": "LLM (Large Language Model) is a large-scale natural language processing model based on deep learning that can understand and generate human language."
+      },
+      {
+        "id": "E02",
+        "question": "What does Prompt Engineering refer to?",
+        "options": [
+          "Writing code",
+          "Designing and optimizing input prompts to get better AI outputs",
+          "Training models",
+          "Deploying models"
+        ],
+        "answer": "Designing and optimizing input prompts to get better AI outputs",
+        "explanation": "Prompt Engineering is the practice of designing and optimizing input prompts to guide large models in generating more accurate and useful responses."
+      },
+      {
+        "id": "E03",
+        "question": "What is Few-shot Learning?",
+        "options": [
+          "Training a model with very few samples",
+          "Providing a few examples in the prompt so the model learns the task pattern",
+          "Not using any examples",
+          "Training with large amounts of data"
+        ],
+        "answer": "Providing a few examples in the prompt so the model learns the task pattern",
+        "explanation": "Few-shot Learning involves providing a few examples in the prompt so the large model understands the task pattern and generates corresponding responses."
+      },
+      {
+        "id": "E04",
+        "question": "What is Zero-shot Learning?",
+        "options": [
+          "Not using any training data",
+          "Completing a task directly from instructions without any examples",
+          "Using zero parameters",
+          "Turning off the model's learning capability"
+        ],
+        "answer": "Completing a task directly from instructions without any examples",
+        "explanation": "Zero-shot Learning means having the large model complete a task directly through instructions without providing any examples."
+      },
+      {
+        "id": "E05",
+        "question": "What does 'hallucination' in large models refer to?",
+        "options": [
+          "The model experiencing visual hallucinations",
+          "The model generating content that appears plausible but is actually incorrect or fabricated",
+          "The model running too fast",
+          "The model suddenly stopping"
+        ],
+        "answer": "The model generating content that appears plausible but is actually incorrect or fabricated",
+        "explanation": "Large model hallucination refers to the model generating content that appears reasonable and fluent on the surface but is actually incorrect or fabricated."
+      },
+      {
+        "id": "E06",
+        "question": "What is a Token?",
+        "options": [
+          "A cryptocurrency",
+          "The smallest unit of text that a large model processes",
+          "A programming language keyword",
+          "A file format"
+        ],
+        "answer": "The smallest unit of text that a large model processes",
+        "explanation": "A Token is the smallest unit of text that a large model processes. A token can be a word, a character, or a subword."
+      },
+      {
+        "id": "E07",
+        "question": "What is RAG (Retrieval-Augmented Generation)?",
+        "options": [
+          "A database technology",
+          "A method that enhances large model generation quality by retrieving external knowledge bases",
+          "A compression algorithm",
+          "An encryption technology"
+        ],
+        "answer": "A method that enhances large model generation quality by retrieving external knowledge bases",
+        "explanation": "RAG (Retrieval-Augmented Generation) retrieves relevant information from external knowledge bases to enhance the accuracy and timeliness of large model-generated answers."
+      },
+      {
+        "id": "E08",
+        "question": "What technology does AI XiaoKuai use to obtain time-sensitive information and community culture knowledge?",
+        "options": [
+          "Manual input",
+          "RAG retrieval augmentation",
+          "Periodically updating the model",
+          "Manual review"
+        ],
+        "answer": "RAG retrieval augmentation",
+        "explanation": "AI XiaoKuai gains the ability to understand time-sensitive information, common knowledge, community culture, and trending memes through RAG (retrieval augmentation)."
+      },
+      {
+        "id": "E09",
+        "question": "What is AIGC?",
+        "options": [
+          "AI General Computing",
+          "AI-Generated Content",
+          "Automated Information Collection",
+          "Advanced Image Compression"
+        ],
+        "answer": "AI-Generated Content",
+        "explanation": "AIGC stands for AI-Generated Content, which refers to the use of AI technology to automatically generate text, images, video, audio, and other content."
+      },
+      {
+        "id": "E10",
+        "question": "Which type of AIGC product does Kuaishou's KeLing AI belong to?",
+        "options": [
+          "Text generation",
+          "Video generation",
+          "Audio generation",
+          "Code generation"
+        ],
+        "answer": "Video generation",
+        "explanation": "KeLing AI is Kuaishou's video generation large model, belonging to the video generation category of AIGC."
+      },
+      {
+        "id": "E11",
+        "question": "What is Fine-tuning?",
+        "options": [
+          "Making the model smaller",
+          "Further training a pre-trained model on specific data to adapt it to a particular task",
+          "Deleting model parameters",
+          "Modifying the model interface"
+        ],
+        "answer": "Further training a pre-trained model on specific data to adapt it to a particular task",
+        "explanation": "Fine-tuning involves further training a pre-trained model on data from a specific domain or task, enabling it to better adapt to specific scenarios."
+      },
+      {
+        "id": "E12",
+        "question": "What is Pre-training?",
+        "options": [
+          "Preparation before training",
+          "Training a model on a large-scale dataset to acquire general language capabilities",
+          "Training on a specific task",
+          "Testing before model deployment"
+        ],
+        "answer": "Training a model on a large-scale dataset to acquire general language capabilities",
+        "explanation": "Pre-training involves training a model on a large, diverse dataset so it acquires general language understanding and generation capabilities."
+      },
+      {
+        "id": "E13",
+        "question": "What is the core technical architecture used by Kuaishou's KwaiYii large model?",
+        "options": [
+          "CNN",
+          "RNN",
+          "Transformer decoder-only",
+          "LSTM"
+        ],
+        "answer": "Transformer decoder-only",
+        "explanation": "The KwaiYii large model uses a Transformer decoder-only technical architecture."
+      },
+      {
+        "id": "E14",
+        "question": "What is an API?",
+        "options": [
+          "A programming language",
+          "Application Programming Interface, which allows different software to communicate",
+          "A database",
+          "An encryption protocol"
+        ],
+        "answer": "Application Programming Interface, which allows different software to communicate",
+        "explanation": "API (Application Programming Interface) is an interface that allows different software systems to communicate and exchange data."
+      },
+      {
+        "id": "E15",
+        "question": "What type of customers does KeLing AI's API service target?",
+        "options": [
+          "Only individual consumers",
+          "Only enterprise clients",
+          "Enterprise clients and developers",
+          "Only internal employees"
+        ],
+        "answer": "Enterprise clients and developers",
+        "explanation": "KeLing AI provides API access for enterprise clients and developers, and has established partnerships with thousands of enterprise clients."
+      },
+      {
+        "id": "E16",
+        "question": "What is a multimodal large model?",
+        "options": [
+          "A model that can only process text",
+          "A model that can simultaneously process and understand multiple types of data (such as text, images, video, etc.)",
+          "A model that can only process images",
+          "A model running on multiple servers"
+        ],
+        "answer": "A model that can simultaneously process and understand multiple types of data (such as text, images, video, etc.)",
+        "explanation": "Multimodal large models can simultaneously process text, images, video, audio, and other types of data, performing cross-modal understanding and generation."
+      },
+      {
+        "id": "E17",
+        "question": "Which type of model does Kuaishou's KeTu large model belong to?",
+        "options": [
+          "Text generation model",
+          "Image generation model",
+          "Video generation model",
+          "Speech synthesis model"
+        ],
+        "answer": "Image generation model",
+        "explanation": "KeTu is Kuaishou's image generation large model (text-to-image model)."
+      },
+      {
+        "id": "E18",
+        "question": "What is an open-source model?",
+        "options": [
+          "A free model",
+          "A model whose source code and weights are publicly available, allowing the community to use and modify it",
+          "The best-performing model",
+          "A model that can only run on open-source systems"
+        ],
+        "answer": "A model whose source code and weights are publicly available, allowing the community to use and modify it",
+        "explanation": "Open-source models publicly release the source code and weight parameters, allowing the community and developers to freely use, modify, and distribute them under the terms of the license."
+      },
+      {
+        "id": "E19",
+        "question": "Which of Kuaishou's large models has been officially open-sourced?",
+        "options": [
+          "KwaiYii",
+          "KeLing",
+          "KeTu",
+          "Kwaipilot"
+        ],
+        "answer": "KeTu",
+        "explanation": "The KeTu large model was officially announced as open-source at WAIC in July 2024."
+      },
+      {
+        "id": "E20",
+        "question": "What is an Agent (AI agent)?",
+        "options": [
+          "A programming language",
+          "An AI system that can autonomously perceive its environment, make decisions, and execute actions",
+          "A database",
+          "A network protocol"
+        ],
+        "answer": "An AI system that can autonomously perceive its environment, make decisions, and execute actions",
+        "explanation": "An AI Agent is an AI system capable of autonomously perceiving its environment, understanding tasks, planning actions, and executing them, typically integrating large models with tool-calling capabilities."
+      },
+      {
+        "id": "E21",
+        "question": "What is Function Calling, one of AI XiaoKuai's core features?",
+        "options": [
+          "Making phone calls",
+          "Enabling the large model to call external tools and functions to complete specific tasks",
+          "Writing code",
+          "Executing system commands"
+        ],
+        "answer": "Enabling the large model to call external tools and functions to complete specific tasks",
+        "explanation": "Function Calling allows the large model to automatically select and call predefined external tools and functions based on user needs."
+      },
+      {
+        "id": "E22",
+        "question": "What is SFT (Supervised Fine-Tuning)?",
+        "options": [
+          "Self-training",
+          "Fine-tuning a model using labeled instruction data so it learns to follow instructions",
+          "Unsupervised training",
+          "Semi-supervised training"
+        ],
+        "answer": "Fine-tuning a model using labeled instruction data so it learns to follow instructions",
+        "explanation": "SFT (Supervised Fine-Tuning) involves fine-tuning a model using human-annotated instruction-response data so the model learns to follow human instructions."
+      },
+      {
+        "id": "E23",
+        "question": "What does model inference refer to?",
+        "options": [
+          "The process of training a model",
+          "The process of using a trained model to make predictions and generate output from input data",
+          "Optimizing model parameters",
+          "Collecting training data"
+        ],
+        "answer": "The process of using a trained model to make predictions and generate output from input data",
+        "explanation": "Inference is the process of using a trained model to process new inputs and generate outputs — the actual usage phase after model deployment."
+      },
+      {
+        "id": "E24",
+        "question": "What is a Context Window?",
+        "options": [
+          "A software interface window",
+          "The maximum number of Tokens a large model can process at one time",
+          "A display technology",
+          "OS window management"
+        ],
+        "answer": "The maximum number of Tokens a large model can process at one time",
+        "explanation": "The Context Window is the maximum number of Tokens a large model can handle in a single inference, determining the text length the model can understand."
+      },
+      {
+        "id": "E25",
+        "question": "What benchmark is primarily used for evaluating KwaiYii's English capabilities?",
+        "options": [
+          "C-Eval",
+          "MMLU",
+          "CMMLU",
+          "GSM8K"
+        ],
+        "answer": "MMLU",
+        "explanation": "MMLU is the authoritative benchmark for evaluating comprehensive English capabilities."
+      },
+      {
+        "id": "E26",
+        "question": "What benchmarks are primarily used for evaluating KwaiYii's comprehensive Chinese capabilities?",
+        "options": [
+          "MMLU",
+          "HumanEval",
+          "C-Eval and CMMLU",
+          "GSM8K"
+        ],
+        "answer": "C-Eval and CMMLU",
+        "explanation": "C-Eval and CMMLU are authoritative benchmarks for evaluating comprehensive Chinese capabilities."
+      },
+      {
+        "id": "E27",
+        "question": "What is Embedding?",
+        "options": [
+          "Embedding watermarks",
+          "Converting text and other data into dense vector representations",
+          "File compression",
+          "Data encryption"
+        ],
+        "answer": "Converting text and other data into dense vector representations",
+        "explanation": "Embedding converts unstructured data like text into low-dimensional dense vector representations, enabling computers to understand and compute semantic similarity."
+      },
+      {
+        "id": "E28",
+        "question": "What problem does Kuaishou's π Digital Employee primarily solve?",
+        "options": [
+          "Cleaning",
+          "AI-driven intelligent customer service and marketing automation",
+          "HR recruitment",
+          "Financial auditing"
+        ],
+        "answer": "AI-driven intelligent customer service and marketing automation",
+        "explanation": "π Digital Employee is Kuaishou's commercial AI tool for intelligent customer service and marketing automation."
+      },
+      {
+        "id": "E29",
+        "question": "What is Text-to-Video?",
+        "options": [
+          "Converting video to text",
+          "Automatically generating video from text descriptions",
+          "Editing existing video",
+          "Video compression"
+        ],
+        "answer": "Automatically generating video from text descriptions",
+        "explanation": "Text-to-Video involves inputting text descriptions and having an AI model automatically generate corresponding video content."
+      },
+      {
+        "id": "E30",
+        "question": "What is Image-to-Video?",
+        "options": [
+          "Extracting images from video",
+          "Generating video based on an input image",
+          "Converting images to PDF",
+          "A video player"
+        ],
+        "answer": "Generating video based on an input image",
+        "explanation": "Image-to-Video uses an image as a starting point for an AI model to automatically generate dynamic video content."
+      },
+      {
+        "id": "E31",
+        "question": "What is currently the most commonly used creation method for KeLing AI?",
+        "options": [
+          "Text-to-Video",
+          "Image-to-Video",
+          "Video continuation",
+          "Video editing"
+        ],
+        "answer": "Image-to-Video",
+        "explanation": "Currently, Image-to-Video accounts for about 85% of KeLing AI video creation."
+      },
+      {
+        "id": "E32",
+        "question": "What is model Quantization?",
+        "options": [
+          "Scoring a model",
+          "Reducing model parameter precision to decrease model size and inference cost",
+          "Increasing model parameters",
+          "Mathematical operations"
+        ],
+        "answer": "Reducing model parameter precision to decrease model size and inference cost",
+        "explanation": "Model quantization converts model parameters from high precision (e.g., FP16) to low precision (e.g., INT8/INT4), reducing model size and inference overhead."
+      },
+      {
+        "id": "E33",
+        "question": "What level is Kuaishou's KwaiYii model inference cost controlled at compared to open-source solutions?",
+        "options": [
+          "Same",
+          "1/2",
+          "1/5",
+          "1/10"
+        ],
+        "answer": "1/10",
+        "explanation": "The KwaiYii model controls inference cost to one-tenth of open-source solutions through hardware optimization and hybrid parallel algorithms."
+      },
+      {
+        "id": "E34",
+        "question": "What is a Digital Human?",
+        "options": [
+          "A virtual idol",
+          "An AI-driven virtual human figure that can conduct live streaming, customer service, and other interactions",
+          "A 3D-printed person",
+          "A robot"
+        ],
+        "answer": "An AI-driven virtual human figure that can conduct live streaming, customer service, and other interactions",
+        "explanation": "A Digital Human is an AI-driven virtual human figure that combines large models and rendering technology to perform live streaming, customer service, and other human-like interactions."
+      },
+      {
+        "id": "E35",
+        "question": "What can Kuaishou's Nüwa Digital Human achieve?",
+        "options": [
+          "Only making PPTs",
+          "Full-process AIGC services including script creative generation, rendering generation, and real-time interaction",
+          "Only voice customer service",
+          "Only live streaming"
+        ],
+        "answer": "Full-process AIGC services including script creative generation, rendering generation, and real-time interaction",
+        "explanation": "The Nüwa Digital Human live streaming platform provides full-process AIGC services including script creative generation, rendering generation, and real-time interaction."
+      },
+      {
+        "id": "E36",
+        "question": "What is RLHF?",
+        "options": [
+          "A programming language",
+          "Reinforcement Learning from Human Feedback, used to make model outputs more aligned with human expectations",
+          "A database",
+          "An image format"
+        ],
+        "answer": "Reinforcement Learning from Human Feedback, used to make model outputs more aligned with human expectations",
+        "explanation": "RLHF (Reinforcement Learning from Human Feedback) trains a reward model using human feedback, then uses reinforcement learning to optimize the large model's behavior."
+      },
+      {
+        "id": "E37",
+        "question": "What is the core function of Kwaipilot?",
+        "options": [
+          "Video editing",
+          "An intelligent coding assistant with AI support throughout the entire R&D lifecycle",
+          "Image generation",
+          "Data analysis"
+        ],
+        "answer": "An intelligent coding assistant with AI support throughout the entire R&D lifecycle",
+        "explanation": "Kwaipilot integrates large model capabilities throughout the entire R&D lifecycle, providing an intelligent coding assistant, intelligent Q&A engine, and agent development platform."
+      },
+      {
+        "id": "E38",
+        "question": "What is LoRA (Low-Rank Adaptation)?",
+        "options": [
+          "A network protocol",
+          "A parameter-efficient fine-tuning method that reduces training parameters through low-rank matrix adaptation",
+          "An image format",
+          "An encryption algorithm"
+        ],
+        "answer": "A parameter-efficient fine-tuning method that reduces training parameters through low-rank matrix adaptation",
+        "explanation": "LoRA is a PEFT (Parameter-Efficient Fine-Tuning) method that adds low-rank matrices alongside model weight matrices, dramatically reducing the number of training parameters."
+      },
+      {
+        "id": "E39",
+        "question": "What resolution and frame rate does Kuaishou's KeLing AI support for video generation?",
+        "options": [
+          "720P 24fps",
+          "1080P 30fps",
+          "4K 60fps",
+          "8K 120fps"
+        ],
+        "answer": "1080P 30fps",
+        "explanation": "KeLing supports generating videos up to 2 minutes long at 30fps with resolution up to 1080p."
+      },
+      {
+        "id": "E40",
+        "question": "What is Magnetic Pioneer?",
+        "options": [
+          "Kuaishou's physics lab",
+          "Kuaishou's AI-powered commercial intelligent business tool",
+          "Kuaishou's gym",
+          "Kuaishou's cafeteria system"
+        ],
+        "answer": "Kuaishou's AI-powered commercial intelligent business tool",
+        "explanation": "Magnetic Pioneer is Kuaishou's commercial AI intelligent business tool that helps merchants achieve intelligent operations."
+      }
+    ],
+    "medium": [
+      {
+        "id": "M01",
+        "question": "What is the core advantage of Kuaishou's KwaiYii model over open-source models?",
+        "options": [
+          "More parameters",
+          "Training data scale",
+          "Inference cost controlled to 1/10 of open-source solutions through hardware optimization and hybrid parallel algorithms",
+          "More application scenarios"
+        ],
+        "answer": "Inference cost controlled to 1/10 of open-source solutions through hardware optimization and hybrid parallel algorithms",
+        "explanation": "The KwaiYii model achieves inference costs at 1/10 of open-source solutions through hardware optimization and hybrid parallel algorithms."
+      },
+      {
+        "id": "M02",
+        "question": "What is the core challenge of large model inference on GPU?",
+        "options": [
+          "Insufficient CPU memory",
+          "Compute-to-bandwidth ratio imbalance: Prefill phase is compute-bound while Decode phase is memory-bandwidth-bound",
+          "Network latency",
+          "Disk I/O bottleneck"
+        ],
+        "answer": "Compute-to-bandwidth ratio imbalance: Prefill phase is compute-bound while Decode phase is memory-bandwidth-bound",
+        "explanation": "In large model inference, the Prefill phase is compute-intensive while the Decode phase is memory-bandwidth-bound, creating different optimization requirements."
+      },
+      {
+        "id": "M03",
+        "question": "What is the role of KV Cache in large model inference?",
+        "options": [
+          "Storing training data",
+          "Caching the Key and Value vectors of previous tokens to avoid recomputation during autoregressive decoding",
+          "Storing user input",
+          "Compressing model parameters"
+        ],
+        "answer": "Caching the Key and Value vectors of previous tokens to avoid recomputation during autoregressive decoding",
+        "explanation": "KV Cache stores the Key and Value vectors from previous tokens so they don't need to be recomputed during each decoding step, significantly improving inference efficiency."
+      },
+      {
+        "id": "M04",
+        "question": "What is All-Gather communication in distributed training?",
+        "options": [
+          "Gathering data from all nodes to one node",
+          "Each node collecting complete data from all nodes",
+          "Aggregating gradients",
+          "Broadcasting parameters"
+        ],
+        "answer": "Each node collecting complete data from all nodes",
+        "explanation": "All-Gather is a collective communication operation where each node collects data from all other nodes, resulting in each node having a complete copy of the data."
+      },
+      {
+        "id": "M05",
+        "question": "What is Continuous Batching in large model inference?",
+        "options": [
+          "Sending requests in batches at fixed intervals",
+          "Dynamically scheduling new requests at the token level, eliminating idle time between sequences",
+          "Compressing requests into one batch",
+          "Caching batch results"
+        ],
+        "answer": "Dynamically scheduling new requests at the token level, eliminating idle time between sequences",
+        "explanation": "Continuous Batching dynamically inserts new sequences at the token level as previous sequences complete, improving GPU utilization compared to static batching."
+      },
+      {
+        "id": "M06",
+        "question": "What is the principle of Speculative Decoding?",
+        "options": [
+          "Using multiple models to vote",
+          "Using a small draft model to quickly generate candidate tokens, then verifying them with the target model",
+          "Generating multiple answers simultaneously",
+          "Parallel processing of inputs"
+        ],
+        "answer": "Using a small draft model to quickly generate candidate tokens, then verifying them with the target model",
+        "explanation": "Speculative Decoding uses a lightweight draft model to generate candidate tokens, which are then verified in parallel by the target model, achieving near-target-model quality at faster speeds."
+      },
+      {
+        "id": "M07",
+        "question": "What is the advantage of Kuaishou's parallel decoding prediction strategy over traditional autoregressive decoding?",
+        "options": [
+          "Higher accuracy",
+          "Generating multiple candidate tokens in a single forward pass for parallel verification",
+          "Lower memory usage",
+          "Simpler implementation"
+        ],
+        "answer": "Generating multiple candidate tokens in a single forward pass for parallel verification",
+        "explanation": "The parallel decoding prediction strategy generates multiple candidate tokens in one forward pass, then verifies them in parallel, significantly improving decoding speed compared to sequential autoregressive decoding."
+      },
+      {
+        "id": "M08",
+        "question": "What is ZeRO optimization technology?",
+        "options": [
+          "Zero resource optimization",
+          "Eliminating redundant memory overhead in data parallelism by partitioning optimizer states, gradients, and parameters",
+          "Turning off optimization",
+          "Resetting optimizer states"
+        ],
+        "answer": "Eliminating redundant memory overhead in data parallelism by partitioning optimizer states, gradients, and parameters",
+        "explanation": "ZeRO (Zero Redundancy Optimizer) partitions optimizer states, gradients, and parameters across devices to eliminate redundant memory overhead in data parallelism."
+      },
+      {
+        "id": "M09",
+        "question": "What is the core optimization of Flash Attention?",
+        "options": [
+          "Using GPU shared memory and L2 cache to avoid materializing the full attention matrix, reducing memory access",
+          "Increasing attention matrix size",
+          "Using CPU for computation",
+          "Reducing the number of attention heads"
+        ],
+        "answer": "Using GPU shared memory and L2 cache to avoid materializing the full attention matrix, reducing memory access",
+        "explanation": "Flash Attention uses GPU shared memory and L2 cache for block-wise computation, avoiding materialization of the full attention matrix, significantly reducing memory usage and improving speed."
+      },
+      {
+        "id": "M10",
+        "question": "How does MoE architecture improve inference efficiency?",
+        "options": [
+          "Using all experts simultaneously",
+          "Only activating relevant experts via a gating network, reducing actual computation while maintaining model capacity",
+          "Reducing model size",
+          "Removing unused parameters"
+        ],
+        "answer": "Only activating relevant experts via a gating network, reducing actual computation while maintaining model capacity",
+        "explanation": "MoE (Mixture of Experts) uses a gating network to selectively activate only relevant experts for each input, reducing actual FLOPs while maintaining the model's total capacity."
+      },
+      {
+        "id": "M11",
+        "question": "What problem does Sequence Parallelism solve in long-text training?",
+        "options": [
+          "Gradient explosion",
+          "Excessive memory consumption from activation values of long sequences that exceeds single-GPU capacity",
+          "Data loading bottleneck",
+          "Communication overhead"
+        ],
+        "answer": "Excessive memory consumption from activation values of long sequences that exceeds single-GPU capacity",
+        "explanation": "Sequence Parallelism distributes the activation values of long sequences across multiple GPUs, solving the problem of single-GPU memory being insufficient for long sequences."
+      },
+      {
+        "id": "M12",
+        "question": "What is the principle of Mixed Precision Training?",
+        "options": [
+          "Using only FP16",
+          "Simultaneously using FP16 for computation and FP32 for parameter updates to balance speed and precision",
+          "Using only INT8",
+          "Mixing different optimizers"
+        ],
+        "answer": "Simultaneously using FP16 for computation and FP32 for parameter updates to balance speed and precision",
+        "explanation": "Mixed Precision Training uses FP16 for forward/backward computation and FP32 for parameter updates, accelerating training while maintaining numerical stability."
+      },
+      {
+        "id": "M13",
+        "question": "On an A100 GPU, what is the approximate compute intensity threshold (FLOPs/byte)?",
+        "options": [
+          "50",
+          "142",
+          "300",
+          "1000"
+        ],
+        "answer": "142",
+        "explanation": "On an A100 GPU (312 TFLOPS FP16, 2TB/s bandwidth), the compute intensity threshold is approximately 312e12/2e12, commonly cited as ~142 FLOPs/byte for practical purposes."
+      },
+      {
+        "id": "M14",
+        "question": "What is the main efficiency improvement of Kuaishou's Scaffold-BPE algorithm for pre-training?",
+        "options": [
+          "Increasing vocabulary size",
+          "Improving subword segmentation strategy for better vocabulary construction, enhancing Token efficiency",
+          "Reducing model size",
+          "Accelerating inference"
+        ],
+        "answer": "Improving subword segmentation strategy for better vocabulary construction, enhancing Token efficiency",
+        "explanation": "Scaffold-BPE improves on standard BPE by optimizing the subword segmentation strategy, enabling more efficient vocabulary construction and higher Token efficiency during pre-training."
+      },
+      {
+        "id": "M15",
+        "question": "What is the role of Rejection Sampling in KwaiYii model training?",
+        "options": [
+          "Data augmentation",
+          "Sampling high-quality outputs from the model to construct SFT training data, iteratively improving model quality",
+          "Deleting bad data",
+          "Reducing training time"
+        ],
+        "answer": "Sampling high-quality outputs from the model to construct SFT training data, iteratively improving model quality",
+        "explanation": "Rejection Sampling generates multiple outputs from the model, selects the best ones as training data, and iteratively improves model quality through this self-improvement loop."
+      },
+      {
+        "id": "M16",
+        "question": "What is the purpose of multi-sample Packing in KwaiYii model training?",
+        "options": [
+          "Compressing training data",
+          "Reducing padding waste by packing multiple samples into one sequence to improve training efficiency",
+          "Reducing model parameters",
+          "Accelerating inference"
+        ],
+        "answer": "Reducing padding waste by packing multiple samples into one sequence to improve training efficiency",
+        "explanation": "Multi-sample Packing reduces padding waste by packing multiple short samples into a single training sequence, significantly improving GPU utilization during training."
+      },
+      {
+        "id": "M17",
+        "question": "What is the significance of Kwaipilot's MoE architecture in code large model training?",
+        "options": [
+          "Reducing parameter count",
+          "Achieving efficient training and inference by activating only relevant experts for each code pattern, maintaining model capacity while reducing computation",
+          "Faster compilation",
+          "Better debugging"
+        ],
+        "answer": "Achieving efficient training and inference by activating only relevant experts for each code pattern, maintaining model capacity while reducing computation",
+        "explanation": "Kwaipilot's MoE architecture activates only relevant experts for different code patterns, maintaining model capacity while significantly reducing actual computation during both training and inference."
+      },
+      {
+        "id": "M18",
+        "question": "What problem does Gradient Accumulation solve?",
+        "options": [
+          "Memory overflow",
+          "Simulating large batch sizes by accumulating gradients over multiple mini-batches before updating weights",
+          "Vanishing gradients",
+          "Learning rate scheduling"
+        ],
+        "answer": "Simulating large batch sizes by accumulating gradients over multiple mini-batches before updating weights",
+        "explanation": "Gradient Accumulation accumulates gradients from multiple mini-batches before performing a single weight update, effectively simulating training with larger batch sizes without additional memory."
+      },
+      {
+        "id": "M19",
+        "question": "What is the curriculum learning-based data organization approach used in KwaiYii model training?",
+        "options": [
+          "Random data ordering",
+          "Organizing training data from simple to complex to improve training stability and efficiency",
+          "Reverse ordering",
+          "Size-based ordering"
+        ],
+        "answer": "Organizing training data from simple to complex to improve training stability and efficiency",
+        "explanation": "Curriculum learning organizes training data from simple to complex, similar to how humans learn, which improves training stability and the model's final performance."
+      },
+      {
+        "id": "M20",
+        "question": "What does the P99 latency metric represent in large model inference services?",
+        "options": [
+          "Average latency",
+          "The latency value that 99% of requests fall below",
+          "Maximum latency",
+          "Median latency"
+        ],
+        "answer": "The latency value that 99% of requests fall below",
+        "explanation": "P99 latency means 99% of requests have a latency below this value, making it a key metric for measuring the tail latency of inference services."
+      },
+      {
+        "id": "M21",
+        "question": "What technical approaches does Kuaishou use to reduce KwaiYii model inference cost to 1/10 of open-source solutions?",
+        "options": [
+          "Only model quantization",
+          "Hardware optimization + hybrid parallel algorithms + inference acceleration techniques",
+          "Reducing model size only",
+          "Using cheaper GPUs"
+        ],
+        "answer": "Hardware optimization + hybrid parallel algorithms + inference acceleration techniques",
+        "explanation": "Kuaishou combines hardware optimization, hybrid parallel algorithms, and various inference acceleration techniques to achieve inference cost at 1/10 of open-source solutions."
+      },
+      {
+        "id": "M22",
+        "question": "What is the role of Service Discovery in microservice architecture?",
+        "options": [
+          "Monitoring services",
+          "Dynamically registering and discovering service instances to support automatic scaling and load balancing",
+          "Logging",
+          "Deploying services"
+        ],
+        "answer": "Dynamically registering and discovering service instances to support automatic scaling and load balancing",
+        "explanation": "Service Discovery enables service instances to dynamically register and discover each other, supporting automatic scaling, load balancing, and fault tolerance."
+      },
+      {
+        "id": "M23",
+        "question": "What is Prometheus primarily used for?",
+        "options": [
+          "Log management",
+          "Time-series monitoring and alerting",
+          "Distributed tracing",
+          "Service discovery"
+        ],
+        "answer": "Time-series monitoring and alerting",
+        "explanation": "Prometheus is a time-series monitoring system primarily used for metrics collection, storage, querying, and alerting."
+      },
+      {
+        "id": "M24",
+        "question": "What is Grafana primarily used for?",
+        "options": [
+          "Data storage",
+          "Visualization and dashboarding for monitoring data",
+          "Code editing",
+          "Log analysis"
+        ],
+        "answer": "Visualization and dashboarding for monitoring data",
+        "explanation": "Grafana is a visualization and dashboard platform commonly paired with Prometheus for displaying monitoring data and building dashboards."
+      },
+      {
+        "id": "M25",
+        "question": "What is Chaos Engineering?",
+        "options": [
+          "Breaking systems deliberately",
+          "Deliberately injecting faults into systems to verify their resilience and improve reliability",
+          "Random testing",
+          "Security auditing"
+        ],
+        "answer": "Deliberately injecting faults into systems to verify their resilience and improve reliability",
+        "explanation": "Chaos Engineering is the practice of deliberately injecting failures into systems to discover weaknesses, verify resilience, and improve system reliability."
+      },
+      {
+        "id": "M26",
+        "question": "What is the core improvement of the DiT architecture used by KeLing AI over traditional U-Net?",
+        "options": [
+          "Faster training",
+          "Replacing U-Net convolutional structure with Transformer architecture, achieving better scalability and generation quality",
+          "Smaller model size",
+          "Simpler architecture"
+        ],
+        "answer": "Replacing U-Net convolutional structure with Transformer architecture, achieving better scalability and generation quality",
+        "explanation": "DiT (Diffusion Transformer) replaces the traditional U-Net backbone with a Transformer architecture for diffusion models, offering better scalability and generation quality."
+      },
+      {
+        "id": "M27",
+        "question": "What advantage does the Flow model used as the diffusion base in KeLing AI have over DDPM?",
+        "options": [
+          "Simpler architecture",
+          "More efficient sampling with fewer denoising steps while maintaining generation quality",
+          "Better compression",
+          "More parameters"
+        ],
+        "answer": "More efficient sampling with fewer denoising steps while maintaining generation quality",
+        "explanation": "The Flow model (Rectified Flow) achieves more efficient sampling than DDPM, requiring fewer denoising steps to reach comparable generation quality."
+      },
+      {
+        "id": "M28",
+        "question": "What improvement does Iterative DPO/PPO offer over standard single-round alignment training?",
+        "options": [
+          "Faster training",
+          "Iteratively updating the reference model and generating new preference data each round, continuously improving alignment quality",
+          "Lower memory usage",
+          "Fewer parameters"
+        ],
+        "answer": "Iteratively updating the reference model and generating new preference data each round, continuously improving alignment quality",
+        "explanation": "Iterative DPO/PPO iteratively updates the reference model and regenerates preference data in each round, addressing the issue of the reference model becoming stale in standard single-round approaches."
+      },
+      {
+        "id": "M29",
+        "question": "How does model Quantization reduce inference cost?",
+        "options": [
+          "By increasing precision",
+          "Converting model parameters from high precision (FP16/FP32) to low precision (INT8/INT4), reducing memory usage and computation",
+          "By adding more parameters",
+          "By training longer"
+        ],
+        "answer": "Converting model parameters from high precision (FP16/FP32) to low precision (INT8/INT4), reducing memory usage and computation",
+        "explanation": "Model quantization reduces inference cost by converting high-precision parameters to low-precision representations, which decreases memory usage and computational requirements."
+      },
+      {
+        "id": "M30",
+        "question": "In distributed systems, how many of the three CAP properties can a system simultaneously guarantee at most?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "None"
+        ],
+        "answer": "Two",
+        "explanation": "The CAP theorem states that a distributed system can guarantee at most two of the three properties: Consistency, Availability, and Partition tolerance."
+      },
+      {
+        "id": "M31",
+        "question": "How does the Temperature parameter affect large model output during inference?",
+        "options": [
+          "It controls training speed",
+          "Higher Temperature increases randomness and diversity; lower Temperature makes output more focused and deterministic",
+          "It adjusts the learning rate",
+          "It sets the batch size"
+        ],
+        "answer": "Higher Temperature increases randomness and diversity; lower Temperature makes output more focused and deterministic",
+        "explanation": "Temperature controls the probability distribution of the next token: higher values flatten the distribution (more random), lower values sharpen it (more deterministic)."
+      },
+      {
+        "id": "M32",
+        "question": "What is the working principle of Top-p (nucleus) sampling?",
+        "options": [
+          "Selecting the top-p probability tokens",
+          "Selecting tokens from the smallest set whose cumulative probability exceeds p, balancing diversity and quality",
+          "Always selecting the highest probability token",
+          "Random selection"
+        ],
+        "answer": "Selecting tokens from the smallest set whose cumulative probability exceeds p, balancing diversity and quality",
+        "explanation": "Top-p sampling selects from the smallest set of tokens whose cumulative probability exceeds threshold p, dynamically adjusting the candidate pool to balance diversity and quality."
+      },
+      {
+        "id": "M33",
+        "question": "What technology does Kuaishou's smart meal station use to record employee dietary data?",
+        "options": [
+          "Manual recording",
+          "RFID and AI recognition technology",
+          "Paper forms",
+          "Barcode scanning"
+        ],
+        "answer": "RFID and AI recognition technology",
+        "explanation": "The smart meal station uses RFID technology combined with AI recognition to automatically record and manage employee dietary data."
+      },
+      {
+        "id": "M34",
+        "question": "What network advantage does Kuaishou's self-built data center computing infrastructure have?",
+        "options": [
+          "Faster WiFi",
+          "Direct connection to public cloud",
+          "Ultra-high bandwidth interconnect network between data centers",
+          "Wireless networking"
+        ],
+        "answer": "Ultra-high bandwidth interconnect network between data centers",
+        "explanation": "Kuaishou's self-built computing infrastructure provides an ultra-high bandwidth interconnect network between data centers, supporting efficient distributed training."
+      },
+      {
+        "id": "M35",
+        "question": "What is the core capability of Kuaishou's self-developed video processing chip in live streaming?",
+        "options": [
+          "Video editing",
+          "4K60fps real-time encoding with AI super-resolution, enabling high-quality low-bitrate live streaming",
+          "Audio processing",
+          "Image generation"
+        ],
+        "answer": "4K60fps real-time encoding with AI super-resolution, enabling high-quality low-bitrate live streaming",
+        "explanation": "The self-developed video processing chip supports 4K60fps real-time encoding with AI super-resolution, enabling high-quality live streaming at significantly reduced bitrates."
+      },
+      {
+        "id": "M36",
+        "question": "What is the role of Terraform in infrastructure management?",
+        "options": [
+          "Code compilation",
+          "Infrastructure as Code (IaC) - defining and managing infrastructure through declarative configuration files",
+          "Container orchestration",
+          "Log management"
+        ],
+        "answer": "Infrastructure as Code (IaC) - defining and managing infrastructure through declarative configuration files",
+        "explanation": "Terraform is an IaC tool that defines and manages cloud infrastructure through declarative configuration files, supporting version control and automated deployment."
+      },
+      {
+        "id": "M37",
+        "question": "What is the core idea of Kuaishou's Finops methodology?",
+        "options": [
+          "Maximizing spending",
+          "Balancing cloud cost management with business goals through a systematic methodology to optimize resource allocation",
+          "Eliminating all cloud costs",
+          "Only using on-premises servers"
+        ],
+        "answer": "Balancing cloud cost management with business goals through a systematic methodology to optimize resource allocation",
+        "explanation": "Finops is a methodology that systematically balances cloud cost management with business goals, optimizing resource allocation while controlling costs."
+      },
+      {
+        "id": "M38",
+        "question": "What is the role of a Configuration Center?",
+        "options": [
+          "Code compilation",
+          "Centrally managing application configurations, supporting dynamic updates without redeployment",
+          "Database management",
+          "Network routing"
+        ],
+        "answer": "Centrally managing application configurations, supporting dynamic updates without redeployment",
+        "explanation": "A Configuration Center centrally manages application configurations, enabling dynamic updates without service restart and supporting environment-specific settings."
+      },
+      {
+        "id": "M39",
+        "question": "What is Distributed Tracing?",
+        "options": [
+          "Training distributed models",
+          "Tracking the complete call chain of a request across multiple services to locate performance bottlenecks",
+          "Log aggregation",
+          "Network monitoring"
+        ],
+        "answer": "Tracking the complete call chain of a request across multiple services to locate performance bottlenecks",
+        "explanation": "Distributed Tracing tracks the complete path of a request across multiple microservices, enabling identification of performance bottlenecks and error sources."
+      },
+      {
+        "id": "M40",
+        "question": "What is the core advantage of Kuaishou's KwaiYii model inference cost over open-source solutions?",
+        "options": [
+          "Same cost",
+          "1/2 cost",
+          "1/10 cost through hardware optimization and hybrid parallel algorithms",
+          "Free"
+        ],
+        "answer": "1/10 cost through hardware optimization and hybrid parallel algorithms",
+        "explanation": "The KwaiYii model reduces inference cost to 1/10 of open-source solutions through hardware optimization and hybrid parallel algorithms."
+      }
+    ],
+    "hard": [
+      {
+        "id": "H01",
+        "question": "What is the core improvement of Scaffold-BPE over standard BPE?",
+        "options": [
+          "Higher compression ratio",
+          "Introducing scaffold structure for hierarchical constraints in subword segmentation, improving pre-training efficiency",
+          "Supporting more languages",
+          "Faster encoding speed"
+        ],
+        "answer": "Introducing scaffold structure for hierarchical constraints in subword segmentation, improving pre-training efficiency",
+        "explanation": "Scaffold-BPE introduces scaffold-level constraints to optimize subword segmentation strategy, significantly improving pre-training efficiency."
+      },
+      {
+        "id": "H02",
+        "question": "What theoretical support does the Temporal Scaling Law provide for Kuaishou's large model training?",
+        "options": [
+          "Relationship between video duration and quality",
+          "An optimization theory for dynamically adjusting training hyperparameters as training progresses",
+          "Time series prediction",
+          "Real-time inference optimization"
+        ],
+        "answer": "An optimization theory for dynamically adjusting training hyperparameters as training progresses",
+        "explanation": "Temporal Scaling Law provides new theoretical support for hyperparameter optimization, guiding dynamic adjustment of hyperparameters during training."
+      },
+      {
+        "id": "H03",
+        "question": "Why is the decode phase (token-by-token generation) a memory bandwidth bottleneck rather than a compute bottleneck in large model inference?",
+        "options": [
+          "Because GPUs aren't fast enough",
+          "Because each step is a vector-matrix multiplication with extremely low compute intensity, far below the GPU's compute-to-bandwidth ratio threshold",
+          "Because the model is too large",
+          "Because of network latency"
+        ],
+        "answer": "Because each step is a vector-matrix multiplication with extremely low compute intensity, far below the GPU's compute-to-bandwidth ratio threshold",
+        "explanation": "During the decode phase, each step is a 1xN vector-matrix multiplication with compute intensity around 1 FLOPs/byte, far below the A100's 142 threshold, making bandwidth the bottleneck."
+      },
+      {
+        "id": "H04",
+        "question": "On an A100 GPU, what is the approximate compute intensity threshold (FLOPs/byte)?",
+        "options": [
+          "50",
+          "100",
+          "142",
+          "200"
+        ],
+        "answer": "142",
+        "explanation": "A100 FP16 compute: 312 TFLOPS / bandwidth: 2039 GB/s = approximately 142 FLOPs/byte. Above 142 is compute-bound; below is bandwidth-bound."
+      },
+      {
+        "id": "H05",
+        "question": "What key technologies are involved in refining PB-scale raw data into TB-scale training data for KwaiYii?",
+        "options": [
+          "Only deduplication",
+          "Data cleaning + Rejection Sampling + curriculum learning-based organization",
+          "Only filtering",
+          "Only manual review"
+        ],
+        "answer": "Data cleaning + Rejection Sampling + curriculum learning-based organization",
+        "explanation": "KwaiYii model's data processing pipeline: cleaning then Rejection Sampling for quality improvement then curriculum learning-based organization for stable training."
+      },
+      {
+        "id": "H06",
+        "question": "What is the main improvement of Iterative DPO over standard DPO?",
+        "options": [
+          "Faster speed",
+          "Multi-round iteration where each round uses the current policy model to generate new preference data for retraining the reward model and policy model",
+          "Requires less data",
+          "Doesn't need GPUs"
+        ],
+        "answer": "Multi-round iteration where each round uses the current policy model to generate new preference data for retraining the reward model and policy model",
+        "explanation": "Iterative DPO uses the current policy model to generate new data in each iteration, continuously optimizing the reward model and policy model, progressively improving alignment quality."
+      },
+      {
+        "id": "H07",
+        "question": "In SFT training, what is the correct loss computation approach for multi-turn dialogue?",
+        "options": [
+          "Computing loss on all tokens",
+          "Only computing loss on each assistant response token, setting user input and special markers to -100",
+          "Only computing loss on the last turn",
+          "Randomly selecting some tokens for loss computation"
+        ],
+        "answer": "Only computing loss on each assistant response token, setting user input and special markers to -100",
+        "explanation": "In SFT, labels design sets user input and special markers to -100 (no loss), only letting the model learn from its own response portions."
+      },
+      {
+        "id": "H08",
+        "question": "What is the core advantage of KeLing AI's DiT architecture over traditional U-Net diffusion models?",
+        "options": [
+          "Simpler structure",
+          "Replacing convolutional networks with Transformers for better modeling of long-range dependencies and global semantics",
+          "Fewer parameters",
+          "Faster inference speed"
+        ],
+        "answer": "Replacing convolutional networks with Transformers for better modeling of long-range dependencies and global semantics",
+        "explanation": "DiT replaces the traditional U-Net convolutional structure with a Transformer, using self-attention to better model global semantics and long-range dependencies."
+      },
+      {
+        "id": "H09",
+        "question": "What is the technical innovation of Kuaishou's LPM audio-visual processing large model?",
+        "options": [
+          "Using GANs",
+          "The industry's first use of large models for video enhancement tasks",
+          "Using traditional filtering",
+          "Based on CNN"
+        ],
+        "answer": "The industry's first use of large models for video enhancement tasks",
+        "explanation": "LPM was the first in the industry to use large models for video enhancement tasks, significantly improving video clarity and driving App usage time growth after launch."
+      },
+      {
+        "id": "H10",
+        "question": "What is the principle of Mixed Precision Training in large model training?",
+        "options": [
+          "Using multiple languages simultaneously",
+          "Using FP16/BF16 for some computations and FP32 for others, balancing speed and precision",
+          "Mixing multiple models",
+          "Alternating between different optimizers"
+        ],
+        "answer": "Using FP16/BF16 for some computations and FP32 for others, balancing speed and precision",
+        "explanation": "In mixed precision training, forward propagation and gradient computation use FP16/BF16 for acceleration, while weight updates and critical operations retain FP32 for precision."
+      },
+      {
+        "id": "H11",
+        "question": "How does Kwaipilot's 'code-as-annotation' data flywheel mechanism work?",
+        "options": [
+          "Annotators writing code",
+          "When developers code, data on accepting/rejecting suggestions automatically flows back as model training data",
+          "Code automatically annotating errors",
+          "Auto-generating code comments"
+        ],
+        "answer": "When developers code, data on accepting/rejecting suggestions automatically flows back as model training data",
+        "explanation": "The code-as-annotation mechanism automatically collects behavioral data when developers accept or reject AI suggestions during coding, serving as high-quality training data for subsequent model training."
+      },
+      {
+        "id": "H12",
+        "question": "What is the typical performance bottleneck during the Prompt phase (pre-fill) of large model inference?",
+        "options": [
+          "Memory bandwidth",
+          "Compute bottleneck, because the input portion involves matrix-matrix multiplications with high compute intensity",
+          "Network I/O",
+          "CPU"
+        ],
+        "answer": "Compute bottleneck, because the input portion involves matrix-matrix multiplications with high compute intensity",
+        "explanation": "During the Prompt phase, processing the input involves matrix-matrix multiplications with high compute intensity (e.g., 2730), making compute the bottleneck rather than bandwidth."
+      },
+      {
+        "id": "H13",
+        "question": "What is the source of training data for the reward model in RLHF?",
+        "options": [
+          "Automatically generated data",
+          "Preference data produced by human annotators ranking/scoring multiple model outputs",
+          "Training logs",
+          "User click data"
+        ],
+        "answer": "Preference data produced by human annotators ranking/scoring multiple model outputs",
+        "explanation": "Reward model training data comes from professional annotators who rank and score multiple model outputs, forming preference pair data."
+      },
+      {
+        "id": "H14",
+        "question": "What technical approaches reduce KwaiYii model inference cost to 1/10 of open-source solutions?",
+        "options": [
+          "Only using cheaper GPUs",
+          "Hardware optimization + hybrid parallel algorithms + efficient decoding strategies",
+          "Reducing model parameters",
+          "Lowering precision to INT4"
+        ],
+        "answer": "Hardware optimization + hybrid parallel algorithms + efficient decoding strategies",
+        "explanation": "KwaiYii achieves 1/10 inference cost through hardware optimization and hybrid parallel algorithms improving GPU utilization, plus parallel decoding prediction strategy improving inference speed."
+      },
+      {
+        "id": "H15",
+        "question": "How does MoE achieve efficiency improvement during inference?",
+        "options": [
+          "Activating all experts",
+          "Each token only activates a small number of expert modules (e.g., Top-K routing), while remaining parameters don't participate in computation",
+          "Using a smaller model",
+          "Reducing the number of experts"
+        ],
+        "answer": "Each token only activates a small number of expert modules (e.g., Top-K routing), while remaining parameters don't participate in computation",
+        "explanation": "MoE uses a routing mechanism where each input token only activates the top-K ranked expert modules, with most parameters not participating in computation, improving inference efficiency."
+      },
+      {
+        "id": "H16",
+        "question": "Kwaipilot outperforms GPT-4 by 10% on Kuaishou dialect code scenarios. What does 'dialect code' refer to?",
+        "options": [
+          "Writing comments in dialect",
+          "Kuaishou's internal unique programming conventions, API styles, and code patterns",
+          "Code with Chinese variable names",
+          "Comments in Chinese"
+        ],
+        "answer": "Kuaishou's internal unique programming conventions, API styles, and code patterns",
+        "explanation": "Dialect code refers to Kuaishou's internal unique programming style, API conventions, and code patterns. After data augmentation, the model performs better on such scenarios."
+      },
+      {
+        "id": "H17",
+        "question": "What is the purpose of Gradient Accumulation in large model training?",
+        "options": [
+          "Accumulating gradient values",
+          "Simulating large batch training when memory is limited by accumulating gradients across multiple mini-batches before a single update",
+          "Reducing training steps",
+          "Accelerating convergence"
+        ],
+        "answer": "Simulating large batch training when memory is limited by accumulating gradients across multiple mini-batches before a single update",
+        "explanation": "Gradient Accumulation accumulates and averages gradients from multiple mini-batches, equivalent to training with larger batch sizes but requiring only mini-batch memory at a time."
+      },
+      {
+        "id": "H18",
+        "question": "KeLing AI's image-to-video Arena ELO score is 1000. What is the core principle of the ELO rating system?",
+        "options": [
+          "Fixed scoring",
+          "A relative rating system based on pairwise comparisons where winners gain points and losers lose points, reflecting relative strength",
+          "Absolute scores",
+          "Judge scoring"
+        ],
+        "answer": "A relative rating system based on pairwise comparisons where winners gain points and losers lose points, reflecting relative strength",
+        "explanation": "Arena ELO is a pairwise rating system borrowed from chess, adjusting scores through blind comparisons of model outputs, reflecting relative model strength."
+      },
+      {
+        "id": "H19",
+        "question": "What knowledge coverage strategy does KwaiYii model adopt in pre-training data?",
+        "options": [
+          "Only focusing on short video domains",
+          "Covering broad domain knowledge, strengthening adaptation to diverse application scenarios",
+          "Only focusing on commercial domains",
+          "Only focusing on technical domains"
+        ],
+        "answer": "Covering broad domain knowledge, strengthening adaptation to diverse application scenarios",
+        "explanation": "The KwaiYii model covers broad domain knowledge, further strengthening its adaptation capabilities across diverse application scenarios."
+      },
+      {
+        "id": "H20",
+        "question": "What is the core technical breakthrough of Kuaishou's self-developed intelligent video processing chip in 4K60fps live streaming?",
+        "options": [
+          "Larger memory capacity",
+          "AI super-resolution + intelligent encoding, achieving high-quality live streaming at low bitrates",
+          "Faster CPU",
+          "More bandwidth"
+        ],
+        "answer": "AI super-resolution + intelligent encoding, achieving high-quality live streaming at low bitrates",
+        "explanation": "The self-developed chip compresses bitrates to below 50% of competitors while maintaining 4K60fps high quality through AI intelligent encoding."
+      },
+      {
+        "id": "H21",
+        "question": "In Function Calling implementation, how does the model decide which function to call?",
+        "options": [
+          "Random selection",
+          "The model learns through training to select appropriate functions based on user intent and function descriptions",
+          "Keyword matching",
+          "Manual specification"
+        ],
+        "answer": "The model learns through training to select appropriate functions based on user intent and function descriptions",
+        "explanation": "In Function Calling, the model selects appropriate functions and generates call parameters based on user intent and predefined function schemas, a capability learned through training."
+      },
+      {
+        "id": "H22",
+        "question": "What is the role of All-Gather communication in distributed training of large models?",
+        "options": [
+          "Collecting all gradients",
+          "Concatenating tensor fragments computed on each GPU into a complete tensor and broadcasting to all GPUs",
+          "Global synchronization",
+          "Data distribution"
+        ],
+        "answer": "Concatenating tensor fragments computed on each GPU into a complete tensor and broadcasting to all GPUs",
+        "explanation": "All-Gather concatenates partial tensor fragments from each GPU into a complete tensor and broadcasts it to all GPUs, used for result merging in tensor parallelism."
+      },
+      {
+        "id": "H23",
+        "question": "How does KeTu 2.0 compare to competitors like Midjourney V7 in evaluations?",
+        "options": [
+          "Tied",
+          "Maintains a clear advantage in multiple win-rate evaluations within the team",
+          "Slightly inferior",
+          "Cannot be compared"
+        ],
+        "answer": "Maintains a clear advantage in multiple win-rate evaluations within the team",
+        "explanation": "KeTu 2.0 maintains a clear advantage over leading image models including Midjourney V7, FLUX1.1 Pro, and Reve in multiple win-rate evaluations."
+      },
+      {
+        "id": "H24",
+        "question": "In SFT data construction, what does the 'shoot the arrow first, then draw the target' technique mean?",
+        "options": [
+          "Cheating",
+          "Generating the response first, then modifying overly strict constraints in the prompt based on the actual output to make data more natural",
+          "Training first, then annotating",
+          "Testing first, then developing"
+        ],
+        "answer": "Generating the response first, then modifying overly strict constraints in the prompt based on the actual output to make data more natural",
+        "explanation": "This technique means generating the model's response first, then adjusting prompt constraints that the model cannot precisely meet, making training data more natural."
+      },
+      {
+        "id": "H25",
+        "question": "In KwaiYii model training data cleaning, how are harmful/noisy data in PB-scale raw data handled?",
+        "options": [
+          "Manual deletion",
+          "Removing noise, redundancy, irrelevant and potentially harmful data, combined with Rejection Sampling for further filtering",
+          "Keeping everything",
+          "Random discarding"
+        ],
+        "answer": "Removing noise, redundancy, irrelevant and potentially harmful data, combined with Rejection Sampling for further filtering",
+        "explanation": "KwaiYii model pre-training data undergoes cleaning to remove noise, redundancy, and harmful data, then Rejection Sampling further refines quality."
+      },
+      {
+        "id": "H26",
+        "question": "What is the role of the clip mechanism in the PPO algorithm?",
+        "options": [
+          "Truncating output",
+          "Limiting the magnitude of policy updates to prevent overly large updates that cause training instability",
+          "Cropping images",
+          "Limiting memory usage"
+        ],
+        "answer": "Limiting the magnitude of policy updates to prevent overly large updates that cause training instability",
+        "explanation": "PPO's clip mechanism constrains the ratio of new to old policy within [1-epsilon, 1+epsilon], preventing excessively large update steps that cause training instability."
+      },
+      {
+        "id": "H27",
+        "question": "In Kuaishou's AI strategy, what do the three directions 'upgrade understanding, innovate interaction, explore generation' correspond to?",
+        "options": [
+          "Search, social, creation",
+          "Content consumption (understanding & distribution), user interaction (AI XiaoKuai, etc.), content production (AIGC creation tools)",
+          "Recommendation, live streaming, short video",
+          "Data, models, applications"
+        ],
+        "answer": "Content consumption (understanding & distribution), user interaction (AI XiaoKuai, etc.), content production (AIGC creation tools)",
+        "explanation": "Upgrade understanding refers to content understanding and distribution systems; innovate interaction refers to interactive products like AI XiaoKuai; explore generation refers to AIGC creation tools."
+      },
+      {
+        "id": "H28",
+        "question": "What problem does Sequence Parallelism solve in large model long-text training?",
+        "options": [
+          "Sequences too long to compute",
+          "Attention computation memory grows quadratically with sequence length; sequence parallelism splits the sequence dimension across GPUs",
+          "Too much data",
+          "Training too slow"
+        ],
+        "answer": "Attention computation memory grows quadratically with sequence length; sequence parallelism splits the sequence dimension across GPUs",
+        "explanation": "Attention computation scales quadratically with sequence length. Sequence parallelism splits the sequence dimension across multiple GPUs, solving insufficient memory for long-text training."
+      },
+      {
+        "id": "H29",
+        "question": "What problem does Continuous Batching solve in large model inference?",
+        "options": [
+          "Batch processing too slow",
+          "Traditional static batching causes GPU idle waiting due to varying sequence lengths; Continuous Batching dynamically schedules to reduce waste",
+          "Insufficient memory",
+          "Insufficient precision"
+        ],
+        "answer": "Traditional static batching causes GPU idle waiting due to varying sequence lengths; Continuous Batching dynamically schedules to reduce waste",
+        "explanation": "Continuous Batching inserts new requests immediately as previous ones complete generation, avoiding waiting for the longest sequence in the same batch, improving GPU utilization."
+      },
+      {
+        "id": "H30",
+        "question": "What specifically does the scaffold mechanism in Scaffold-BPE refer to?",
+        "options": [
+          "Physical support structure",
+          "Introducing syntax/semantic-level constraints during vocabulary construction, making subword segmentation more aligned with language structure",
+          "Multi-stage training",
+          "Fixed vocabulary size"
+        ],
+        "answer": "Introducing syntax/semantic-level constraints during vocabulary construction, making subword segmentation more aligned with language structure",
+        "explanation": "Scaffold-BPE's scaffold refers to introducing syntax/semantic constraints during subword merging, making segmentation results more aligned with language structure hierarchy, improving pre-training efficiency."
+      },
+      {
+        "id": "H31",
+        "question": "What is the principle of the Learning Rate Warmup strategy in large model training?",
+        "options": [
+          "Learning simple content first",
+          "Using a small learning rate at the beginning of training and gradually increasing to the target value to prevent large initial learning rates from damaging pre-trained weights",
+          "Gradually decreasing the learning rate",
+          "Using a fixed learning rate"
+        ],
+        "answer": "Using a small learning rate at the beginning of training and gradually increasing to the target value to prevent large initial learning rates from damaging pre-trained weights",
+        "explanation": "Warmup linearly increases from a small learning rate to the target value at the beginning of training, preventing randomly initialized optimizer states from causing large gradient updates that damage pre-trained weights."
+      },
+      {
+        "id": "H32",
+        "question": "Approximately how many images and video materials have been cumulatively generated through KeLing AI's API?",
+        "options": [
+          "About 1M images + 500K videos",
+          "About 12M images + 40M videos",
+          "About 50M images + 100M videos",
+          "About 1M images + 1M videos"
+        ],
+        "answer": "About 12M images + 40M videos",
+        "explanation": "As of 2025, KeLing API has cumulatively generated approximately 12 million images and over 40 million video materials."
+      },
+      {
+        "id": "H33",
+        "question": "In AI XiaoKuai's RAG workflow, what is the purpose of Query Rewriting?",
+        "options": [
+          "Shortening user input",
+          "Rewriting users' vague/colloquial queries into more structured queries suitable for retrieval",
+          "Translating queries",
+          "Encrypting queries"
+        ],
+        "answer": "Rewriting users' vague/colloquial queries into more structured queries suitable for retrieval",
+        "explanation": "Query rewriting transforms colloquial, vague user queries into more precise structured queries, improving retrieval recall and relevance."
+      },
+      {
+        "id": "H34",
+        "question": "What scenarios is Kwaipilot's Code Embedding model primarily used for?",
+        "options": [
+          "Image generation",
+          "Code semantic search, similar code retrieval, code clone detection, etc.",
+          "Code compilation",
+          "Code debugging"
+        ],
+        "answer": "Code semantic search, similar code retrieval, code clone detection, etc.",
+        "explanation": "Code Embedding converts code into dense vector representations, used for semantic search, similar code retrieval, clone detection, and other scenarios."
+      },
+      {
+        "id": "H35",
+        "question": "What is the characteristic of the Cosine Annealing learning rate scheduling strategy?",
+        "options": [
+          "Linear decay",
+          "Learning rate smoothly decays from initial value to minimum following a cosine function, avoiding abrupt changes",
+          "Remains fixed",
+          "Step decay"
+        ],
+        "answer": "Learning rate smoothly decays from initial value to minimum following a cosine function, avoiding abrupt changes",
+        "explanation": "Cosine Annealing lets the learning rate smoothly decay following a cosine curve, avoiding the training disruption caused by sudden learning rate changes compared to linear or step decay."
+      },
+      {
+        "id": "H36",
+        "question": "What is the maximum duration KeLing AI supports for a single text-to-video generation?",
+        "options": [
+          "5 seconds",
+          "10 seconds",
+          "About 3 minutes",
+          "10 minutes"
+        ],
+        "answer": "About 3 minutes",
+        "explanation": "KeLing supports generating videos up to approximately 3 minutes long."
+      },
+      {
+        "id": "H37",
+        "question": "What is the core optimization of Flash Attention technology in large model training?",
+        "options": [
+          "Reducing parameter count",
+          "Reducing Attention memory access frequency through block computation, lowering memory overhead and improving speed",
+          "Using fewer attention heads",
+          "Skipping some Attention computation"
+        ],
+        "answer": "Reducing Attention memory access frequency through block computation, lowering memory overhead and improving speed",
+        "explanation": "Flash Attention computes QKV in blocks, reducing HBM read/write operations, significantly reducing memory usage and improving computation speed."
+      },
+      {
+        "id": "H38",
+        "question": "How does KwaiYii model achieve broad domain knowledge coverage during pre-training?",
+        "options": [
+          "Only using Kuaishou App data",
+          "Using trillions of Tokens covering multi-domain data for training, incorporating domain knowledge through curriculum learning-based organization",
+          "Only using commercial data",
+          "Only using Chinese data"
+        ],
+        "answer": "Using trillions of Tokens covering multi-domain data for training, incorporating domain knowledge through curriculum learning-based organization",
+        "explanation": "The KwaiYii model uses trillions of Tokens for training, with data covering broad domains, and curriculum learning-based organization ensures orderly knowledge incorporation."
+      },
+      {
+        "id": "H39",
+        "question": "What does SWE-bench primarily test in large model evaluation?",
+        "options": [
+          "Mathematical reasoning",
+          "Software engineering problem-solving ability, such as automatically fixing code based on GitHub issues",
+          "Chinese writing",
+          "Image understanding"
+        ],
+        "answer": "Software engineering problem-solving ability, such as automatically fixing code based on GitHub issues",
+        "explanation": "SWE-bench evaluates a large model's ability to solve real software engineering problems, requiring the model to locate and fix code based on issue descriptions."
+      },
+      {
+        "id": "H40",
+        "question": "What capability does the CoSQA benchmark evaluate?",
+        "options": [
+          "Code search and question answering",
+          "Chinese understanding",
+          "Mathematical reasoning",
+          "Common sense Q&A"
+        ],
+        "answer": "Code search and question answering",
+        "explanation": "CoSQA (Code Search Question Answering) evaluates large models' capabilities in code search and programming Q&A."
+      }
+    ]
+  }
+}

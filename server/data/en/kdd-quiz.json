@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "title": "KDD 2026 Trivia",
+    "description": "Fun, general-audience questions about the KDD conference series, ACM SIGKDD, data mining fundamentals, and the KDD Cup — designed for fast booth play.",
+    "language": "en-US",
+    "total_questions": 24,
+    "difficulty_distribution": {"easy": 12, "medium": 8, "hard": 4},
+    "created_at": "2026-07-20"
+  },
+  "questions": {
+    "easy": [
+      {"id":"E01","question":"What does KDD stand for?","options":["Knowledge Discovery and Data Mining","Key Data Dashboard","Knowledge Development and Deployment","Kernel Data Design"],"answer":"Knowledge Discovery and Data Mining","explanation":"KDD = Knowledge Discovery and Data Mining, the premier annual conference in data mining."},
+      {"id":"E02","question":"Which organization hosts the KDD conference?","options":["ACM SIGKDD","IEEE","The NeurIPS Foundation","OpenAI"],"answer":"ACM SIGKDD","explanation":"KDD is hosted by ACM's Special Interest Group on Knowledge Discovery and Data Mining (SIGKDD)."},
+      {"id":"E03","question":"Where is KDD 2026 being held?","options":["ICC Jeju, South Korea","San Francisco, USA","Beijing, China","Singapore"],"answer":"ICC Jeju, South Korea","explanation":"KDD 2026 is at the International Convention Center Jeju (ICC Jeju)."},
+      {"id":"E04","question":"How often is KDD held?","options":["Once a year","Twice a year","Three times a year","Every two years"],"answer":"Once a year","explanation":"KDD is an annual flagship conference."},
+      {"id":"E05","question":"What is the KDD Cup?","options":["A data mining competition held alongside the conference","A conference souvenir coffee mug","The best paper award","The keynote session"],"answer":"A data mining competition held alongside the conference","explanation":"The KDD Cup is the longest-running international competition in data mining."},
+      {"id":"E06","question":"What field does KDD primarily focus on?","options":["Data mining and knowledge discovery","Hardware design","Computer graphics","Operating systems"],"answer":"Data mining and knowledge discovery","explanation":"KDD focuses on discovering knowledge, patterns and insights from data."},
+      {"id":"E07","question":"What best describes 'data mining'?","options":["Discovering patterns in large datasets","Physically mining server hard drives","Storing data into databases","Visualizing data on dashboards"],"answer":"Discovering patterns in large datasets","explanation":"Data mining is about surfacing valuable patterns and relationships from large volumes of data."},
+      {"id":"E08","question":"KDD typically has which two main submission tracks?","options":["Research Track and Applied Data Science Track","Hardware and Software","Student and Faculty","Open Source and Commercial"],"answer":"Research Track and Applied Data Science Track","explanation":"KDD is split into a Research Track and an Applied Data Science (ADS) Track."},
+      {"id":"E09","question":"Which of these is NOT a typical data mining task?","options":["Rendering 3D game graphics","Classification","Clustering","Anomaly detection"],"answer":"Rendering 3D game graphics","explanation":"3D rendering belongs to graphics; classification, clustering, and anomaly detection are core data mining tasks."},
+      {"id":"E10","question":"'Supervised learning' requires what?","options":["Labeled training data","A human supervisor watching","A GPU cluster","A real-time data stream"],"answer":"Labeled training data","explanation":"Supervised learning trains on examples whose labels are already known."},
+      {"id":"E11","question":"What does a 'recommender system' typically recommend?","options":["Items a user might like","Random content","Conference papers","The weather"],"answer":"Items a user might like","explanation":"Recommender systems are a classic data mining application and a perennial KDD topic."},
+      {"id":"E12","question":"Which booth number is Kuaishou at KDD 2026?","options":["#30","#1","#88","#500"],"answer":"#30","explanation":"Kuaishou is at booth #30 — come say hi!"}
+    ],
+    "medium": [
+      {"id":"M01","question":"Around what year was the first KDD conference held?","options":["1995","2005","1985","2015"],"answer":"1995","explanation":"The first full KDD conference was in Montreal in 1995 (predecessor workshops began in 1989)."},
+      {"id":"M02","question":"How does 'unsupervised learning' differ from supervised learning?","options":["It does not need labeled data","It uses less compute","It's always more accurate","It's always slower"],"answer":"It does not need labeled data","explanation":"Unsupervised learning finds structure in unlabeled data (clustering, dimensionality reduction, etc.)."},
+      {"id":"M03","question":"Which of these is a classic clustering algorithm?","options":["K-Means","Decision tree","Linear regression","Naive Bayes"],"answer":"K-Means","explanation":"K-Means is one of the most widely used clustering algorithms."},
+      {"id":"M04","question":"What is 'overfitting'?","options":["A model that does well on training data but poorly on new data","A model that is too small to learn","A dataset that is too big","A GPU running too hot"],"answer":"A model that does well on training data but poorly on new data","explanation":"Overfitting means the model memorized training quirks instead of learning general patterns."},
+      {"id":"M05","question":"What is 'A/B testing' primarily used for?","options":["Comparing two variants to measure their effect","Backing up data","Compiling code","Encrypting traffic"],"answer":"Comparing two variants to measure their effect","explanation":"A/B tests are the workhorse of applied data science for measuring the impact of a change."},
+      {"id":"M06","question":"KDD's Applied Data Science Track primarily accepts what type of work?","options":["Applied work solving real-world business problems","Pure theoretical proofs","Hardware benchmarks","Science fiction"],"answer":"Applied work solving real-world business problems","explanation":"The ADS Track showcases industry work on real problems at real scale."},
+      {"id":"M07","question":"What has KDD historically emphasized in review?","options":["Novelty and empirical results","The authors' country","Author fame","Paper length"],"answer":"Novelty and empirical results","explanation":"KDD reviewing places heavy weight on novel contributions and solid experimental validation."},
+      {"id":"M08","question":"The 'cold start problem' in recommender systems refers to what?","options":["New users or new items with no history to draw on","Servers being slow to boot in winter","The first model run being slow","GPUs needing warm-up"],"answer":"New users or new items with no history to draw on","explanation":"Cold start is a classic recsys challenge: with no history, personalization is hard."}
+    ],
+    "hard": [
+      {"id":"H01","question":"When are KDD Cup winners typically announced?","options":["On-site at the conference with a final leaderboard","One year before the conference","By random draw","By online vote"],"answer":"On-site at the conference with a final leaderboard","explanation":"The KDD Cup winners and final leaderboard are traditionally revealed at the conference itself."},
+      {"id":"H02","question":"What does 'AUC' measure in classification model evaluation?","options":["The area under the ROC curve","Accuracy","Average compute time","Number of samples"],"answer":"The area under the ROC curve","explanation":"AUC = Area Under the ROC Curve, a common measure of a binary classifier's ranking ability."},
+      {"id":"H03","question":"What kind of data does a Graph Neural Network (GNN) primarily handle?","options":["Graph-structured data (nodes and edges)","2D images","1D time series","Plain text"],"answer":"Graph-structured data (nodes and edges)","explanation":"GNNs are a huge topic at recent KDDs; they operate on graph-structured data."},
+      {"id":"H04","question":"Which best describes 'federated learning'?","options":["Multiple parties train a model jointly without sharing raw data","Querying a centralized data warehouse","Training one giant model on a single machine","Deploying a model to a CDN"],"answer":"Multiple parties train a model jointly without sharing raw data","explanation":"Federated learning keeps data local and shares only model updates — a hot privacy-preserving topic at KDD."}
+    ]
+  }
+}

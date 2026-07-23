@@ -1,0 +1,1462 @@
+{
+  "metadata": {
+    "title": "Design Knowledge Quiz",
+    "description": "Kuaishou HR game design knowledge question bank, covering UI/UX design principles, color theory, typography, interaction design, design thinking, Kuaishou design specifications, and more",
+    "language": "en-US",
+    "total_questions": 120,
+    "difficulty_distribution": {
+      "easy": 40,
+      "medium": 40,
+      "hard": 40
+    },
+    "created_at": "2026-07-06"
+  },
+  "questions": {
+    "easy": [
+      {
+        "id": "E01",
+        "question": "What does the H stand for in the HSL color model?",
+        "options": [
+          "Hue",
+          "Height",
+          "Heat",
+          "Hardness"
+        ],
+        "answer": "Hue",
+        "explanation": "HSL = Hue, Saturation, Lightness. H represents hue, which is the type or family of color."
+      },
+      {
+        "id": "E02",
+        "question": "What does Fitts' Law primarily describe?",
+        "options": [
+          "The larger and closer a target is, the faster and more accurately it can be pointed to",
+          "User attention decreases over time",
+          "The relationship between the number of colors and aesthetics",
+          "Page load time and user satisfaction"
+        ],
+        "answer": "The larger and closer a target is, the faster and more accurately it can be pointed to",
+        "explanation": "Fitts' Law: the time to reach a target is proportional to the distance and inversely proportional to the target size, guiding button sizing and spacing design."
+      },
+      {
+        "id": "E03",
+        "question": "What are the five stages of Design Thinking in order?",
+        "options": [
+          "Empathize, Define, Ideate, Prototype, Test",
+          "Analyze, Design, Develop, Test, Launch",
+          "Requirements, Prototype, Design, Develop, Acceptance",
+          "Research, Plan, Execute, Check, Improve"
+        ],
+        "answer": "Empathize, Define, Ideate, Prototype, Test",
+        "explanation": "Design Thinking five stages: Empathize → Define → Ideate → Prototype → Test."
+      },
+      {
+        "id": "E04",
+        "question": "What does WCAG stand for?",
+        "options": [
+          "Web Content Accessibility Guidelines",
+          "Web Color and Graphics",
+          "World Coding and Design Guide",
+          "Web Component Application Grid"
+        ],
+        "answer": "Web Content Accessibility Guidelines",
+        "explanation": "WCAG = Web Content Accessibility Guidelines, the W3C standard for web accessibility."
+      },
+      {
+        "id": "E05",
+        "question": "What does Design Token refer to?",
+        "options": [
+          "Reusable design variables in a design system (such as colors, font sizes, spacing, etc.)",
+          "A design badge",
+          "A design credential",
+          "A design tool name"
+        ],
+        "answer": "Reusable design variables in a design system (such as colors, font sizes, spacing, etc.)",
+        "explanation": "Design Tokens abstract design decisions into reusable variables, enabling unified management between design and development."
+      },
+      {
+        "id": "E06",
+        "question": "What does Hick's Law describe?",
+        "options": [
+          "The more choices there are, the longer the decision time",
+          "Human short-term memory capacity is limited",
+          "Visual hierarchy affects reading order",
+          "Colors affect user emotions"
+        ],
+        "answer": "The more choices there are, the longer the decision time",
+        "explanation": "Hick's Law: the number of choices is proportional to decision reaction time, guiding streamlined options and navigation design."
+      },
+      {
+        "id": "E07",
+        "question": "What does ARIA stand for in accessibility design?",
+        "options": [
+          "Accessible Rich Internet Applications",
+          "Advanced Responsive Internet Architecture",
+          "Automated Rendering and Image Analysis",
+          "Artificial Reality Interface Application"
+        ],
+        "answer": "Accessible Rich Internet Applications",
+        "explanation": "ARIA is a W3C specification that provides accessible semantic annotations for rich web applications."
+      },
+      {
+        "id": "E08",
+        "question": "What is the core principle of responsive design?",
+        "options": [
+          "Page layout automatically adapts to screen size",
+          "All devices display the exact same layout",
+          "Only optimize for mobile phones",
+          "Only adjust font sizes"
+        ],
+        "answer": "Page layout automatically adapts to screen size",
+        "explanation": "Responsive design uses media queries, flexible layouts, and other techniques to ensure the same page displays well across different devices."
+      },
+      {
+        "id": "E09",
+        "question": "What is the core meaning of 'usability' in UI?",
+        "options": [
+          "Users can efficiently, effectively, and satisfactorily use a product to accomplish their goals",
+          "The interface looks good",
+          "Having the most features",
+          "The fastest load speed"
+        ],
+        "answer": "Users can efficiently, effectively, and satisfactorily use a product to accomplish their goals",
+        "explanation": "Usability focuses on whether users can easily complete tasks. Core dimensions: effectiveness, efficiency, satisfaction."
+      },
+      {
+        "id": "E10",
+        "question": "In the color wheel, what are complementary colors?",
+        "options": [
+          "Two colors opposite each other on the color wheel (180 degrees apart)",
+          "Two adjacent colors",
+          "Same hue with different lightness",
+          "A mix of three primary colors"
+        ],
+        "answer": "Two colors opposite each other on the color wheel (180 degrees apart)",
+        "explanation": "Complementary colors are positioned opposite each other on the color wheel, such as red-green and blue-orange, creating strong contrast effects."
+      },
+      {
+        "id": "E11",
+        "question": "What multiple of the font size is the recommended line height in typography?",
+        "options": [
+          "1.4 to 1.6 times",
+          "0.8 times",
+          "2.5 times",
+          "1.0 times"
+        ],
+        "answer": "1.4 to 1.6 times",
+        "explanation": "Body text line height is typically 1.4-1.6 times the font size, ensuring reading comfort. Too low feels cramped, too high feels loose."
+      },
+      {
+        "id": "E12",
+        "question": "What do Figma and Sketch have in common?",
+        "options": [
+          "UI design tools",
+          "Code editors",
+          "Database management",
+          "Server operations"
+        ],
+        "answer": "UI design tools",
+        "explanation": "Both Figma and Sketch are mainstream UI design tools. Figma is cloud-based for collaboration, while Sketch is macOS-native."
+      },
+      {
+        "id": "E13",
+        "question": "What is the design principle for Dark Mode?",
+        "options": [
+          "Reduce contrast to minimize eye strain while maintaining readability",
+          "Pure black background with white text",
+          "Simply invert colors",
+          "Dark Mode doesn't need design principles"
+        ],
+        "answer": "Reduce contrast to minimize eye strain while maintaining readability",
+        "explanation": "Dark Mode is not simply inverting colors. It requires lowering overall brightness to reduce eye fatigue while ensuring text contrast meets readability standards."
+      },
+      {
+        "id": "E14",
+        "question": "What is the purpose of a 'design walkthrough'?",
+        "options": [
+          "Ensure the development implementation matches the design mockups, identifying and fixing visual and interaction discrepancies",
+          "Check designer attendance",
+          "Audit code quality",
+          "Test server performance"
+        ],
+        "answer": "Ensure the development implementation matches the design mockups, identifying and fixing visual and interaction discrepancies",
+        "explanation": "A design walkthrough is a critical step before delivery to verify development fidelity, ensuring pixel-level consistency and interactions match expectations."
+      },
+      {
+        "id": "E15",
+        "question": "In icon design, what does the 'consistency' principle mean?",
+        "options": [
+          "Icons in the same set should be unified in style, stroke weight, corner radius, and size",
+          "All icons must be exactly the same",
+          "Bigger icons are always better",
+          "All icons must use the same color"
+        ],
+        "answer": "Icons in the same set should be unified in style, stroke weight, corner radius, and size",
+        "explanation": "Icon consistency ensures a cohesive visual system, including unified stroke width, corner radius, perspective, and proportions."
+      },
+      {
+        "id": "E16",
+        "question": "What is the core purpose of brand design?",
+        "options": [
+          "Establish unique brand recognition and differentiation, communicating brand values",
+          "Make products cheaper",
+          "Increase code volume",
+          "Improve server performance"
+        ],
+        "answer": "Establish unique brand recognition and differentiation, communicating brand values",
+        "explanation": "Brand design establishes unique recognition through visual language (logo, color, typography, graphics) and communicates brand spirit."
+      },
+      {
+        "id": "E17",
+        "question": "In a design system, what is the role of a 'component library'?",
+        "options": [
+          "Provide reusable standardized UI components, ensuring consistency and development efficiency",
+          "Store image assets",
+          "Manage project timelines",
+          "Write code"
+        ],
+        "answer": "Provide reusable standardized UI components, ensuring consistency and development efficiency",
+        "explanation": "A component library is the core output of a design system, providing standardized, reusable UI building blocks."
+      },
+      {
+        "id": "E18",
+        "question": "In short video apps, what is the UI design advantage of a 'two-column feed'?",
+        "options": [
+          "High information density, allowing users to quickly browse and freely choose",
+          "Only suitable for large screens",
+          "Low information density",
+          "Slow browsing speed"
+        ],
+        "answer": "High information density, allowing users to quickly browse and freely choose",
+        "explanation": "A two-column feed displays more content entries, allowing users to choose what interests them, suitable for discovery-oriented scenarios."
+      },
+      {
+        "id": "E19",
+        "question": "In user research, what is the advantage of the 'questionnaire' method?",
+        "options": [
+          "Can collect quantitative data at scale with low cost and high efficiency",
+          "Deep understanding of motivations",
+          "Small sample size",
+          "Only applicable to internal users"
+        ],
+        "answer": "Can collect quantitative data at scale with low cost and high efficiency",
+        "explanation": "Questionnaires are a quantitative research method that can quickly collect large amounts of data, but cannot deeply explore underlying reasons."
+      },
+      {
+        "id": "E20",
+        "question": "In HSL, what color does saturation (S) become when it reaches 0?",
+        "options": [
+          "Gray (achromatic)",
+          "Pure red",
+          "Pure blue",
+          "Black"
+        ],
+        "answer": "Gray (achromatic)",
+        "explanation": "When saturation reaches 0, the color completely loses its hue and becomes a shade of gray from black to white."
+      },
+      {
+        "id": "E21",
+        "question": "What is the purpose of 'card sorting' in user research?",
+        "options": [
+          "Understand users' mental models for information categorization, optimizing navigation and content organization",
+          "Organize design cards",
+          "Evaluate visual style",
+          "Test page performance"
+        ],
+        "answer": "Understand users' mental models for information categorization, optimizing navigation and content organization",
+        "explanation": "Card sorting lets users organize content based on their own understanding, revealing mental models and guiding information architecture design."
+      },
+      {
+        "id": "E22",
+        "question": "In interaction design, what does the 'feedback' principle mean?",
+        "options": [
+          "The system should respond to user actions promptly, letting users know the result of their operations",
+          "Only give error feedback",
+          "No feedback is needed",
+          "Only visual feedback"
+        ],
+        "answer": "The system should respond to user actions promptly, letting users know the result of their operations",
+        "explanation": "The feedback principle requires every action to have an immediate, visible response, so users know their action has been received and processed by the system."
+      },
+      {
+        "id": "E23",
+        "question": "In livestream interfaces, what is the core UI design challenge of 'bullet comments' (danmaku)?",
+        "options": [
+          "Balancing information richness with screen obstruction",
+          "More bullet comments are always better",
+          "Bullet comment colors should be vivid",
+          "Bullet comment fonts should be large"
+        ],
+        "answer": "Balancing information richness with screen obstruction",
+        "explanation": "Bullet comment design must balance social atmosphere with visual clarity: too many obstruct content, too few lack interactivity."
+      },
+      {
+        "id": "E24",
+        "question": "In e-commerce design, what is the core goal of a 'product detail page'?",
+        "options": [
+          "Display product information to facilitate purchase decisions",
+          "Showcase company culture",
+          "Only show images without text",
+          "Pack in as many ads as possible"
+        ],
+        "answer": "Display product information to facilitate purchase decisions",
+        "explanation": "The product detail page is a key conversion page in e-commerce, using information architecture and visual design to move users from awareness to purchase."
+      },
+      {
+        "id": "E25",
+        "question": "In design reviews, what does 'heuristic evaluation' mean?",
+        "options": [
+          "Experts systematically inspect interface issues based on usability principles",
+          "A casual glance",
+          "User testing",
+          "A/B testing"
+        ],
+        "answer": "Experts systematically inspect interface issues based on usability principles",
+        "explanation": "Heuristic evaluation is conducted by UX experts systematically checking against standards like Nielsen's 10 usability heuristics. It's low-cost and fast."
+      },
+      {
+        "id": "E26",
+        "question": "In motion design, what is the role of an 'easing function'?",
+        "options": [
+          "Control the pace of animation speed changes, simulating natural movement patterns",
+          "Make the animation uniform speed",
+          "Make the animation faster",
+          "Fix the animation duration"
+        ],
+        "answer": "Control the pace of animation speed changes, simulating natural movement patterns",
+        "explanation": "Easing functions define animation speed curves (e.g., ease-in goes slow then fast), making motion feel natural and avoiding mechanical feel."
+      },
+      {
+        "id": "E27",
+        "question": "What problem does excessive letter spacing cause in typography?",
+        "options": [
+          "Difficulty recognizing words and reduced reading speed",
+          "More aesthetically pleasing typography",
+          "Improved reading speed",
+          "No impact whatsoever"
+        ],
+        "answer": "Difficulty recognizing words and reduced reading speed",
+        "explanation": "Excessive letter spacing breaks word-level recognition, increases saccadic burden, and reduces reading efficiency."
+      },
+      {
+        "id": "E28",
+        "question": "In UI design, what is the role of a 'grid system'?",
+        "options": [
+          "Provide a structural framework for alignment and proportion, ensuring layout consistency and rhythm",
+          "Limit creativity",
+          "Only for print design",
+          "Only for table design"
+        ],
+        "answer": "Provide a structural framework for alignment and proportion, ensuring layout consistency and rhythm",
+        "explanation": "The grid system provides unified reference lines and alignment baselines for page layout, serving as the foundation of structured design."
+      },
+      {
+        "id": "E29",
+        "question": "What is the primary use of eye tracking in user research?",
+        "options": [
+          "Record users' gaze paths to analyze attention distribution and interface hotspot areas",
+          "Test users' vision",
+          "Measure pupil color",
+          "Detect user emotions"
+        ],
+        "answer": "Record users' gaze paths to analyze attention distribution and interface hotspot areas",
+        "explanation": "Eye tracking generates heatmaps and gaze path diagrams, revealing user attention distribution and visual paths."
+      },
+      {
+        "id": "E30",
+        "question": "In UI design, what are the core techniques for creating 'visual hierarchy'?",
+        "options": [
+          "Size contrast, color contrast, spacing contrast, positional relationships",
+          "Using only color to differentiate",
+          "All elements the same size",
+          "Random arrangement"
+        ],
+        "answer": "Size contrast, color contrast, spacing contrast, positional relationships",
+        "explanation": "Visual hierarchy guides user attention priority through contrasts in size, color, space, and position."
+      },
+      {
+        "id": "E31",
+        "question": "In Kuaishou design specifications, how does the 'inclusive values' philosophy affect UI design?",
+        "options": [
+          "Design must consider accessibility and inclusivity for a broad range of people",
+          "Only design premium interfaces",
+          "Only consider young users",
+          "The flashier the visual style, the better"
+        ],
+        "answer": "Design must consider accessibility and inclusivity for a broad range of people",
+        "explanation": "The inclusive values philosophy requires design to serve diverse user groups, emphasizing inclusivity and accessibility."
+      },
+      {
+        "id": "E32",
+        "question": "In color theory, what are the three primary colors of light?",
+        "options": [
+          "Red, Green, Blue",
+          "Red, Yellow, Blue",
+          "Cyan, Magenta, Yellow",
+          "Black, White, Gray"
+        ],
+        "answer": "Red, Green, Blue",
+        "explanation": "The three primary colors of light are RGB (red, green, blue) using additive mixing; pigment primaries are CMY (cyan, magenta, yellow) using subtractive mixing."
+      },
+      {
+        "id": "E33",
+        "question": "In usability testing, what does 'task completion rate' measure?",
+        "options": [
+          "The proportion of users who successfully complete a specified task",
+          "Task speed",
+          "User satisfaction",
+          "Interface aesthetics"
+        ],
+        "answer": "The proportion of users who successfully complete a specified task",
+        "explanation": "Task completion rate = participants who successfully complete the task / total participants, one of the most core usability metrics."
+      },
+      {
+        "id": "E34",
+        "question": "In design systems, what is the smallest unit in 'Atomic Design'?",
+        "options": [
+          "Atoms",
+          "Molecules",
+          "Organisms",
+          "Pages"
+        ],
+        "answer": "Atoms",
+        "explanation": "Atomic Design was proposed by Brad Frost with the hierarchy: Atoms → Molecules → Organisms → Templates → Pages. Atoms are the most basic elements."
+      },
+      {
+        "id": "E35",
+        "question": "What is the use of Bézier curves in motion design?",
+        "options": [
+          "Define precise control of animation paths and speed curves",
+          "Only for 3D modeling",
+          "Drawing static graphics",
+          "Calculating page size"
+        ],
+        "answer": "Define precise control of animation paths and speed curves",
+        "explanation": "Bézier curves (like cubic-bezier) precisely control CSS animation speed curves, defining acceleration and deceleration rhythm."
+      },
+      {
+        "id": "E36",
+        "question": "In e-commerce design, what is the core interaction principle for a shopping cart?",
+        "options": [
+          "Lightweight operations, clear status, easy modification at any time",
+          "Shopping cart must require login",
+          "Items cannot be deleted",
+          "Checkout button is not important"
+        ],
+        "answer": "Lightweight operations, clear status, easy modification at any time",
+        "explanation": "The shopping cart should let users easily add, remove, and modify items, clearly display total price and discounts, and easily proceed to checkout."
+      },
+      {
+        "id": "E37",
+        "question": "What is the role of illustration style in brand design?",
+        "options": [
+          "Convey brand personality and emotional tone, enhancing visual recognition and approachability",
+          "Only for decoration",
+          "Replace all images",
+          "Illustration style is not important"
+        ],
+        "answer": "Convey brand personality and emotional tone, enhancing visual recognition and approachability",
+        "explanation": "Illustration style is an important part of brand visual language, conveying brand warmth and personality traits."
+      },
+      {
+        "id": "E38",
+        "question": "In user research, what is the typical sample size for 'in-depth interviews'?",
+        "options": [
+          "5 to 15 people",
+          "Over 100 people",
+          "1 to 2 people",
+          "Around 50 people"
+        ],
+        "answer": "5 to 15 people",
+        "explanation": "For qualitative in-depth interviews, 5-15 participants can reveal most patterns; more samples yield diminishing marginal returns."
+      },
+      {
+        "id": "E39",
+        "question": "In WCAG 2.1, what is the minimum contrast ratio for AA-level body text?",
+        "options": [
+          "4.5:1",
+          "3:1",
+          "7:1",
+          "2:1"
+        ],
+        "answer": "4.5:1",
+        "explanation": "WCAG 2.1 AA level requires at least 4.5:1 contrast for normal text and at least 3:1 for large text."
+      },
+      {
+        "id": "E40",
+        "question": "In short video UI design, what design philosophy does the 'swipe up to switch' interaction pattern originate from?",
+        "options": [
+          "Immersive full-screen content flow with minimized gesture operation paths",
+          "Saving development costs",
+          "Imitating web browsing",
+          "A random design decision"
+        ],
+        "answer": "Immersive full-screen content flow with minimized gesture operation paths",
+        "explanation": "Swipe-to-switch is the core interaction for short videos: full-screen immersion + minimal operation path, enabling seamless content consumption."
+      }
+    ],
+    "medium": [
+      {
+        "id": "M01",
+        "question": "What is the core difference between the HSL and HSV color models?",
+        "options": [
+          "HSL's L ranges from black to white, HSV's V ranges from black to pure color",
+          "They are completely identical",
+          "HSL is for print, HSV is for screen",
+          "HSL only has two dimensions"
+        ],
+        "answer": "HSL's L ranges from black to white, HSV's V ranges from black to pure color",
+        "explanation": "In HSL, L=50% is pure color, 0% is black, 100% is white; in HSV, V=100% is pure color, 0% is black. L better matches human perception."
+      },
+      {
+        "id": "M02",
+        "question": "What is the specific application recommendation of Fitts' Law in button design?",
+        "options": [
+          "Important action buttons should be larger and closer to the operation starting point to reduce pointing time",
+          "All buttons should be the same size",
+          "Buttons should be as small as possible",
+          "Button position doesn't matter"
+        ],
+        "answer": "Important action buttons should be larger and closer to the operation starting point to reduce pointing time",
+        "explanation": "Fitts' Law guidance: CTA buttons should be larger, closer to the operation area, and have expanded click targets to reduce operation time and errors."
+      },
+      {
+        "id": "M03",
+        "question": "In design systems, what is the typical hierarchical structure of Design Tokens?",
+        "options": [
+          "Global Tokens (semantic-free) → Semantic Tokens (meaningful) → Component Tokens (specific scenarios)",
+          "Only one layer",
+          "Tokens don't need hierarchy",
+          "Just group by color"
+        ],
+        "answer": "Global Tokens (semantic-free) → Semantic Tokens (meaningful) → Component Tokens (specific scenarios)",
+        "explanation": "Three-layer Tokens: Global (e.g., blue-500) → Semantic (e.g., color-primary) → Component (e.g., button-bg), with meaning assigned at each layer."
+      },
+      {
+        "id": "M04",
+        "question": "In Nielsen's 10 usability heuristics, what two levels does the 'consistency' principle include?",
+        "options": [
+          "Internal consistency (within the same product) and external consistency (with external standards and conventions)",
+          "Only internal consistency",
+          "Only external consistency",
+          "Consistency is not important"
+        ],
+        "answer": "Internal consistency (within the same product) and external consistency (with external standards and conventions)",
+        "explanation": "Internal consistency ensures uniform style within a product; external consistency ensures alignment with platform conventions and user habits."
+      },
+      {
+        "id": "M05",
+        "question": "In responsive design, what is the basis for selecting 'breakpoints'?",
+        "options": [
+          "Based on mainstream device resolutions and content layout change needs, rather than specific devices",
+          "Only based on iPhone dimensions",
+          "Fixed breakpoint every 100px",
+          "No breakpoints needed"
+        ],
+        "answer": "Based on mainstream device resolutions and content layout change needs, rather than specific devices",
+        "explanation": "Modern responsive design advocates setting breakpoints based on content-driven layout changes, rather than hard-coding for specific devices."
+      },
+      {
+        "id": "M06",
+        "question": "In user research, what is the combined strategy for 'usability testing' and 'in-depth interviews'?",
+        "options": [
+          "Use interviews first to understand scenarios and motivations, then usability testing to verify interaction issues",
+          "They can only be used separately",
+          "Test first, then interview",
+          "The order doesn't matter"
+        ],
+        "answer": "Use interviews first to understand scenarios and motivations, then usability testing to verify interaction issues",
+        "explanation": "Qualitative interviews first to understand why and context, then usability testing to verify specific how and interaction problems, forming a complete picture."
+      },
+      {
+        "id": "M07",
+        "question": "In Kuaishou's short video UI design, what is the positioning logic for the 'follow' button?",
+        "options": [
+          "Placed near creator info for easy follow conversion, but not overly prominent to avoid disrupting content consumption",
+          "Placed at the bottom of the page",
+          "No follow button needed",
+          "As large and prominent as possible"
+        ],
+        "answer": "Placed near creator info for easy follow conversion, but not overly prominent to avoid disrupting content consumption",
+        "explanation": "The follow button needs to balance conversion and experience: discoverable but not interrupting the immersive consumption flow."
+      },
+      {
+        "id": "M08",
+        "question": "In accessibility design, what HTML attributes do screen readers primarily rely on for semantic information?",
+        "options": [
+          "ARIA attributes (role, aria-label, etc.) and semantic HTML tags",
+          "CSS styles",
+          "JavaScript variables",
+          "Image file names"
+        ],
+        "answer": "ARIA attributes (role, aria-label, etc.) and semantic HTML tags",
+        "explanation": "Screen readers understand page structure and element meaning through ARIA attributes and semantic HTML (nav, main, button, etc.)."
+      },
+      {
+        "id": "M09",
+        "question": "What is the core cart-reduction strategy for e-commerce checkout page design?",
+        "options": [
+          "Reduce steps and form fields, display fees transparently, offer multiple payment methods, minimize distractions",
+          "Add more recommendations",
+          "Force registration",
+          "Hide shipping cost information"
+        ],
+        "answer": "Reduce steps and form fields, display fees transparently, offer multiple payment methods, minimize distractions",
+        "explanation": "The checkout page is the final step in the conversion funnel. Simplifying the process, making fees transparent, and reducing redirects can lower abandonment rates."
+      },
+      {
+        "id": "M10",
+        "question": "In Design Thinking, what is the core method of the 'Ideate' stage?",
+        "options": [
+          "Divergent thinking to generate many ideas without rushing to judge, pursuing quantity and diversity",
+          "Immediately select the best solution",
+          "Only consider technical feasibility",
+          "Only reference competitors"
+        ],
+        "answer": "Divergent thinking to generate many ideas without rushing to judge, pursuing quantity and diversity",
+        "explanation": "The Ideate stage first diverges then converges, using brainstorming and other methods to produce many ideas, delaying judgment to preserve possibilities."
+      },
+      {
+        "id": "M11",
+        "question": "In motion design, what are the movement characteristics of the 'ease-in-out' easing function?",
+        "options": [
+          "Slow start → accelerate → slow stop, simulating the acceleration and deceleration of natural objects",
+          "Uniform speed motion",
+          "Fast start and fast stop",
+          "Fast first, then slow"
+        ],
+        "answer": "Slow start → accelerate → slow stop, simulating the acceleration and deceleration of natural objects",
+        "explanation": "ease-in-out simulates an object accelerating from rest to mid-point then decelerating to stop, the most commonly used easing curve."
+      },
+      {
+        "id": "M12",
+        "question": "In icon design, how should you prioritize when 'recognizability' and 'consistency' conflict?",
+        "options": [
+          "Recognizability first — users being able to understand the icon's meaning is the most basic requirement",
+          "Consistency first",
+          "Both must be satisfied simultaneously",
+          "Delete conflicting icons"
+        ],
+        "answer": "Recognizability first — users being able to understand the icon's meaning is the most basic requirement",
+        "explanation": "The primary goal of an icon is to convey meaning. Sacrificing understandability for visual style consistency puts the cart before the horse."
+      },
+      {
+        "id": "M13",
+        "question": "What is Figma's core advantage over Sketch?",
+        "options": [
+          "Browser-based real-time multi-person collaboration, no installation required and cross-platform",
+          "Fewer features",
+          "Only supports Mac",
+          "Better local performance"
+        ],
+        "answer": "Browser-based real-time multi-person collaboration, no installation required and cross-platform",
+        "explanation": "Figma is web-based for real-time collaborative editing, cross-platform with no local installation required, while Sketch only supports macOS."
+      },
+      {
+        "id": "M14",
+        "question": "In UI design, what grouping laws does the 'Gestalt principles' include?",
+        "options": [
+          "Proximity, Similarity, Continuity, Closure, Figure-Ground",
+          "Color matching principles",
+          "Typography spacing rules",
+          "Animation timing curves"
+        ],
+        "answer": "Proximity, Similarity, Continuity, Closure, Figure-Ground",
+        "explanation": "Gestalt psychology reveals how the human eye organizes visual information: elements close together are grouped, similar elements are grouped, etc."
+      },
+      {
+        "id": "M15",
+        "question": "In livestream interfaces, what should gift animation design pay attention to?",
+        "options": [
+          "Balance visual impact with not obstructing content; duration should not be too long",
+          "Longer animations are always better",
+          "Completely covering the screen is fine",
+          "No animation needed"
+        ],
+        "answer": "Balance visual impact with not obstructing content; duration should not be too long",
+        "explanation": "Gift animations must balance the ritual of tipping with not disturbing other viewers' experience. Duration is typically 1-3 seconds."
+      },
+      {
+        "id": "M16",
+        "question": "In design reviews, what items should a 'design walkthrough checklist' include?",
+        "options": [
+          "Visual fidelity, spacing and alignment, interaction states, edge cases, accessibility, multi-device adaptation",
+          "Only check colors",
+          "Only check fonts",
+          "No checklist needed"
+        ],
+        "answer": "Visual fidelity, spacing and alignment, interaction states, edge cases, accessibility, multi-device adaptation",
+        "explanation": "A walkthrough checklist ensures systematic review, including visual fidelity, interaction completeness, edge cases, accessibility, and multi-device performance."
+      },
+      {
+        "id": "M17",
+        "question": "In Dark Mode design, how should 'shadows' be adjusted?",
+        "options": [
+          "Shadows need reduced opacity or removal, as shadow effects are less visible on dark backgrounds",
+          "Shadows should be deeper",
+          "Shadows remain unchanged",
+          "Dark Mode doesn't need shadows"
+        ],
+        "answer": "Shadows need reduced opacity or removal, as shadow effects are less visible on dark backgrounds",
+        "explanation": "Traditional shadows are weakened on dark backgrounds. Use lower opacity or replace with borders/layer differentiation instead."
+      },
+      {
+        "id": "M18",
+        "question": "In color theory, what is the characteristic of an 'analogous' color scheme?",
+        "options": [
+          "Colors adjacent on the color wheel, harmonious and comfortable but with weak contrast",
+          "Strong contrast",
+          "Completely mismatched",
+          "Randomly selected"
+        ],
+        "answer": "Colors adjacent on the color wheel, harmonious and comfortable but with weak contrast",
+        "explanation": "Analogous colors are adjacent on the color wheel (30-60 degrees), naturally harmonious but lacking strong contrast."
+      },
+      {
+        "id": "M19",
+        "question": "In typography, what is the difference between 'optical centering' and 'mathematical centering'?",
+        "options": [
+          "Optical centering requires a slight upward shift to compensate for the eye's perception bias of gravity; mathematical centering is the exact center",
+          "They are completely identical",
+          "Mathematical centering looks better",
+          "Optical centering is more precise"
+        ],
+        "answer": "Optical centering requires a slight upward shift to compensate for the eye's perception bias of gravity; mathematical centering is the exact center",
+        "explanation": "The human eye perceives the center of gravity as slightly higher. Mathematical center appears too low, requiring a slight upward adjustment for visual balance."
+      },
+      {
+        "id": "M20",
+        "question": "In design systems, what is the concept of 'variants'?",
+        "options": [
+          "Different states or style versions of the same component (e.g., button size, color, and state variants)",
+          "Different components",
+          "Variants are not important",
+          "A component bug"
+        ],
+        "answer": "Different states or style versions of the same component (e.g., button size, color, and state variants)",
+        "explanation": "Variants let the same component support multiple forms (size/color/state), enabling unified management and reducing component fragmentation."
+      },
+      {
+        "id": "M21",
+        "question": "In interaction design, what specific design techniques does the 'error prevention' principle include?",
+        "options": [
+          "Input constraints, operation confirmation, irreversible action warnings, smart defaults",
+          "Allow any operation",
+          "No error messages needed",
+          "Auto-fix after errors"
+        ],
+        "answer": "Input constraints, operation confirmation, irreversible action warnings, smart defaults",
+        "explanation": "Prevention is better than correction: reduce user error opportunities through constrained inputs, confirming dangerous actions, and setting reasonable defaults."
+      },
+      {
+        "id": "M22",
+        "question": "In user research, what is the typical process for 'usability testing'?",
+        "options": [
+          "Prepare tasks → Recruit users → Execute testing (think-aloud method) → Analyze findings → Output report",
+          "Let users use directly",
+          "Only send questionnaires",
+          "No task design needed"
+        ],
+        "answer": "Prepare tasks → Recruit users → Execute testing (think-aloud method) → Analyze findings → Output report",
+        "explanation": "Standard usability testing process: design representative tasks, recruit 5-8 target users, observe with think-aloud method, analyze and report."
+      },
+      {
+        "id": "M23",
+        "question": "In typography design, what is the recommended font size range for Chinese body text?",
+        "options": [
+          "14px to 16px",
+          "10px to 12px",
+          "20px to 24px",
+          "8px to 10px"
+        ],
+        "answer": "14px to 16px",
+        "explanation": "Chinese body text recommends 14-16px. Below 14px is straining to read; above 16px reduces on-screen information density."
+      },
+      {
+        "id": "M24",
+        "question": "In short video UI design, what is the positioning trade-off for the 'comment entry'?",
+        "options": [
+          "Entry should be visible but not overly prominent, encouraging interaction without interrupting content consumption",
+          "Comment entry should be the largest",
+          "No comment feature needed",
+          "Comment entry should be at the very top"
+        ],
+        "answer": "Entry should be visible but not overly prominent, encouraging interaction without interrupting content consumption",
+        "explanation": "Comments are a key interaction but not the primary consumption behavior. The entry should be discoverable but not excessively competing for attention."
+      },
+      {
+        "id": "M25",
+        "question": "In brand design, what are the core components of a 'Visual Identity System' (VI)?",
+        "options": [
+          "Logo, standard colors, standard typography, auxiliary graphics, application guidelines",
+          "Only the logo",
+          "All brand images",
+          "Brand slogan"
+        ],
+        "answer": "Logo, standard colors, standard typography, auxiliary graphics, application guidelines",
+        "explanation": "The VI system includes basic elements (logo, color, typography, auxiliary graphics) and application guidelines (usage standards for various scenarios)."
+      },
+      {
+        "id": "M26",
+        "question": "In Design Thinking, what is the core method of the 'Empathize' stage?",
+        "options": [
+          "Immerse in users' real environments, observe and experience their world, understanding their needs and pain points",
+          "Quickly produce solutions",
+          "Directly ask users what they want",
+          "Assume user needs"
+        ],
+        "answer": "Immerse in users' real environments, observe and experience their world, understanding their needs and pain points",
+        "explanation": "The Empathize stage builds deep understanding through field observation, shadowing, and experiencing users' daily lives."
+      },
+      {
+        "id": "M27",
+        "question": "In e-commerce product detail page design, what should the 'first screen' display most?",
+        "options": [
+          "Core product image, price, title, and key selling points — quickly conveying decision-critical information",
+          "All parameter details",
+          "User reviews",
+          "Company introduction"
+        ],
+        "answer": "Core product image, price, title, and key selling points — quickly conveying decision-critical information",
+        "explanation": "The first screen is prime real estate. It must convey the most purchase-impacting information within 3 seconds."
+      },
+      {
+        "id": "M28",
+        "question": "In motion design, what is the recommended range for animation duration?",
+        "options": [
+          "Micro-interactions 100-300ms, page transitions 200-500ms",
+          "All animations 1 second",
+          "All animations 5 seconds",
+          "Animations don't need duration"
+        ],
+        "answer": "Micro-interactions 100-300ms, page transitions 200-500ms",
+        "explanation": "Micro-interactions that are too fast are imperceptible, too slow feel sluggish. Page transitions need longer for spatial continuity."
+      },
+      {
+        "id": "M29",
+        "question": "In design systems, what is the core role of 'documentation'?",
+        "options": [
+          "Guide the proper use of the design system, ensuring standards are implemented and the team is aligned",
+          "Documentation is not important",
+          "Only for archiving",
+          "Replace design tools"
+        ],
+        "answer": "Guide the proper use of the design system, ensuring standards are implemented and the team is aligned",
+        "explanation": "Design system documentation includes usage guides, design principles, component specifications, and best practices, ensuring correct team usage."
+      },
+      {
+        "id": "M30",
+        "question": "In Kuaishou's livestream interface, what are the core UI design elements for the 'PK feature'?",
+        "options": [
+          "Real-time comparison of both parties' data, progress bars, and interaction entries, creating a competitive atmosphere",
+          "Only display one party's data",
+          "PK doesn't need UI design",
+          "Randomly display data"
+        ],
+        "answer": "Real-time comparison of both parties' data, progress bars, and interaction entries, creating a competitive atmosphere",
+        "explanation": "The PK interface needs to clearly show competitive status: both sides' scores/progress comparison, remaining time, and gift entry points."
+      },
+      {
+        "id": "M31",
+        "question": "In color theory, what is the psychological perception of 'color temperature'?",
+        "options": [
+          "Red, orange, yellow feel warm; blue, green, purple feel cool, affecting user emotions and spatial perception",
+          "Temperature is unrelated to color",
+          "All colors have the same temperature",
+          "Black is the warmest"
+        ],
+        "answer": "Red, orange, yellow feel warm; blue, green, purple feel cool, affecting user emotions and spatial perception",
+        "explanation": "Warm colors create a sense of vitality and closeness; cool colors convey professionalism and calmness. Color temperature is a key consideration in brand and scenario design."
+      },
+      {
+        "id": "M32",
+        "question": "In responsive design, what does the 'mobile-first' strategy mean?",
+        "options": [
+          "Design for mobile first then expand to desktop, ensuring core content is prioritized on the smallest screen",
+          "Only build for mobile",
+          "Mobile is more important",
+          "Desktop doesn't need design"
+        ],
+        "answer": "Design for mobile first then expand to desktop, ensuring core content is prioritized on the smallest screen",
+        "explanation": "Mobile-first forces designers to focus on core content and functionality, then progressively enhance the desktop experience (progressive enhancement)."
+      },
+      {
+        "id": "M33",
+        "question": "In user research, what is the purpose of the 'think-aloud' method?",
+        "options": [
+          "Have users verbalize their thoughts while operating, revealing cognitive processes and decision rationale",
+          "Test users' voices",
+          "Have users read interface text aloud",
+          "Only for recording"
+        ],
+        "answer": "Have users verbalize their thoughts while operating, revealing cognitive processes and decision rationale",
+        "explanation": "The think-aloud method has users narrate their thinking while operating, helping researchers understand why users do what they do."
+      },
+      {
+        "id": "M34",
+        "question": "In design reviews, what is the value of 'Design Decision Records' (DRD)?",
+        "options": [
+          "Record the context and rationale of design decisions, avoiding repeated discussions of the same issue",
+          "Only record conclusions",
+          "No need to record",
+          "Only for reporting"
+        ],
+        "answer": "Record the context and rationale of design decisions, avoiding repeated discussions of the same issue",
+        "explanation": "DRD records why a design was made, what alternatives were considered, and why alternatives were rejected, providing decision context for the future."
+      },
+      {
+        "id": "M35",
+        "question": "In UI design, why is 'empty state' design important?",
+        "options": [
+          "Empty states are key touchpoints for guiding new users to understand features and operations",
+          "Empty states are not important",
+          "Empty states should show error messages",
+          "Empty states should be hidden"
+        ],
+        "answer": "Empty states are key touchpoints for guiding new users to understand features and operations",
+        "explanation": "An empty state is not blank space — it's an opportunity to guide users through their first action (e.g., 'No content yet, tap to create')."
+      },
+      {
+        "id": "M36",
+        "question": "In Kuaishou design specifications, what are the interaction design considerations for the short video 'filter selector'?",
+        "options": [
+          "Instant preview, clear categorization, no disruption to editing flow",
+          "More filters are always better",
+          "No categorization needed",
+          "Random arrangement"
+        ],
+        "answer": "Instant preview, clear categorization, no disruption to editing flow",
+        "explanation": "The filter selector needs instant effect preview, style-based categorization for easy browsing, and should not obstruct the main editing workflow."
+      },
+      {
+        "id": "M37",
+        "question": "In icon design, what does 'optical balance' require?",
+        "options": [
+          "Icons should have consistent optical area rather than consistent bounding box; circular icons need to be slightly larger than square ones",
+          "All icons with the same bounding box is sufficient",
+          "Circular and square must be the same size",
+          "Optical balance is not important"
+        ],
+        "answer": "Icons should have consistent optical area rather than consistent bounding box; circular icons need to be slightly larger than square ones",
+        "explanation": "With the same bounding box, circles appear visually smaller than squares. Sizes must be adjusted so optical areas match, as in iOS icon grid design."
+      },
+      {
+        "id": "M38",
+        "question": "In typography, what is the issue with 'justified alignment' in Chinese typesetting?",
+        "options": [
+          "Can cause uneven word spacing creating 'rivers' effect, requiring letter-spacing adjustment and hyphenation rules to optimize",
+          "Justified alignment is perfect",
+          "Chinese doesn't need justified alignment",
+          "Justified alignment only works for English"
+        ],
+        "answer": "Can cause uneven word spacing creating 'rivers' effect, requiring letter-spacing adjustment and hyphenation rules to optimize",
+        "explanation": "Justified alignment forces both edges flush, which can create uneven spacing. Fine-tuning letter-spacing and typesetting rules is needed to avoid visual flaws."
+      },
+      {
+        "id": "M39",
+        "question": "In design systems, what is the relationship between 'design principles' and 'design specifications'?",
+        "options": [
+          "Principles are guiding philosophies and value judgments; specifications are the concrete implementation standards and rules derived from principles",
+          "They are completely identical",
+          "Principles are not important",
+          "Specifications don't need principles"
+        ],
+        "answer": "Principles are guiding philosophies and value judgments; specifications are the concrete implementation standards and rules derived from principles",
+        "explanation": "Design principles (like 'simplicity first') are values; design specifications (like 8px spacing) are the concrete execution standards derived from those principles."
+      },
+      {
+        "id": "M40",
+        "question": "In interaction design, what does the 'user control and freedom' principle mean?",
+        "options": [
+          "Users should be able to undo and redo operations, having control over the system rather than being controlled by it",
+          "Users can do anything without any restrictions",
+          "The system fully controls the user",
+          "Users cannot exit operations"
+        ],
+        "answer": "Users should be able to undo and redo operations, having control over the system rather than being controlled by it",
+        "explanation": "Nielsen's 3rd heuristic: users should be able to navigate freely and correct mistakes, such as 'back', 'undo', and 'cancel' functionality."
+      }
+    ],
+    "hard": [
+      {
+        "id": "H01",
+        "question": "In Fitts' Law formula T=a+b*log2(2D/W), what do W and D represent?",
+        "options": [
+          "W is target width, D is distance from starting point to target",
+          "W is distance, D is width",
+          "W is weight, D is density",
+          "W is time, D is distance"
+        ],
+        "answer": "W is target width, D is distance from starting point to target",
+        "explanation": "Fitts' Law T=a+b·log₂(2D/W): W = target width (larger is faster), D = movement distance (farther is slower)."
+      },
+      {
+        "id": "H02",
+        "question": "In the HSL color model, how does the color at L=50% differ from HSV's V=100%?",
+        "options": [
+          "HSL L=50% is pure color, HSV V=100% is also pure color, but their transition logic to black and white differs",
+          "They are completely identical",
+          "HSL L=50% appears whitish",
+          "HSV V=100% appears grayish"
+        ],
+        "answer": "HSL L=50% is pure color, HSV V=100% is also pure color, but their transition logic to black and white differs",
+        "explanation": "Both display pure color at L=50% and V=100%, but lowering HSL's L trends toward white or black, while lowering HSV's V only trends toward black."
+      },
+      {
+        "id": "H03",
+        "question": "In design systems, what is the technical architecture for Design Tokens to achieve cross-platform consistency?",
+        "options": [
+          "Tokens are defined as platform-agnostic JSON/YAML, compiled to platform-specific formats (CSS/Swift/Kotlin) via build tools",
+          "Tokens can only be used on the web",
+          "Each platform defines Tokens separately",
+          "Tokens don't support cross-platform"
+        ],
+        "answer": "Tokens are defined as platform-agnostic JSON/YAML, compiled to platform-specific formats (CSS/Swift/Kotlin) via build tools",
+        "explanation": "Design Tokens are defined in platform-agnostic formats, then compiled to each platform's native format using tools like Style Dictionary."
+      },
+      {
+        "id": "H04",
+        "question": "In WCAG 2.1, what are the AAA-level text contrast ratio requirements?",
+        "options": [
+          "Body text 7:1, large text 4.5:1",
+          "Body text 4.5:1, large text 3:1",
+          "Body text 3:1, large text 2:1",
+          "Body text 10:1"
+        ],
+        "answer": "Body text 7:1, large text 4.5:1",
+        "explanation": "AAA level (highest) requires body text at least 7:1 and large text 4.5:1, significantly higher than AA level's 4.5:1 and 3:1."
+      },
+      {
+        "id": "H05",
+        "question": "In Nielsen's 10 usability heuristics, what is the design priority between 'error recovery' and 'error prevention'?",
+        "options": [
+          "Prevention takes priority over recovery — stopping errors from occurring is better than providing ways to fix them",
+          "Recovery takes priority over prevention",
+          "Both are equally important",
+          "Only prevention needed, no recovery"
+        ],
+        "answer": "Prevention takes priority over recovery — stopping errors from occurring is better than providing ways to fix them",
+        "explanation": "Error prevention (Principle 5) takes priority over helping users recover (Principle 9). The optimal design makes errors impossible to occur."
+      },
+      {
+        "id": "H06",
+        "question": "How is the Gestalt principle of 'closure' applied in logo design?",
+        "options": [
+          "Using incomplete shapes to let the brain automatically fill in the gaps, creating memorability and engagement",
+          "Logos must be fully enclosed",
+          "Closure doesn't apply to logos",
+          "Just fill all the space"
+        ],
+        "answer": "Using incomplete shapes to let the brain automatically fill in the gaps, creating memorability and engagement",
+        "explanation": "Like the IBM striped logo or WWF panda logo, closure lets viewers mentally complete the shape, enhancing recognition and memorability."
+      },
+      {
+        "id": "H07",
+        "question": "What design problems must the 'co-streaming PK' UI in Kuaishou livestreaming solve simultaneously?",
+        "options": [
+          "Dual-screen layout, audio mixing indicators, layered interaction entries, latency sync perception",
+          "Only need to display video",
+          "Only need to display text",
+          "UI design is not important"
+        ],
+        "answer": "Dual-screen layout, audio mixing indicators, layered interaction entries, latency sync perception",
+        "explanation": "Co-streaming PK must solve: dual-screen space allocation, audio attribution indicators, interaction entries not obstructing content, and latency perception optimization."
+      },
+      {
+        "id": "H08",
+        "question": "In motion design, what effect does cubic-bezier(0.68, -0.55, 0.265, 1.55) produce?",
+        "options": [
+          "Elastic overshoot effect — animation exceeds the target then bounces back",
+          "Uniform speed motion",
+          "Standard ease-in-out",
+          "Bounce and vanish effect"
+        ],
+        "answer": "Elastic overshoot effect — animation exceeds the target then bounces back",
+        "explanation": "When control points exceed the 0-1 range, overshoot and bounce occur. This value simulates elastic physics, commonly used for playful micro-interactions."
+      },
+      {
+        "id": "H09",
+        "question": "In user research, what is the criterion for judging 'sample size saturation'?",
+        "options": [
+          "Theoretical saturation is reached when new interviews no longer produce new themes or information",
+          "Sample size reaches 100 people",
+          "Fixed at 10 people",
+          "Determined by statistical formula"
+        ],
+        "answer": "Theoretical saturation is reached when new interviews no longer produce new themes or information",
+        "explanation": "Qualitative research uses theoretical saturation to judge sufficient sample size: stop recruiting when new data no longer yields new insights."
+      },
+      {
+        "id": "H10",
+        "question": "In responsive design, what is the advantage of 'Container Queries' over 'Media Queries'?",
+        "options": [
+          "Container Queries are based on component container size rather than viewport size, enabling true component-level responsiveness",
+          "Container Queries have fewer features",
+          "They are completely identical",
+          "Container Queries have been deprecated"
+        ],
+        "answer": "Container Queries are based on component container size rather than viewport size, enabling true component-level responsiveness",
+        "explanation": "Container Queries let components adapt to their own container's space, independent of the global viewport, a key technology for componentized design systems."
+      },
+      {
+        "id": "H11",
+        "question": "In brand design, what are the three main models of 'brand architecture'?",
+        "options": [
+          "Single brand, endorsed brand, multi-brand",
+          "Only one model",
+          "Domestic brands and international brands",
+          "Online brands and offline brands"
+        ],
+        "answer": "Single brand, endorsed brand, multi-brand",
+        "explanation": "Brand architecture: single brand (e.g., Google across all products), endorsed brand (e.g., Kuaishou · Kuaiying), multi-brand (independent brand matrix)."
+      },
+      {
+        "id": "H12",
+        "question": "In Design Thinking, what is the core value of 'rapid prototyping'?",
+        "options": [
+          "Concretize ideas at the lowest cost quickly, learning fast through failure rather than pursuing perfection",
+          "Prototypes must be high-fidelity",
+          "Fast means cutting corners",
+          "Prototypes don't need testing"
+        ],
+        "answer": "Concretize ideas at the lowest cost quickly, learning fast through failure rather than pursuing perfection",
+        "explanation": "Rapid prototyping emphasizes low-fidelity fast iteration, validating hypotheses at the lowest cost. Fail fast, learn fast."
+      },
+      {
+        "id": "H13",
+        "question": "In UI design, what is the design principle of 'Progressive Disclosure'?",
+        "options": [
+          "Reveal information step by step based on the user's current task needs, reducing initial cognitive load",
+          "Hide all information",
+          "Display all information at once",
+          "Disclosure order doesn't matter"
+        ],
+        "answer": "Reveal information step by step based on the user's current task needs, reducing initial cognitive load",
+        "explanation": "Progressive disclosure uses 'more' and 'expand' interactions to show detailed information only when needed, reducing initial complexity."
+      },
+      {
+        "id": "H14",
+        "question": "In e-commerce design, what is the design challenge of a 'combined cart and checkout' page?",
+        "options": [
+          "Balancing simplicity with information completeness — reducing steps while ensuring users clearly see fee details",
+          "Combining is always better",
+          "Combining is impossible",
+          "Only disadvantages, no advantages"
+        ],
+        "answer": "Balancing simplicity with information completeness — reducing steps while ensuring users clearly see fee details",
+        "explanation": "A combined page reduces redirects but increases information density, requiring careful design of information hierarchy and visual grouping."
+      },
+      {
+        "id": "H15",
+        "question": "In accessibility design, what is the principle for 'Focus Order'?",
+        "options": [
+          "Follow logical reading order and operational flow, consistent with visual layout",
+          "Random arrangement",
+          "Right to left",
+          "No focus order needed"
+        ],
+        "answer": "Follow logical reading order and operational flow, consistent with visual layout",
+        "explanation": "Focus order must align with visual and logical flow, ensuring keyboard and screen reader users navigate in a reasonable sequence."
+      },
+      {
+        "id": "H16",
+        "question": "In color theory, what is the impact of 'simultaneous contrast' on UI design?",
+        "options": [
+          "The same color appears different on different backgrounds; colors must be evaluated in their real context",
+          "Colors always appear the same",
+          "Background doesn't affect color",
+          "Only impacts print"
+        ],
+        "answer": "The same color appears different on different backgrounds; colors must be evaluated in their real context",
+        "explanation": "Simultaneous contrast: adjacent colors influence each other's perception. Color specifications must be validated in their real background context."
+      },
+      {
+        "id": "H17",
+        "question": "In card sorting research, what is the core difference and application scenario between 'open' and 'closed' methods?",
+        "options": [
+          "Open sorting lets users create categories to discover mental models; closed sorting provides categories to validate information architecture",
+          "They are completely identical",
+          "Open sorting is simpler",
+          "Closed sorting is more free"
+        ],
+        "answer": "Open sorting lets users create categories to discover mental models; closed sorting provides categories to validate information architecture",
+        "explanation": "Open sorting is used in the exploration phase to discover how users understand content; closed sorting is used to validate an existing classification scheme."
+      },
+      {
+        "id": "H18",
+        "question": "In motion design, what is the psychological principle and design recommendation for 'Staggered Animation'?",
+        "options": [
+          "Use motion sequences to guide attention direction; stagger intervals of 30-50ms create a fluid wave effect",
+          "Stagger intervals should be identical",
+          "Staggered animation only works for lists",
+          "Longer stagger intervals are always better"
+        ],
+        "answer": "Use motion sequences to guide attention direction; stagger intervals of 30-50ms create a fluid wave effect",
+        "explanation": "Staggered animation guides the eye through sequential element appearance. 30-50ms intervals create a natural wave feel; longer intervals feel disconnected."
+      },
+      {
+        "id": "H19",
+        "question": "In Kuaishou design specifications, what is the core UI design philosophy for short video 'creation tools'?",
+        "options": [
+          "Lower creation barriers — features are discoverable but not overwhelming; advanced features use progressive disclosure",
+          "More features are always better",
+          "Only keep basic features",
+          "Professional tools don't need ease of use"
+        ],
+        "answer": "Lower creation barriers — features are discoverable but not overwhelming; advanced features use progressive disclosure",
+        "explanation": "Creation tools serve a broad range of creators. Core features are immediately visible, advanced features expand on demand, balancing novice and professional users."
+      },
+      {
+        "id": "H20",
+        "question": "In design systems, what is the 'Compound Component' design pattern?",
+        "options": [
+          "Compose sub-components through shared implicit state, without exposing internal implementation details to the outside",
+          "Combine all components into one",
+          "Compound components don't need state management",
+          "Each component is completely independent"
+        ],
+        "answer": "Compose sub-components through shared implicit state, without exposing internal implementation details to the outside",
+        "explanation": "The compound component pattern (e.g., Tabs = TabList + Tab + TabPanel) has sub-components sharing state while rendering independently, providing a clean and flexible API."
+      },
+      {
+        "id": "H21",
+        "question": "In Figma, what core design problem does 'Auto Layout' solve?",
+        "options": [
+          "Components automatically adjust size and spacing based on content, enabling responsive design systems",
+          "Automatically arrange layers",
+          "Automatically apply colors",
+          "Automatically generate code"
+        ],
+        "answer": "Components automatically adjust size and spacing based on content, enabling responsive design systems",
+        "explanation": "Auto Layout works like CSS Flexbox, letting containers automatically adjust based on child element content, forming the responsive foundation of design systems."
+      },
+      {
+        "id": "H22",
+        "question": "In UI design, what is the guiding significance of 'mental models' for interaction design?",
+        "options": [
+          "Interaction design should match users' existing mental models, reducing learning cost",
+          "Mental models are not important",
+          "All users have the same mental models",
+          "Must change users' mental models"
+        ],
+        "answer": "Interaction design should match users' existing mental models, reducing learning cost",
+        "explanation": "Good interaction design leverages users' existing mental models (like 'swiping = turning pages'). New interactions should map to known models."
+      },
+      {
+        "id": "H23",
+        "question": "In color accessibility, what is the design principle for 'color-blind friendly' color schemes?",
+        "options": [
+          "Don't rely solely on color to convey information; add multiple encodings like icons, textures, and text labels",
+          "Color-blind users are rare, no need to consider",
+          "All colors can be distinguished",
+          "Only use red and green"
+        ],
+        "answer": "Don't rely solely on color to convey information; add multiple encodings like icons, textures, and text labels",
+        "explanation": "About 8% of males have color vision deficiencies. Critical information cannot be distinguished by color alone and must be paired with icons, textures, or text labels."
+      },
+      {
+        "id": "H24",
+        "question": "In eye tracking research, what is the difference and significance between 'fixations' and 'saccades'?",
+        "options": [
+          "Fixations are information processing moments (200-600ms); saccades are rapid jumps between fixations (no information processing)",
+          "They mean the same thing",
+          "Information is also processed during saccades",
+          "Fewer fixations are always better"
+        ],
+        "answer": "Fixations are information processing moments (200-600ms); saccades are rapid jumps between fixations (no information processing)",
+        "explanation": "Information is only processed during fixations. During saccades, vision is suppressed. Heatmaps reflect fixation distribution."
+      },
+      {
+        "id": "H25",
+        "question": "In typography design, what is the difference between 'Micro Typography' and 'Macro Typography'?",
+        "options": [
+          "Micro typography focuses on details like letter-spacing, line-height, and kerning; macro typography focuses on page grid and layout structure",
+          "They are completely identical",
+          "Micro typography is more important",
+          "Macro typography is only for books"
+        ],
+        "answer": "Micro typography focuses on details like letter-spacing, line-height, and kerning; macro typography focuses on page grid and layout structure",
+        "explanation": "Micro typography optimizes reading experience (kerning, leading); macro typography optimizes information architecture and visual rhythm."
+      },
+      {
+        "id": "H26",
+        "question": "In Kuaishou design specifications, how do 'inclusive' values affect accessibility design standards?",
+        "options": [
+          "Inclusivity requires serving a broader population including the elderly and disabled users; accessibility standards must exceed minimum compliance",
+          "Only meet legal minimum requirements",
+          "Inclusivity has nothing to do with accessibility",
+          "Accessibility only applies to visually impaired users"
+        ],
+        "answer": "Inclusivity requires serving a broader population including the elderly and disabled users; accessibility standards must exceed minimum compliance",
+        "explanation": "The inclusive values philosophy means 'everyone' should be able to use the product, driving accessibility from compliance-driven to values-driven."
+      },
+      {
+        "id": "H27",
+        "question": "In design systems, what is the challenge of 'version management' for Design Tokens?",
+        "options": [
+          "Token changes must be backward compatible; major updates need version numbers and migration paths to avoid breaking downstream consumers",
+          "Tokens don't need version management",
+          "Version management only applies to code",
+          "Tokens cannot be modified once defined"
+        ],
+        "answer": "Token changes must be backward compatible; major updates need version numbers and migration paths to avoid breaking downstream consumers",
+        "explanation": "Tokens are the 'API' of a design system. Breaking changes require semantic versioning + migration guides, ensuring consumers can upgrade smoothly."
+      },
+      {
+        "id": "H28",
+        "question": "In interaction design, how does the 'signal vs. noise' principle guide interface information density?",
+        "options": [
+          "Maximize the ratio of signal (useful information) to noise (distracting information), rather than simply increasing or decreasing information volume",
+          "More information is always better",
+          "Less information is always better",
+          "Signal-to-noise ratio doesn't matter"
+        ],
+        "answer": "Maximize the ratio of signal (useful information) to noise (distracting information), rather than simply increasing or decreasing information volume",
+        "explanation": "The key is not how much information there is, but the proportion of useful information. Reducing distractions (decorations, ads, redundancy) lets core content stand out."
+      },
+      {
+        "id": "H29",
+        "question": "In illustration style design, what core elements should a 'Brand Illustration Guide' include?",
+        "options": [
+          "Character proportions, color rules, scene elements, composition methods, emotional tone, usage taboos",
+          "Only the color palette",
+          "Only illustration dimensions",
+          "No guide needed"
+        ],
+        "answer": "Character proportions, color rules, scene elements, composition methods, emotional tone, usage taboos",
+        "explanation": "Illustration guides ensure consistency across multiple creators: proportions, color usage, scene style, emotional expression, and prohibited practices."
+      },
+      {
+        "id": "H30",
+        "question": "How does the 'Component Properties' design pattern in Figma support Design Tokens?",
+        "options": [
+          "Bind Token values as component property variants, enabling Token changes to automatically propagate to all instances",
+          "Component properties are unrelated to Tokens",
+          "Need to manually update each component",
+          "Tokens cannot be used in components"
+        ],
+        "answer": "Bind Token values as component property variants, enabling Token changes to automatically propagate to all instances",
+        "explanation": "Component properties + Token binding: when a Token value changes, all component instances using that Token update automatically."
+      },
+      {
+        "id": "H31",
+        "question": "In Kuaishou livestream design, what core challenge does 'virtual livestream room' UI design need to solve?",
+        "options": [
+          "Natural fusion of virtual elements with real livestream streams, spatial depth perception, interaction occlusion handling",
+          "Virtual livestream rooms don't need UI design",
+          "Only need to display 3D models",
+          "Same as regular livestream room design"
+        ],
+        "answer": "Natural fusion of virtual elements with real livestream streams, spatial depth perception, interaction occlusion handling",
+        "explanation": "Virtual livestream rooms must solve the naturalness of virtual-real fusion, spatial depth, and virtual scenes not obstructing interactive elements."
+      },
+      {
+        "id": "H32",
+        "question": "How is the Gestalt principle of 'continuity' applied in navigation design?",
+        "options": [
+          "Use visual directional continuity to guide users along expected paths, such as step indicators and breadcrumbs",
+          "Navigation doesn't need continuity",
+          "Continuity only applies to animations",
+          "Breadcrumbs don't follow Gestalt principles"
+        ],
+        "answer": "Use visual directional continuity to guide users along expected paths, such as step indicators and breadcrumbs",
+        "explanation": "Continuity lets the eye naturally trace directional elements. Step bars and breadcrumbs use this principle to guide path perception."
+      },
+      {
+        "id": "H33",
+        "question": "In design reviews, what is the best practice for handling 'objections'?",
+        "options": [
+          "Require objectors to provide alternative solutions and data-driven rationale, rather than merely expressing subjective preferences",
+          "Ignore objections",
+          "Majority rules",
+          "All objections must be adopted"
+        ],
+        "answer": "Require objectors to provide alternative solutions and data-driven rationale, rather than merely expressing subjective preferences",
+        "explanation": "Constructive objections must come with alternatives and evidence, avoiding unproductive 'I don't like it' discussions based purely on subjective preference."
+      },
+      {
+        "id": "H34",
+        "question": "In motion design, what is the principle of 'Shared Axis Transition'?",
+        "options": [
+          "Elements sharing a spatial axis maintain positional relationships during transition, creating spatial continuity",
+          "All elements move in the same direction",
+          "Shared axis doesn't need animation",
+          "Transitions are just fade in/out"
+        ],
+        "answer": "Elements sharing a spatial axis maintain positional relationships during transition, creating spatial continuity",
+        "explanation": "Material Design's Shared Axis Transition has related elements move along a common axis during page switches, preserving spatial awareness."
+      },
+      {
+        "id": "H35",
+        "question": "In accessibility design, what problem does 'ARIA live region' solve?",
+        "options": [
+          "Notify screen reader users of dynamic content updates without refreshing the page",
+          "Real-time video livestreaming",
+          "ARIA is only for static content",
+          "Live regions don't need to be used"
+        ],
+        "answer": "Notify screen reader users of dynamic content updates without refreshing the page",
+        "explanation": "aria-live lets screen readers automatically announce content changes, such as new message notifications or shopping cart quantity updates."
+      },
+      {
+        "id": "H36",
+        "question": "In UI design, what is the difference between 'affordance' and 'signifier'?",
+        "options": [
+          "Affordance is the possibility of an object being operable; signifier is the perceptual cue that tells users how to operate it",
+          "They are completely identical",
+          "Signifier is more important",
+          "Affordance is a visual property"
+        ],
+        "answer": "Affordance is the possibility of an object being operable; signifier is the perceptual cue that tells users how to operate it",
+        "explanation": "Norman distinguishes: a door being pushable/pullable is an affordance; a 'push/pull' label is a signifier. Design must use signifiers to reveal affordances."
+      },
+      {
+        "id": "H37",
+        "question": "In Kuaishou e-commerce design, what does the 'livestream shopping cart popup' interaction need to balance?",
+        "options": [
+          "Product browsing efficiency with not interrupting the viewing experience; popup information hierarchy and quick return to livestream",
+          "The popup must be full screen",
+          "The shopping cart should be in front of the livestream",
+          "Completely hide the shopping cart"
+        ],
+        "answer": "Product browsing efficiency with not interrupting the viewing experience; popup information hierarchy and quick return to livestream",
+        "explanation": "The shopping cart popup is a core conversion entry for livestream e-commerce. Users need to quickly browse products and return to the livestream with one tap."
+      },
+      {
+        "id": "H38",
+        "question": "In typography design, what is the principle of 'optical margin alignment'?",
+        "options": [
+          "Punctuation hanging and character offset compensation, aligning text blocks visually rather than mathematically",
+          "Mathematical alignment for all characters is sufficient",
+          "Optical alignment is not important",
+          "Only applicable to English"
+        ],
+        "answer": "Punctuation hanging and character offset compensation, aligning text blocks visually rather than mathematically",
+        "explanation": "Punctuation takes different amounts of space (e.g., comma vs. period). Mathematical alignment looks ragged; optical margin alignment compensates for these differences."
+      },
+      {
+        "id": "H39",
+        "question": "In design systems, what pattern does the technical implementation of 'Theming' rely on?",
+        "options": [
+          "Semantic abstraction at the Token level — switching themes only requires replacing semantic Token mappings while components remain unchanged",
+          "Hard-coding all color values",
+          "Need to rewrite all components",
+          "Theming is impossible to implement"
+        ],
+        "answer": "Semantic abstraction at the Token level — switching themes only requires replacing semantic Token mappings while components remain unchanged",
+        "explanation": "Semantic Tokens (like color-primary) decouple specific values from meaning. Switching themes only requires remapping semantic Tokens to different global Tokens."
+      },
+      {
+        "id": "H40",
+        "question": "In Kuaishou design specifications, how does 'emotional design' apply in tool-type products?",
+        "options": [
+          "Through micro-interaction feedback, achievement incentives, and personable copywriting to convey warmth alongside functionality",
+          "Tool products don't need emotional design",
+          "Long emotional copywriting",
+          "Only achieved through illustrations"
+        ],
+        "answer": "Through micro-interaction feedback, achievement incentives, and personable copywriting to convey warmth alongside functionality",
+        "explanation": "Emotional design in tool products doesn't rely on heavy decoration, but on details: micro-interactions, completion celebrations, personable empty states, etc., to convey care."
+      }
+    ]
+  }
+}

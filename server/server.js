@@ -70,26 +70,33 @@ function requireAdmin(req, res, next) {
 }
 
 // ---------- sign-in ----------
-// Sign in with a @kuaishou.com email. Username = the local part before the @.
-// Uses the same employee_id scheme as game sessions so the account lines up.
-// isNewPlayer is true when the account has no completed runs yet.
+// Regular sign-in requires a @kuaishou.com email. KDD booth traffic (mode='kdd')
+// accepts ANY email — those accounts are namespaced with a separate employee_id
+// prefix so KDD guests can never collide with real internal accounts and the
+// two leaderboards stay cleanly separated.
 app.post('/api/users/signin', (req, res) => {
   const email = String((req.body && req.body.email) || '').trim().toLowerCase();
-  const m = /^([a-z0-9._%+-]+)@kuaishou\.com$/.exec(email);
-  if (!m) return res.status(400).json({ error: '请使用你的 @kuaishou.com 邮箱登录' });
-  const username = m[1];
-  const employeeId = 'local:' + username;
+  const scope = (req.body && req.body.scope) === 'kdd' ? 'kdd' : 'internal';
+  // Loose email pattern: local@domain.tld
+  const em = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/.test(email);
+  if (!em) return res.status(400).json({ error: scope === 'kdd' ? 'Please enter a valid email address' : '请使用你的 @kuaishou.com 邮箱登录' });
+  if (scope === 'internal' && !/@kuaishou\.com$/.test(email)) {
+    return res.status(400).json({ error: '请使用你的 @kuaishou.com 邮箱登录' });
+  }
+  const username = email.split('@')[0];
+  const employeeId = (scope === 'kdd' ? 'kdd:' : 'local:') + email; // full email for kdd uniqueness
   let user = db.prepare('SELECT * FROM users WHERE employee_id = ?').get(employeeId);
   if (!user) {
     const id = uuid();
     db.prepare('INSERT INTO users (id, employee_id, display_name, department) VALUES (?, ?, ?, ?)')
-      .run(id, employeeId, username, 'Unassigned');
+      .run(id, employeeId, username, scope === 'kdd' ? 'KDD Guest' : 'Unassigned');
     user = db.prepare('SELECT * FROM users WHERE id = ?').get(id);
   }
   const agg = db.prepare('SELECT COUNT(*) AS runs, MAX(score) AS best FROM game_sessions WHERE user_id = ? AND ended_at IS NOT NULL').get(user.id);
   res.json({
     username,
     email,
+    scope,
     displayName: user.display_name,
     isNewPlayer: (agg.runs || 0) === 0,
     totalRuns: agg.runs || 0,
@@ -98,7 +105,7 @@ app.post('/api/users/signin', (req, res) => {
 });
 
 // ---------- sessions ----------
-const BANK_KEYS = ['overall', 'techops', 'hr', 'pm', 'project', 'design', 'culture', 'ai'];
+const BANK_KEYS = ['overall', 'techops', 'hr', 'pm', 'project', 'design', 'culture', 'ai', 'kdd'];
 
 app.post('/api/sessions', (req, res) => {
   const { displayName, department, difficulty = 'normal', language = 'en', mode = 'overall' } = req.body || {};
@@ -140,9 +147,18 @@ app.post('/api/sessions', (req, res) => {
   for (const d of [1, 2, 3]) questions[d] = shuffle(questions[d]);
 
   // Mix-and-match pair content grouped by difficulty
-  const pRows = db.prepare('SELECT id, category, difficulty, term, definition FROM minigame_pairs WHERE active = 1').all();
+  const pRows = db.prepare('SELECT id, category, difficulty, term, definition, term_en, definition_en FROM minigame_pairs WHERE active = 1').all();
   const pairs = { 1: [], 2: [], 3: [] };
-  for (const p of pRows) (pairs[p.difficulty] ||= []).push({ id: p.id, category: p.category, term: p.term, definition: p.definition });
+  const pickPair = (r) => ({
+    id: r.id, category: r.category,
+    term: (language === 'zh' && r.term) ? r.term : (r.term_en || r.term),
+    definition: (language === 'zh' && r.definition) ? r.definition : (r.definition_en || r.definition),
+  });
+  // KDD mode only sees KDD-flavored pairs; other modes see the non-KDD pool.
+  for (const p of pRows) {
+    const inKdd = (p.category === 'kdd');
+    if (bank === 'kdd' ? inKdd : !inKdd) (pairs[p.difficulty] ||= []).push(pickPair(p));
+  }
 
   res.json({ sessionId, mode: bank, questions, pairs, config: GAME_CONFIG, user: { displayName: user.display_name, department: user.department } });
 });
@@ -333,16 +349,21 @@ function weekStartISO() {
   return d.toISOString();
 }
 
-// GET /api/leaderboard?period=week|all — weekly board ranks by each player's best
-// score THIS WEEK (results persist in SQLite, so the ranking survives restarts).
+// GET /api/leaderboard?period=week|all&mode=kdd — weekly board ranks by each
+// player's best score THIS WEEK (results persist in SQLite). Pass mode=kdd for a
+// KDD-only board; omit mode (or pass 'non-kdd') for the internal Kuaishou board
+// that excludes KDD booth traffic.
 app.get('/api/leaderboard', (req, res) => {
   const limit = Math.min(50, parseInt(req.query.limit) || 10);
   const dept = req.query.department;
   const weekly = req.query.period === 'week';
+  const modeFilter = req.query.mode; // 'kdd' | 'non-kdd' | undefined
   const conds = ['g.ended_at IS NOT NULL'];
   const params = [];
   if (weekly) { conds.push('g.ended_at >= ?'); params.push(weekStartISO()); }
   if (dept) { conds.push('u.department = ?'); params.push(dept); }
+  if (modeFilter === 'kdd') conds.push("g.mode = 'kdd'");
+  else if (modeFilter === 'non-kdd') conds.push("g.mode <> 'kdd'");
   const rows = db.prepare(`
     SELECT u.display_name AS displayName, u.department, MAX(g.score) AS bestScore,
            COUNT(g.id) AS totalRuns, MAX(g.ended_at) AS lastRunAt

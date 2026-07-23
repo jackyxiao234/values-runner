@@ -48,6 +48,10 @@ canvas{display:block}
 .fx-spark{position:absolute;width:6px;height:6px;border-radius:50%;background:#fff;box-shadow:0 0 8px 2px rgba(255,255,200,0.9);animation:sparkTwinkle var(--sd) ease-in-out infinite;top:var(--top);left:var(--left);opacity:0}
 @keyframes sparkTwinkle{0%,100%{opacity:0;transform:scale(.4)}50%{opacity:.95;transform:scale(1)}}
 #btn-signin{animation:btnPulse 1.6s ease-in-out infinite}
+#lang-toggle{position:absolute;top:14px;right:14px;z-index:5;display:flex;gap:4px;padding:4px;background:rgba(0,0,0,0.45);border:1px solid rgba(255,255,255,0.15);border-radius:10px;backdrop-filter:blur(6px);pointer-events:auto}
+#lang-toggle button{background:transparent;border:none;color:rgba(255,255,255,0.65);font-weight:800;font-size:13px;padding:5px 12px;border-radius:7px;cursor:pointer;letter-spacing:1px;transition:all .15s}
+#lang-toggle button.active{background:#ffd32a;color:#1a1a2e;box-shadow:0 0 10px rgba(255,211,42,0.45)}
+#lang-toggle button:not(.active):hover{color:#fff;background:rgba(255,255,255,0.08)}
 @keyframes btnPulse{0%,100%{box-shadow:0 0 10px rgba(255,211,42,0.25)}50%{box-shadow:0 0 26px rgba(255,211,42,0.7),0 0 46px rgba(255,99,72,0.25)}}
 .hv{font-family:'Press Start 2P',monospace;font-size:13px}
 .sv{color:#ffd32a}.lv{color:#7bed9f}.cv{color:#ff6b81}
@@ -226,10 +230,10 @@ canvas{display:block}
 <canvas id="game"></canvas>
 <canvas id="particles"></canvas>
 <div id="ui"><div id="hud" style="display:none">
-  <div>得分 <span class="hv sv" id="sd">0</span></div>
-  <div>等级 <span class="hv lv" id="ld">1</span></div>
-  <div>连击 <span class="hv cv" id="cd">x1</span></div>
-  <div>生命 <span id="ld2">♥♥♥</span></div>
+  <div><span id="hud-score-lbl">得分</span> <span class="hv sv" id="sd">0</span></div>
+  <div><span id="hud-level-lbl">等级</span> <span class="hv lv" id="ld">1</span></div>
+  <div><span id="hud-combo-lbl">连击</span> <span class="hv cv" id="cd">x1</span></div>
+  <div><span id="hud-lives-lbl">生命</span> <span id="ld2">♥♥♥</span></div>
   <div id="pause-btn" onclick="togglePause()" title="暂停 (P)">⏸</div>
 </div></div>
 <div id="pause-overlay">
@@ -265,35 +269,39 @@ canvas{display:block}
     <div id="fx-floaters"></div>
     <div id="fx-sparkles"></div>
   </div>
+  <div id="lang-toggle" role="group" aria-label="language">
+    <button data-lang="en" onclick="setLang('en')">EN</button>
+    <button data-lang="zh" onclick="setLang('zh')">中</button>
+  </div>
   <div class="game-title" id="game-title-text" translate="no">价值观快跑</div>
-  <div class="game-subtitle">奔跑在快手的文化世界里！收集路上的小快角色解锁小游戏、奖励题和加分，<br>躲开反价值观障碍，闯过挑战关卡和突击测验。</div>
+  <div class="game-subtitle" id="game-subtitle-text"></div>
 
   <div class="start-page" id="page1">
     <div class="signin-box">
-      <div class="signin-label">使用快手邮箱登录</div>
+      <div class="signin-label" id="signin-label"></div>
       <input id="page1-email-input" type="email" maxlength="64" placeholder="you@kuaishou.com" autocomplete="email" autocapitalize="off" spellcheck="false">
-      <button class="btn-next" id="btn-signin" onclick="signIn()">登录 / 开始 →</button>
+      <button class="btn-next" id="btn-signin" onclick="signIn()"></button>
       <div id="signin-welcome"></div>
     </div>
     <div id="err-msg"></div>
     <div class="lb-box" id="lb-panel">
-      <h3>🏆 排行榜</h3>
+      <h3 id="lb-title"></h3>
       <div class="lb-tabs">
-        <button class="lb-tab active" id="lb-tab-week" onclick="setLbPeriod('week')">本周</button>
-        <button class="lb-tab" id="lb-tab-all" onclick="setLbPeriod('all')">总榜</button>
+        <button class="lb-tab active" id="lb-tab-week" onclick="setLbPeriod('week')"></button>
+        <button class="lb-tab" id="lb-tab-all" onclick="setLbPeriod('all')"></button>
       </div>
       <table id="lb-table"><tbody></tbody></table>
     </div>
   </div>
 
   <div class="start-page hidden" id="page2">
-    <div class="ctrls-hint">[↑/W] 跳跃（可二段跳） | [↓/S] 蹲下 / 下落一层 | [空格] 暂停 | 收集小快触发小游戏、加分或回血</div>
+    <div class="ctrls-hint" id="ctrls-hint"></div>
     <div id="mode-grid-page2"></div>
-    <button class="btn-start" id="start-btn" onclick="startGame()">开始挑战 🚀</button>
-    <button class="btn-back" onclick="goToPage1()">← 返回</button>
+    <button class="btn-start" id="start-btn" onclick="startGame()"></button>
+    <button class="btn-back" id="btn-back" onclick="goToPage1()"></button>
   </div>
 
-  <a href="#" id="rules-link" onclick="event.preventDefault();document.getElementById('rules-overlay').classList.add('active')" style="position:absolute;bottom:24px;left:24px;font-size:13px;color:rgba(255,255,255,0.6);text-decoration:underline;pointer-events:auto">游戏规则</a>
+  <a href="#" id="rules-link" onclick="event.preventDefault();document.getElementById('rules-overlay').classList.add('active')" style="position:absolute;bottom:24px;left:24px;font-size:13px;color:rgba(255,255,255,0.6);text-decoration:underline;pointer-events:auto"></a>
 </div>
 
 <div id="result-screen">
@@ -322,7 +330,7 @@ canvas{display:block}
     <div class="rules-section">
       <h3>🏃 玩法</h3>
       <div class="rules-row"><span class="rules-key">躲避障碍</span><span class="rules-val">跳过火焰与菠萝，撞到会掉一颗心</span></div>
-      <div class="rules-row"><span class="rules-key">香蕉人 🍌</span><span class="rules-val">7级后会迎面跑来；高层的会在平台上来回巡逻 — 跳过它！</span></div>
+      <div class="rules-row"><span class="rules-key">香蕉人 🍌</span><span class="rules-val">7级后会迎面跑来；高层的会来回巡逻；8级后出现的绿色大香蕉必须二段跳才能跳过！</span></div>
       <div class="rules-row"><span class="rules-key">收集小快</span><span class="rules-val">路上的小快角色有五种，效果各不同（见下）</span></div>
       <div class="rules-row"><span class="rules-key">多层平台</span><span class="rules-val">高层障碍减半、金币更多 — 越高越安全，回报也更高</span></div>
       <div class="rules-row"><span class="rules-key">配对小游戏</span><span class="rules-val">最多允许 3 次错误，用完即失败</span></div>
@@ -504,9 +512,132 @@ const MODES=[
    bg:{sky1:'#bde9df',sky2:'#ebfaf6',hillF:'#96d5c6',hillN:'#78c1b0',grass:'#9fdccd',dirt:'#6fa294',cloud:'#ffffff'}},
   {key:'ai', label:'AI 知识', hue:120, pal:{c1:'#58e08a'},
    bg:{sky1:'#ffd6e8',sky2:'#fff2f8',hillF:'#f2b3cd',hillN:'#e495b6',grass:'#f2bcd2',dirt:'#b8809a',cloud:'#ffffff'}},
+  // KDD conference mode — booth-play version. Distinctive purple/gold palette
+  // so it stands out from the internal training modes, and its own leaderboard.
+  {key:'kdd', label:'KDD 2026', hue:280, pal:{c1:'#a586ff',lens:'#ffcf5c'},
+   bg:{sky1:'#1a1440',sky2:'#3a2a70',hillF:'#5d4696',hillN:'#41307a',grass:'#7a5fbf',dirt:'#4d3985',cloud:'#e8e0ff'}},
 ];
 let selectedMode='overall';
 let MODE=MODES[0];
+
+// ---- Language + KDD-mode compaction --------------------------------------
+// LANG is the UI language for both menu chrome and in-game text: 'zh' or 'en'.
+// Default: EN (KDD international attendees). Persists in localStorage.
+let LANG=(localStorage.getItem('vr:lang'))||'en';
+// KDD mode is a compacted, faster variant: 1.4x scroll speed, question timer at
+// 2/3 the usual duration, minigame timer 2/3, distances/levels 2/3 so a full
+// booth run finishes in about a minute. Bananamen also debut earlier (lv4-6).
+function isKddMode(){return selectedMode==='kdd'}
+function paceMul(){return isKddMode()?1.4:1.0}       // scroll speed multiplier
+function timerMul(){return isKddMode()?(2/3):1.0}    // question / minigame timers
+function levelBudgetMul(){return isKddMode()?(2/3):1.0} // score-to-level curve
+
+// Translation table for menu / HUD / in-game UI strings.
+const I18N={
+  zh:{
+    subtitle:'奔跑在快手的文化世界里！收集路上的小快角色解锁小游戏、奖励题和加分，<br>躲开反价值观障碍，闯过挑战关卡和突击测验。',
+    kddSubtitle:'欢迎来到 KDD 2026！快节奏一分钟挑战 — 30 号展位 · ICC Jeju',
+    signinLabel:'使用快手邮箱登录',
+    signinLabelKdd:'输入你的邮箱开始 (KDD 展位)',
+    signinPlaceholder:'you@kuaishou.com',
+    signinPlaceholderKdd:'you@anywhere.com',
+    signinBtn:'登录 / 开始 →',
+    signinBtnKdd:'开始挑战 →',
+    signinLoading:'登录中…',
+    signinErrEmail:'请使用你的 @kuaishou.com 邮箱登录',
+    signinErrEmailKdd:'请输入有效的邮箱地址',
+    signinErrConnect:'无法连接服务器：',
+    welcome:'欢迎，',
+    lbTitle:'🏆 排行榜',
+    lbTitleKdd:'🏆 KDD 排行榜',
+    lbWeek:'本周', lbAll:'总榜',
+    lbEmpty:'还没有人挑战 — 来做第一名吧！',
+    lbEmptyWeek:'本周还没有人挑战 — 来做第一名吧！',
+    ctrlHint:'[↑/W] 跳跃（可二段跳） | [↓/S] 蹲下 / 下落一层 | [空格] 暂停 | 收集小快触发小游戏、加分或回血',
+    ctrlHintKdd:'快节奏模式！[↑/W] 跳跃 [↓/S] 蹲下 [空格] 暂停 — 60 秒挑战',
+    startBtn:'开始挑战',
+    backBtn:'← 返回',
+    hudScore:'得分', hudLevel:'等级', hudCombo:'连击', hudLives:'生命',
+    pauseTitle:'⏸ 已暂停', pauseResume:'继续游戏', pauseHint:'按 空格 / P / Esc 继续',
+    ruleBtn:'游戏规则',
+  },
+  en:{
+    subtitle:'Run through the world of Kuaishou culture! Collect XiaoKuai to unlock mini-games, bonus questions and points,<br>dodge anti-value obstacles, and clear challenge gates and pop quizzes.',
+    kddSubtitle:'Welcome to KDD 2026! A fast one-minute challenge — Booth #30 · ICC Jeju',
+    signinLabel:'Sign in with your Kuaishou email',
+    signinLabelKdd:'Enter your email to start (KDD booth)',
+    signinPlaceholder:'you@kuaishou.com',
+    signinPlaceholderKdd:'you@anywhere.com',
+    signinBtn:'Sign in / Start →',
+    signinBtnKdd:'Play →',
+    signinLoading:'Signing in…',
+    signinErrEmail:'Please sign in with your @kuaishou.com email',
+    signinErrEmailKdd:'Please enter a valid email address',
+    signinErrConnect:'Cannot reach server: ',
+    welcome:'Welcome, ',
+    lbTitle:'🏆 Leaderboard',
+    lbTitleKdd:'🏆 KDD Leaderboard',
+    lbWeek:'This week', lbAll:'All time',
+    lbEmpty:"No runs yet — be the first!",
+    lbEmptyWeek:'No runs this week — be the first!',
+    ctrlHint:'[↑/W] Jump (double-jump too) | [↓/S] Crouch / drop a layer | [Space] Pause | Collect XiaoKuai for mini-games, points, or hearts',
+    ctrlHintKdd:'Fast mode! [↑/W] Jump [↓/S] Crouch [Space] Pause — 60-second challenge',
+    startBtn:'START',
+    backBtn:'← Back',
+    hudScore:'Score', hudLevel:'Level', hudCombo:'Combo', hudLives:'Lives',
+    pauseTitle:'⏸ Paused', pauseResume:'Resume', pauseHint:'Space / P / Esc to resume',
+    ruleBtn:'Game Rules',
+  }
+};
+function T(key){return (I18N[LANG]&&I18N[LANG][key])||I18N.en[key]||key}
+
+// English display names for modes (overridden per-mode name shown on cards).
+const MODE_NAMES_EN={
+  overall:'General Knowledge', techops:'Tech Ops', hr:'Human Resources',
+  pm:'Product Mgmt', project:'Project Mgmt', design:'Design',
+  culture:'Company Culture', ai:'AI Knowledge', kdd:'KDD 2026'
+};
+function modeLabel(m){return LANG==='en'?(MODE_NAMES_EN[m.key]||m.label):m.label}
+
+// Push current language strings into all localized DOM nodes. Called on boot
+// and whenever the user flips the EN/中 toggle at the top-right.
+function applyLang(){
+  const setText=(id,txt)=>{const e=document.getElementById(id);if(e)e.textContent=txt};
+  const setHTML=(id,html)=>{const e=document.getElementById(id);if(e)e.innerHTML=html};
+  const kdd=isKddMode();
+  setHTML('game-subtitle-text', kdd?T('kddSubtitle'):T('subtitle'));
+  setText('signin-label', kdd?T('signinLabelKdd'):T('signinLabel'));
+  const emailInput=document.getElementById('page1-email-input');
+  if(emailInput)emailInput.placeholder=kdd?T('signinPlaceholderKdd'):T('signinPlaceholder');
+  const btn=document.getElementById('btn-signin');
+  if(btn&&!btn.disabled)btn.textContent=kdd?T('signinBtnKdd'):T('signinBtn');
+  setText('lb-title', kdd?T('lbTitleKdd'):T('lbTitle'));
+  setText('lb-tab-week',T('lbWeek'));
+  setText('lb-tab-all',T('lbAll'));
+  setText('ctrls-hint', kdd?T('ctrlHintKdd'):T('ctrlHint'));
+  setText('start-btn',T('startBtn'));
+  setText('btn-back',T('backBtn'));
+  setText('rules-link',T('ruleBtn'));
+  setText('hud-score-lbl',T('hudScore'));
+  setText('hud-level-lbl',T('hudLevel'));
+  setText('hud-combo-lbl',T('hudCombo'));
+  setText('hud-lives-lbl',T('hudLives'));
+  setText('pause-title',T('pauseTitle'));
+  setText('pause-resume',T('pauseResume'));
+  setText('pause-hint',T('pauseHint'));
+  // toggle button active state
+  document.querySelectorAll('#lang-toggle button').forEach(b=>b.classList.toggle('active',b.dataset.lang===LANG));
+  // mode grid labels + document lang attr for browser translate blocker
+  document.documentElement.lang=LANG==='zh'?'zh-CN':'en';
+  if(typeof buildModeGrid==='function')buildModeGrid();
+  // refresh leaderboard so text swaps ('本周' vs 'This week', empty state)
+  if(typeof loadLB==='function')loadLB();
+}
+function setLang(lang){
+  if(lang!=='en'&&lang!=='zh')return;
+  LANG=lang;try{localStorage.setItem('vr:lang',lang)}catch(e){}
+  applyLang();
+}
 
 const RUN_FRAMES=[];let framesLoaded=0;
 for(let i=0;i<8;i++){
@@ -532,6 +663,9 @@ const ORIE_IMG=new Image();let orieOk=false;ORIE_IMG.onload=()=>{orieOk=true};OR
 const BANANA_FRAMES=[],BANANA_R_FRAMES=[];let bananaLoaded=0,bananaRLoaded=0;
 for(let i=0;i<3;i++){const im=new Image();im.onload=()=>{bananaLoaded++};im.onerror=()=>{};im.src=`assets/characters/banana_${i}.png`;BANANA_FRAMES.push(im);}
 for(let i=0;i<3;i++){const im=new Image();im.onload=()=>{bananaRLoaded++};im.onerror=()=>{};im.src=`assets/characters/banana_r_${i}.png`;BANANA_R_FRAMES.push(im);}
+// Tall (unripe green) bananaman — requires a DOUBLE jump to clear. Ground only.
+const BANANA_TALL_FRAMES=[];let bananaTallLoaded=0;
+for(let i=0;i<3;i++){const im=new Image();im.onload=()=>{bananaTallLoaded++};im.onerror=()=>{};im.src=`assets/characters/banana_tall_${i}.png`;BANANA_TALL_FRAMES.push(im);}
 
 // Fire images (small and big variants)
 const FIRE_SMALL=new Image();let fireSmallOk=false;
@@ -674,29 +808,30 @@ function drawPPHead(g,hx,hy,r,pal){
 
 let PLAYER_NAME='',PLAYER_EMAIL='';
 
-// Sign in with a @kuaishou.com email. The account username is the part before
-// the @. First-time players (no finished runs on record) get the rules page
-// opened automatically before they pick a mode.
+// Sign in. When the UI language is EN we treat this as a KDD-booth session:
+// any email is accepted and the account is namespaced separately. When the UI
+// language is ZH we keep the internal @kuaishou.com gate.
 async function signIn(){
   const input=document.getElementById('page1-email-input');
   const err=document.getElementById('err-msg');
   const welcome=document.getElementById('signin-welcome');
   const btn=document.getElementById('btn-signin');
   const email=(input.value||'').trim().toLowerCase();
-  const m=/^([a-z0-9._%+-]+)@kuaishou\.com$/.exec(email);
-  if(!m){err.textContent='请使用你的 @kuaishou.com 邮箱登录';return}
-  err.textContent='';btn.disabled=true;btn.textContent='登录中…';
+  const scope=(LANG==='en')?'kdd':'internal';
+  err.textContent='';btn.disabled=true;btn.textContent=T('signinLoading');
   try{
-    const r=await api('/api/users/signin',{method:'POST',body:JSON.stringify({email})});
+    const r=await api('/api/users/signin',{method:'POST',body:JSON.stringify({email,scope})});
     PLAYER_NAME=r.username;PLAYER_EMAIL=r.email||email;
-    welcome.textContent=`欢迎，${r.username}！`;
-    btn.disabled=false;btn.textContent='登录 / 开始 →';
+    welcome.textContent=`${T('welcome')}${r.username}!`;
+    btn.disabled=false;btn.textContent=isKddMode()?T('signinBtnKdd'):T('signinBtn');
     // First-time player → show the rules automatically
     if(r.isNewPlayer){document.getElementById('rules-overlay').classList.add('active')}
+    // In EN/KDD mode auto-select the KDD mode so they don't have to navigate
+    if(scope==='kdd'){selectedMode='kdd';MODE=MODES.find(m=>m.key==='kdd')||MODES[0];applyAccent(MODE);applyLang();}
     goToPage2();
   }catch(e){
-    btn.disabled=false;btn.textContent='登录 / 开始 →';
-    err.textContent=e.status===400?(e.body&&e.body.error||'请使用 @kuaishou.com 邮箱'):'无法连接服务器：'+e.message;
+    btn.disabled=false;btn.textContent=isKddMode()?T('signinBtnKdd'):T('signinBtn');
+    err.textContent=e.status===400?(e.body&&e.body.error||T(scope==='kdd'?'signinErrEmailKdd':'signinErrEmail')):T('signinErrConnect')+e.message;
   }
 }
 
@@ -737,12 +872,13 @@ function buildModeGrid(){
       im2.src='assets/characters/paipai_run_1.png';img.replaceWith(im2);
     };
     img.src=`assets/characters/${m.key}.png`;
-    const lb=document.createElement('div');lb.className='cb-label2';lb.textContent=m.label;
+    const lb=document.createElement('div');lb.className='cb-label2';lb.textContent=modeLabel(m);
     b.append(cnv,img,lb);
     b.onclick=()=>{
       selectedMode=m.key;MODE=m;applyAccent(m);
       document.querySelectorAll('.char-box2').forEach(e=>e.classList.remove('sel'));
       b.classList.add('sel');
+      applyLang(); // KDD vs non-KDD text (subtitle, hint, LB title, LB scope) changes
     };
     grid.appendChild(b);
   });
@@ -784,7 +920,10 @@ rsz();addEventListener('resize',rsz);
 let st='idle',sc=0,li=3,lv=1,co=1,mc=1,tc=0,tq=0,tqa=0,qi=0,dead=false;
 // Flight mode (levels 10+): permanent after passing the Oriestar barrier.
 let flightMode=false,barrier=null;
-const FLIGHT_LEVEL=10;
+const FLIGHT_LEVEL_BASE=10;
+// KDD compact runs cross the Oriestar barrier earlier so a booth run actually
+// gets to see the hoverboard section within its ~60s budget.
+function flightLevel(){return isKddMode()?7:FLIGHT_LEVEL_BASE}
 const keyState={up:false,down:false};
 let dist=0,spd=6,grav=0.55,jf=-11.5,fc=0,skT=0,skM=0;
 let parts=[],gY=innerHeight*0.78,pl=null,items=[],bgI=[],lastGDist=0;
@@ -808,7 +947,7 @@ const STAND_H=94;
 function flightBand(){
   const center=cv.height*0.5;
   const baseHalf=cv.height*0.42;
-  const n=Math.max(0,lv-FLIGHT_LEVEL);
+  const n=Math.max(0,lv-flightLevel());
   const sizeF=Math.pow(0.6,Math.floor(n/4)); // matches flightScale()
   // The band shrinks 0.81x per level, but never below ~4.7x the (scaled) character
   // height — past that point band and character shrink in lockstep, keeping the
@@ -821,7 +960,7 @@ function flightBand(){
 // this is what makes the flight section effectively endless.
 function flightScale(){
   if(!flightMode)return 1;
-  return Math.pow(0.6,Math.floor(Math.max(0,lv-FLIGHT_LEVEL)/4));
+  return Math.pow(0.6,Math.floor(Math.max(0,lv-flightLevel())/4));
 }
 const LAYER_COLORS=['#8B7355','#6B8E23','#4169E1']; // brown, olive-green, blue per layer
 const LAYER_GRASS=['#6B8E23','#5F9EA0','#6A5ACD']; // grass colors per layer
@@ -870,9 +1009,18 @@ function genChunk(sx,len){
       // From level 7, bananamen (running enemies) appear. Each one consumes 1.4
       // trap slots — trap density drops to ~0.7x normal when they're around
       // (was 0.5x; tuned up because that felt too sparse).
-      if(lv>=7&&Math.random()<0.30){
-        it.push({t:'b',x,y:gY,w:40,h:62,hit:false,layer:0,ph:Math.random()*6.28});
-        x+=(minGap+80)*1.4;
+      // From level 8, some are TALL (green, 145px): a single jump (120px reach)
+      // can't clear them — you MUST double jump (211px reach). Tall ones run a
+      // bit slower (0.32x vs 0.4x) so the double-jump timing is fair.
+      // Bananamen normally debut at lv 7 (normal) and lv 8 (tall); in KDD mode
+      // they arrive earlier at lv 4 / lv 5 so booth runs still see them.
+      const bananaLv=isKddMode()?4:7;
+      const tallLv=isKddMode()?5:8;
+      if(lv>=bananaLv&&Math.random()<0.30){
+        const tall=lv>=tallLv&&Math.random()<0.35;
+        if(tall)it.push({t:'b',x,y:gY,w:46,h:145,hit:false,layer:0,ph:Math.random()*6.28,tall:true,spdMul:0.32});
+        else it.push({t:'b',x,y:gY,w:40,h:62,hit:false,layer:0,ph:Math.random()*6.28});
+        x+=(minGap+80)*(tall?1.7:1.4); // tall ones deserve a bit more breathing room
       }else{
         // Random trap: fire (short) or pineapple (tall) — lengthened by TRAP_SCALE
         const isTall=Math.random()<pineappleRatio;
@@ -941,7 +1089,7 @@ function genChunk(sx,len){
           }
           // Bananamen on layers too (level 7+), less frequent than on the ground.
           // Layer bananamen PATROL back and forth along their platform.
-          if(lv>=7&&layerLen>240&&Math.random()<0.14*Math.pow(0.6,l-1)){
+          if(lv>=(isKddMode()?4:7)&&layerLen>240&&Math.random()<0.14*Math.pow(0.6,l-1)){
             const bx=platX+layerLen*(0.45+Math.random()*0.45);
             if(clearOf(bx)){
               it.push({t:'b',x:bx,y:py,w:40,h:62,hit:false,layer:l,ph:Math.random()*6.28,
@@ -1205,15 +1353,19 @@ function drawG(g){
 // mirrored right-facing frames on a patrol's return leg.
 function drawBanana(b){
   const sx=b.x-dist;
-  const fi=Math.floor(fc/7)%3;
-  const goingRight=(b.dir||-1)>0;
-  const set=goingRight?BANANA_R_FRAMES:BANANA_FRAMES;
-  const loaded=goingRight?bananaRLoaded>=3:bananaLoaded>=3;
+  const fi=Math.floor(fc/(b.tall?9:7))%3; // tall one lumbers a bit slower
+  let set,loaded;
+  if(b.tall){set=BANANA_TALL_FRAMES;loaded=bananaTallLoaded>=3;}
+  else{
+    const goingRight=(b.dir||-1)>0;
+    set=goingRight?BANANA_R_FRAMES:BANANA_FRAMES;
+    loaded=goingRight?bananaRLoaded>=3:bananaLoaded>=3;
+  }
   const img=loaded?set[fi]:null;
-  const bob=Math.abs(Math.sin(fc*0.18+b.ph))*3;
+  const bob=Math.abs(Math.sin(fc*0.18+b.ph))*(b.tall?2:3);
   const dh=b.h+16,ar=img?img.width/img.height:0.72,dw=dh*ar;
   if(img){cx.drawImage(img,sx-dw/2,b.y-dh+bob-2,dw,dh);}
-  else{cx.fillStyle='#ffe135';cx.beginPath();cx.ellipse(sx,b.y-b.h/2,b.w/2,b.h/2,0,0,6.28);cx.fill();
+  else{cx.fillStyle=b.tall?'#9acd32':'#ffe135';cx.beginPath();cx.ellipse(sx,b.y-b.h/2,b.w/2,b.h/2,0,0,6.28);cx.fill();
     cx.fillStyle='#222';cx.fillRect(sx-3,b.y-b.h*0.55,3,4);cx.fillRect(sx+2,b.y-b.h*0.55,3,4);}
 }
 
@@ -1333,7 +1485,10 @@ function killPlayer(){
   setTimeout(()=>{if(dead)showR()},600);
 }
 
-let qStart=0,curQ=null,qBusy=false,qContext='gate';const QT=15;
+let qStart=0,curQ=null,qBusy=false,qContext='gate';
+// Question time budget in seconds. KDD mode compresses to 2/3 for booth pacing.
+const QT_BASE=15;
+function QT(){return Math.round(QT_BASE*timerMul())}
 
 function showQ(context,diff){
   if(dead||li<=0)return; // never open a question once the player is dead
@@ -1397,7 +1552,7 @@ async function quizTimeout(){
   let cs=document.querySelectorAll('.qc');cs.forEach(c=>c.onclick=null);
   skT=15;skM=8;
   try{
-    const r=await api(`/api/sessions/${SESSION_ID}/answer`,{method:'POST',body:JSON.stringify({questionId:curQ.id,answerIndex:-1,timeMs:QT*1000,context:qContext})});
+    const r=await api(`/api/sessions/${SESSION_ID}/answer`,{method:'POST',body:JSON.stringify({questionId:curQ.id,answerIndex:-1,timeMs:QT()*1000,context:qContext})});
     sc=r.currentScore;co=r.currentCombo;li=r.livesRemaining;
     if(cs[r.correctIndex])cs[r.correctIndex].classList.add('ok');
     // Dim all non-correct answers
@@ -1409,13 +1564,14 @@ async function quizTimeout(){
 }
 
 function updQT(){
-  if(st!=='quiz')return;let el=(Date.now()-qStart)/1000,pct=Math.max(0,1-el/QT)*100;
+  if(st!=='quiz')return;let el=(Date.now()-qStart)/1000,pct=Math.max(0,1-el/QT())*100;
   document.getElementById('quiz-timer-fill').style.width=pct+'%';
-  if(el>=QT&&!qBusy)quizTimeout();
+  if(el>=QT()&&!qBusy)quizTimeout();
 }
 
 let miniStart=0,miniBusy=false,miniDiff=1,miniType='match',miniTimer=null,MT=20;
-const MINI_TIME={1:20,2:25,3:30};
+const MINI_TIME_BASE={1:20,2:25,3:30};
+function miniTimeFor(d){return Math.round(MINI_TIME_BASE[d]*timerMul())}
 
 let miniBag=[];
 function nextMiniType(){
@@ -1429,7 +1585,7 @@ function nextMiniType(){
 
 function openMini(diff,forceType){
   if(dead||li<=0)return; // don't open a mini-game once dead
-  st='mini';miniDiff=diff;miniBusy=false;miniStart=Date.now();MT=MINI_TIME[diff];
+  st='mini';miniDiff=diff;miniBusy=false;miniStart=Date.now();MT=miniTimeFor(diff);
   miniType=forceType||nextMiniType();
   const box=document.getElementById('mini-title');
   const names={match:'🧩 术语配对',mines:'💣 价值观扫雷',memory:'🃏 记忆翻牌'};
@@ -1640,12 +1796,13 @@ function resumeFromPause(){
 }
 
 function levelFor(s){
-  if(s<500)return 1;
-  if(s<1500)return 2;
-  if(s<3000)return 3;
-  if(s<5000)return 4;
-  if(s<7000)return 5;
-  return 6+Math.floor((s-7000)/2000);
+  const m=levelBudgetMul();
+  if(s<500*m)return 1;
+  if(s<1500*m)return 2;
+  if(s<3000*m)return 3;
+  if(s<5000*m)return 4;
+  if(s<7000*m)return 5;
+  return 6+Math.floor((s-7000*m)/(2000*m));
 }
 
 // Flight physics: gravity pulls down; UP thrusts up; DOWN makes the descent 1.5x
@@ -1688,11 +1845,11 @@ function enterFlight(){
 function upd(){
   if(st!=='running')return;fc++;
    // fallback
-  const maxSpd=CFG&&CFG.maxSpeed?CFG.maxSpeed:11;
+  const maxSpd=(CFG&&CFG.maxSpeed?CFG.maxSpeed:11)*paceMul();
   // Base speed from distance, then 1.05x multiplier per 500-point milestone
   const spdMile=Math.floor(sc/500);
   const spdMult=Math.pow(1.05,spdMile); // e.g. 500pts→1.05x, 1000→1.1025x, 1500→1.1576x
-  let baseSpd=6+(dist/4000)*0.6;
+  let baseSpd=(6+(dist/4000)*0.6)*paceMul();
   spd=Math.min(baseSpd*spdMult,maxSpd);
   if(lv>6)spd=maxSpd*Math.pow(1.05,lv-6); // levels past 6 keep accelerating past the cap
   if(flightMode){updFlight();}else{
@@ -1827,7 +1984,7 @@ function upd(){
       if(b.x<=b.minX){b.x=b.minX;b.dir=1;}
       else if(b.x>=b.maxX){b.x=b.maxX;b.dir=-1;}
     }else{
-      b.x-=spd*0.4*curDt;
+      b.x-=spd*(b.spdMul||0.4)*curDt;
       b.dir=-1;
     }
   }
@@ -1855,7 +2012,7 @@ function upd(){
   }
   // At level 10, an Oriestar appears ahead with a dotted barrier. Crossing it
   // permanently switches to the flight (hoverboard) section.
-  if(!flightMode&&lv>=FLIGHT_LEVEL&&!barrier){barrier={x:dist+cv.width*1.4}}
+  if(!flightMode&&lv>=flightLevel()&&!barrier){barrier={x:dist+cv.width*1.4}}
   if(!flightMode&&barrier&&pl&&dist+pl.x>=barrier.x){enterFlight()}
 }
 
@@ -1983,7 +2140,7 @@ async function startGame(){
   try{
     MODE=MODES.find(m=>m.key===selectedMode)||MODES[0];
     const r=await api('/api/sessions',{method:'POST',body:JSON.stringify({
-      displayName:name,department:MODE.label,mode:selectedMode,language:'zh'})});
+      displayName:name,department:MODE.label,mode:selectedMode,language:LANG})});
     SESSION_ID=r.sessionId;QBANK=r.questions;PAIRS=r.pairs;CFG=r.config;
     grav=CFG.gravity||0.55;jf=CFG.jumpVelocity||-11.5;if(CFG.baseSpeed)spd=CFG.baseSpeed;
   }catch(e){
@@ -2019,7 +2176,7 @@ async function quickRestart(){
   try{
     const r=await api('/api/sessions',{method:'POST',body:JSON.stringify({
       displayName:PLAYER_NAME||'跑者',
-      department:MODE.label,mode:selectedMode,language:'zh'})});
+      department:MODE.label,mode:selectedMode,language:LANG})});
     SESSION_ID=r.sessionId;QBANK=r.questions;PAIRS=r.pairs;CFG=r.config;
     grav=CFG.gravity||0.55;jf=CFG.jumpVelocity||-11.5;if(CFG.baseSpeed)spd=CFG.baseSpeed;
   }catch(e){}
@@ -2034,7 +2191,8 @@ function setLbPeriod(p){
 }
 async function loadLB(){
   try{
-    const rows=await api(`/api/leaderboard?limit=8&period=${lbPeriod}`);
+    const modeQ=isKddMode()?'&mode=kdd':'&mode=non-kdd';
+    const rows=await api(`/api/leaderboard?limit=8&period=${lbPeriod}${modeQ}`);
     const tb=document.querySelector('#lb-table tbody');
     tb.innerHTML=rows.length?rows.map(r=>{
       let medal='';
@@ -2042,7 +2200,7 @@ async function loadLB(){
       else if(r.position===2)medal='🥈 ';
       else if(r.position===3)medal='🥉 ';
       return `<tr><td class="pos">${medal}#${r.position}</td><td>${r.displayName.replace(/[<>&]/g,'')}</td><td class="scr">${r.bestScore}</td><td class="rk-${r.rank.toLowerCase()}">${r.rank}</td></tr>`;
-    }).join(''):`<tr><td style="color:rgba(255,255,255,0.5)">${lbPeriod==='week'?'本周还没有人挑战 — 来做第一名吧！':'还没有人挑战 — 来做第一名吧！'}</td></tr>`;
+    }).join(''):`<tr><td style="color:rgba(255,255,255,0.5)">${lbPeriod==='week'?T('lbEmptyWeek'):T('lbEmpty')}</td></tr>`;
   }catch(e){}
 }
 // Keep the landing-page board fresh while people watch the booth screen.
@@ -2140,6 +2298,7 @@ genBG(); // Initialize background scenery for animated start screen
   }
 })();
 
+applyLang(); // populate all localized text at boot
 loop();
 </script>
 </body>

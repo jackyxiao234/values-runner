@@ -1,0 +1,1462 @@
+{
+  "metadata": {
+    "title": "Comprehensive Knowledge Quiz Bank",
+    "description": "Comprehensive coverage of Kuaishou corporate culture and values, AI products and technology, information security and compliance, employee benefits, business models, ESG, public welfare, internationalization, and more",
+    "language": "en-US",
+    "total_questions": 120,
+    "difficulty_distribution": {
+      "easy": 40,
+      "medium": 40,
+      "hard": 40
+    },
+    "created_at": "2026-07-06"
+  },
+  "questions": {
+    "easy": [
+      {
+        "id": "E01",
+        "question": "What is Kuaishou's corporate culture and values system called?",
+        "options": [
+          "Kuaishou Spirit",
+          "Kuaishou Pai",
+          "Kuaishou Way",
+          "Kuaishou Soul"
+        ],
+        "answer": "Kuaishou Pai",
+        "explanation": "On December 29, 2020, Kuaishou officially defined its corporate culture and values system — 'Kuaishou Pai'."
+      },
+      {
+        "id": "E02",
+        "question": "What is the core concept of Kuaishou Pai?",
+        "options": [
+          "Obsessed with Users",
+          "Obsessed with Customers",
+          "Technology-Driven",
+          "Innovative & Pragmatic"
+        ],
+        "answer": "Obsessed with Customers",
+        "explanation": "'Obsessed with Customers' is the core of Kuaishou Pai and the fundamental starting point of all work at Kuaishou."
+      },
+      {
+        "id": "E03",
+        "question": "Which two keywords does the 'Way of Getting Things Done' in Kuaishou Pai include?",
+        "options": [
+          "Innovative & Pragmatic, Highest Standard",
+          "Dare to Act, Candid & Clear",
+          "Obsessed with Customers, Innovative & Pragmatic",
+          "Highest Standard, Dare to Act"
+        ],
+        "answer": "Innovative & Pragmatic, Highest Standard",
+        "explanation": "The Way of Getting Things Done in Kuaishou Pai: Innovative & Pragmatic, Highest Standard."
+      },
+      {
+        "id": "E04",
+        "question": "Which two keywords does the 'Way of Getting Along' in Kuaishou Pai include?",
+        "options": [
+          "Innovative & Pragmatic, Highest Standard",
+          "Dare to Act, Candid & Clear",
+          "Obsessed with Customers, Candid & Clear",
+          "Highest Standard, Dare to Act"
+        ],
+        "answer": "Dare to Act, Candid & Clear",
+        "explanation": "The Way of Getting Along in Kuaishou Pai: Dare to Act, Candid & Clear."
+      },
+      {
+        "id": "E05",
+        "question": "What is Kuaishou's mission?",
+        "options": [
+          "Let everyone be seen",
+          "Obsessed with creating value for customers",
+          "Connect people with people",
+          "Make life better"
+        ],
+        "answer": "Obsessed with creating value for customers",
+        "explanation": "Kuaishou's mission is 'Obsessed with creating value for customers'."
+      },
+      {
+        "id": "E06",
+        "question": "What is Kuaishou's vision?",
+        "options": [
+          "Become the world's largest short video platform",
+          "Help people discover what they need and express what they excel at, continuously enhancing each person's unique sense of happiness",
+          "Let the world see everyone",
+          "Use technology to change life"
+        ],
+        "answer": "Help people discover what they need and express what they excel at, continuously enhancing each person's unique sense of happiness",
+        "explanation": "Kuaishou's vision: Help people discover what they need and express what they excel at, continuously enhancing each person's unique sense of happiness."
+      },
+      {
+        "id": "E07",
+        "question": "Who are the two co-founders of Kuaishou?",
+        "options": [
+          "Su Hua and Cheng Yixiao",
+          "Su Hua and Cheng Wei",
+          "Zhang Yiming and Cheng Yixiao",
+          "Su Hua and Zhang Yiming"
+        ],
+        "answer": "Su Hua and Cheng Yixiao",
+        "explanation": "Kuaishou was co-founded by Su Hua and Cheng Yixiao."
+      },
+      {
+        "id": "E08",
+        "question": "In what year did Kuaishou go public?",
+        "options": [
+          "2019",
+          "2020",
+          "2021",
+          "2022"
+        ],
+        "answer": "2021",
+        "explanation": "Kuaishou went public on the Hong Kong Stock Exchange on February 5, 2021."
+      },
+      {
+        "id": "E09",
+        "question": "What is the name of Kuaishou's self-developed large language model?",
+        "options": [
+          "TongYi",
+          "KwaiYii",
+          "LingXi",
+          "Spark"
+        ],
+        "answer": "KwaiYii",
+        "explanation": "KwaiYii is the large language model independently developed by Kuaishou's AI team."
+      },
+      {
+        "id": "E10",
+        "question": "What is the name of Kuaishou's self-developed video generation large model?",
+        "options": [
+          "KeTu",
+          "KeLing",
+          "KuaiYing",
+          "AI XiaoKuai"
+        ],
+        "answer": "KeLing",
+        "explanation": "KeLing AI is Kuaishou's self-developed video generation large model."
+      },
+      {
+        "id": "E11",
+        "question": "What is the name of Kuaishou's self-developed image generation large model?",
+        "options": [
+          "KeLing",
+          "KeTu",
+          "KuaiYing",
+          "AI XiaoKuai"
+        ],
+        "answer": "KeTu",
+        "explanation": "KeTu is Kuaishou's self-developed image generation large model, which was open-sourced in July 2024."
+      },
+      {
+        "id": "E12",
+        "question": "What is the approximate daily meal allowance per Kuaishou employee?",
+        "options": [
+          "60 RMB/person/day",
+          "80 RMB/person/day",
+          "120 RMB/person/day",
+          "200 RMB/person/day"
+        ],
+        "answer": "120 RMB/person/day",
+        "explanation": "Kuaishou provides three free meals per day for employees, at a standard of 120 RMB per person per day."
+      },
+      {
+        "id": "E13",
+        "question": "What is the name of Kuaishou's AI emotional companion chatbot?",
+        "options": [
+          "AI XiaoKuai",
+          "AI DaKuai",
+          "Kuaishou Assistant",
+          "KwaiYii Assistant"
+        ],
+        "answer": "AI XiaoKuai",
+        "explanation": "AI XiaoKuai is an emotional companion chatbot incubated from the KwaiYii large model."
+      },
+      {
+        "id": "E14",
+        "question": "What is Kuaishou's stock code?",
+        "options": [
+          "01024",
+          "09988",
+          "09618",
+          "01810"
+        ],
+        "answer": "01024",
+        "explanation": "Kuaishou's stock code on the Hong Kong Stock Exchange is 01024."
+      },
+      {
+        "id": "E15",
+        "question": "Where is Kuaishou's headquarters located?",
+        "options": [
+          "Shanghai Pudong",
+          "Beijing Xi'erqi",
+          "Shenzhen Nanshan",
+          "Hangzhou Yuhang"
+        ],
+        "answer": "Beijing Xi'erqi",
+        "explanation": "Kuaishou's headquarters is located at Yuan Center in Xi'erqi, Beijing."
+      },
+      {
+        "id": "E16",
+        "question": "How much is the monthly team-building allowance per Kuaishou employee?",
+        "options": [
+          "100 RMB",
+          "150 RMB",
+          "250 RMB",
+          "500 RMB"
+        ],
+        "answer": "250 RMB",
+        "explanation": "Kuaishou's team-building allowance standard is 250 RMB per person per month."
+      },
+      {
+        "id": "E17",
+        "question": "What is the name of Kuaishou's digital human live-streaming platform?",
+        "options": [
+          "Nüwa",
+          "Pangu",
+          "Fuxi",
+          "Chang'e"
+        ],
+        "answer": "Nüwa",
+        "explanation": "The Nüwa digital human live-streaming platform is Kuaishou's full-process AIGC service built on large models."
+      },
+      {
+        "id": "E18",
+        "question": "What was Kuaishou's predecessor called?",
+        "options": [
+          "GIF Kuaishou",
+          "Kuaishou Media Player",
+          "Kuaishou Community",
+          "Short Video Kuaishou"
+        ],
+        "answer": "GIF Kuaishou",
+        "explanation": "Kuaishou's predecessor was called 'GIF Kuaishou', launched in 2011 as a GIF image creation tool."
+      },
+      {
+        "id": "E19",
+        "question": "How many insurances and housing fund does Kuaishou provide for employees?",
+        "options": [
+          "Five insurances and one housing fund",
+          "Six insurances and one housing fund",
+          "Five insurances and two housing funds",
+          "Six insurances and two housing funds"
+        ],
+        "answer": "Six insurances and one housing fund",
+        "explanation": "Kuaishou provides six insurances and one housing fund for employees."
+      },
+      {
+        "id": "E20",
+        "question": "In what year did Kuaishou transition from a GIF tool to a short video community?",
+        "options": [
+          "2011",
+          "2012",
+          "2013",
+          "2014"
+        ],
+        "answer": "2012",
+        "explanation": "In November 2012, Kuaishou transitioned from a pure tool app to a short video community."
+      },
+      {
+        "id": "E21",
+        "question": "What is the name of Kuaishou's international version product?",
+        "options": [
+          "TikTok",
+          "Kwai",
+          "SnackVideo",
+          "Likee"
+        ],
+        "answer": "Kwai",
+        "explanation": "Kuaishou launched Kwai, a short video platform for users outside China."
+      },
+      {
+        "id": "E22",
+        "question": "What is the mission of Kuaishou Public Welfare?",
+        "options": [
+          "Poverty alleviation",
+          "Technology connects goodwill, creating long-term value",
+          "Education for the nation",
+          "Green environmental protection"
+        ],
+        "answer": "Technology connects goodwill, creating long-term value",
+        "explanation": "Kuaishou Public Welfare's mission is 'Technology connects goodwill, creating long-term value'."
+      },
+      {
+        "id": "E23",
+        "question": "What technology does Kuaishou's recommendation system primarily rely on?",
+        "options": [
+          "Manual curation",
+          "AI algorithm recommendations",
+          "Chronological sorting",
+          "Popularity priority"
+        ],
+        "answer": "AI algorithm recommendations",
+        "explanation": "Kuaishou's content recommendation system is built on AI algorithm recommendations."
+      },
+      {
+        "id": "E24",
+        "question": "What benefit can Kuaishou employees enjoy after 10 PM?",
+        "options": [
+          "Free dinner",
+          "Taxi reimbursement",
+          "Extra meal allowance",
+          "Half-day compensatory leave"
+        ],
+        "answer": "Taxi reimbursement",
+        "explanation": "At Kuaishou, taxi rides after 10 PM can be reimbursed."
+      },
+      {
+        "id": "E25",
+        "question": "What is the name of Kuaishou's self-developed AI R&D assistant?",
+        "options": [
+          "Kwaipilot",
+          "CodeGeeX",
+          "TongYi Lingma",
+          "AI2Coder"
+        ],
+        "answer": "Kwaipilot",
+        "explanation": "Kwaipilot is Kuaishou's self-developed AI R&D assistant, integrating large model capabilities across the entire R&D lifecycle."
+      },
+      {
+        "id": "E26",
+        "question": "How much is the monthly housing subsidy for renting near Kuaishou's office?",
+        "options": [
+          "500 RMB",
+          "1,000 RMB",
+          "2,000 RMB",
+          "3,000 RMB"
+        ],
+        "answer": "1,000 RMB",
+        "explanation": "Kuaishou's housing subsidy for renting near the office is 1,000 RMB per month."
+      },
+      {
+        "id": "E27",
+        "question": "What type of model is KeLing AI?",
+        "options": [
+          "Language model",
+          "Video generation model",
+          "Speech synthesis model",
+          "Recommendation model"
+        ],
+        "answer": "Video generation model",
+        "explanation": "KeLing AI is Kuaishou's self-developed video generation large model."
+      },
+      {
+        "id": "E28",
+        "question": "What housing benefit can Kuaishou employees with 1+ years of tenure apply for?",
+        "options": [
+          "Free housing",
+          "Interest-free home purchase loan",
+          "Full rental subsidy",
+          "3,000 RMB housing allowance"
+        ],
+        "answer": "Interest-free home purchase loan",
+        "explanation": "Kuaishou employees with over 1 year of service can apply for an interest-free home purchase loan."
+      },
+      {
+        "id": "E29",
+        "question": "What is Kuaishou's ranking among global short video platforms?",
+        "options": [
+          "First",
+          "Second",
+          "Third",
+          "Fourth"
+        ],
+        "answer": "Second",
+        "explanation": "Kuaishou is the world's second-largest short video platform (by average daily active users)."
+      },
+      {
+        "id": "E30",
+        "question": "Which of the following is NOT one of Kuaishou's main revenue sources?",
+        "options": [
+          "Online marketing services",
+          "Live streaming revenue",
+          "Gaming revenue",
+          "Other income (including e-commerce)"
+        ],
+        "answer": "Gaming revenue",
+        "explanation": "Kuaishou's main revenues are online marketing services, live streaming revenue, and other income (including e-commerce), not gaming revenue."
+      },
+      {
+        "id": "E31",
+        "question": "What is the name of Kuaishou's digital employee product?",
+        "options": [
+          "π Digital Employee",
+          "Nüwa",
+          "AI XiaoKuai",
+          "Kwaipilot"
+        ],
+        "answer": "π Digital Employee",
+        "explanation": "π Digital Employee is Kuaishou's digital employee product built on large models."
+      },
+      {
+        "id": "E32",
+        "question": "What is the compliance training coverage rate for new Kuaishou employees?",
+        "options": [
+          "50%",
+          "80%",
+          "90%",
+          "100%"
+        ],
+        "answer": "100%",
+        "explanation": "100% of new Kuaishou employees are covered by integrity and compliance training."
+      },
+      {
+        "id": "E33",
+        "question": "Where is Kuaishou's data center located?",
+        "options": [
+          "Beijing",
+          "Ulanqab",
+          "Zhangjiakou",
+          "Guizhou"
+        ],
+        "answer": "Ulanqab",
+        "explanation": "Kuaishou's first ultra-large-scale data center is located in Ulanqab."
+      },
+      {
+        "id": "E34",
+        "question": "What is the name of Kuaishou's self-developed audio-visual processing large model?",
+        "options": [
+          "KuaiYing",
+          "LPM",
+          "KeLing",
+          "VSR"
+        ],
+        "answer": "LPM",
+        "explanation": "LPM is Kuaishou's self-developed audio-visual processing large model."
+      },
+      {
+        "id": "E35",
+        "question": "Kuaishou is the world's first listed company of what type?",
+        "options": [
+          "E-commerce platform",
+          "First short video stock",
+          "Gaming company",
+          "Search engine"
+        ],
+        "answer": "First short video stock",
+        "explanation": "Kuaishou went public in Hong Kong in 2021 and was called 'China's first short video stock'."
+      },
+      {
+        "id": "E36",
+        "question": "What facility can Kuaishou employees use for free?",
+        "options": [
+          "Swimming pool",
+          "Gym",
+          "Tennis court",
+          "Golf course"
+        ],
+        "answer": "Gym",
+        "explanation": "Kuaishou provides free gym access for employees."
+      },
+      {
+        "id": "E37",
+        "question": "What demographic does Kuaishou's public welfare project 'Happiness Academy' primarily serve?",
+        "options": [
+          "Only company executives",
+          "Rural communities and the general public",
+          "Only enrolled students",
+          "Only overseas users"
+        ],
+        "answer": "Rural communities and the general public",
+        "explanation": "Happiness Academy is Kuaishou's public welfare project for rural communities and the general public."
+      },
+      {
+        "id": "E38",
+        "question": "What is a core advantage of Kuaishou's KeTu large model?",
+        "options": [
+          "The text-to-image model that best understands Chinese",
+          "The fastest inference speed",
+          "The lowest training cost",
+          "The most style options"
+        ],
+        "answer": "The text-to-image model that best understands Chinese",
+        "explanation": "KeTu, trained on billions of Chinese text corpora, has become the text-to-image model that best understands Chinese."
+      },
+      {
+        "id": "E39",
+        "question": "How many tiers does Kuaishou's ESG governance structure use?",
+        "options": [
+          "Two tiers",
+          "Three tiers",
+          "Four tiers",
+          "Five tiers"
+        ],
+        "answer": "Three tiers",
+        "explanation": "Kuaishou's ESG governance uses a three-tier structure: governance, management, and implementation."
+      },
+      {
+        "id": "E40",
+        "question": "What employee benefit does Kuaishou provide every afternoon?",
+        "options": [
+          "Extra lunch items",
+          "Afternoon tea",
+          "Extended lunch break",
+          "Early departure"
+        ],
+        "answer": "Afternoon tea",
+        "explanation": "Kuaishou provides free afternoon tea for employees."
+      }
+    ],
+    "medium": [
+      {
+        "id": "M01",
+        "question": "What is the largest parameter scale version of the KwaiYii large model released so far?",
+        "options": [
+          "13B",
+          "66B",
+          "175B",
+          "500B"
+        ],
+        "answer": "175B",
+        "explanation": "KwaiYii-175B is the largest parameter scale version of the KwaiYii large model released to date."
+      },
+      {
+        "id": "M02",
+        "question": "What rating did the KwaiYii 175B model receive in the China Academy of Information and Communications Technology (CAICT) evaluation?",
+        "options": [
+          "Level 3",
+          "Level 4",
+          "Level 5",
+          "Level 6"
+        ],
+        "answer": "Level 5",
+        "explanation": "The KwaiYii large model (KwaiYii-175B) received the highest rating of Level 5 in CAICT's 'Trusted AI' evaluation."
+      },
+      {
+        "id": "M03",
+        "question": "What is the maximum video length that KeLing AI can generate?",
+        "options": [
+          "10 seconds",
+          "30 seconds",
+          "2 minutes",
+          "5 minutes"
+        ],
+        "answer": "2 minutes",
+        "explanation": "KeLing supports generating videos up to 2 minutes long at 30fps, with resolution up to 1080p."
+      },
+      {
+        "id": "M04",
+        "question": "What was Kwaipilot's repository-wide code generation rate as of June 2024?",
+        "options": [
+          "5%",
+          "10%",
+          "18%",
+          "30%"
+        ],
+        "answer": "18%",
+        "explanation": "In June 2024, Kwaipilot's repository-wide code generation rate reached 18%."
+      },
+      {
+        "id": "M05",
+        "question": "What are the three core directions of Kuaishou's large model matrix?",
+        "options": [
+          "Text generation, image generation, video generation",
+          "Content understanding applications, recommendation large models, visual generation large models",
+          "Search, recommendation, advertising",
+          "KwaiYii, KeLing, KeTu"
+        ],
+        "answer": "Content understanding applications, recommendation large models, visual generation large models",
+        "explanation": "Kuaishou's large model strategy revolves around three directions: content understanding applications, recommendation large models, and video generation large models."
+      },
+      {
+        "id": "M06",
+        "question": "What does the 'Kuaishou Data Security Management Regulations' primarily govern?",
+        "options": [
+          "Employee attendance data",
+          "Data classification, grading, and security protection",
+          "Office equipment security",
+          "Financial data auditing"
+        ],
+        "answer": "Data classification, grading, and security protection",
+        "explanation": "The 'Kuaishou Data Security Management Regulations' primarily govern data classification and grading management as well as security protection measures."
+      },
+      {
+        "id": "M07",
+        "question": "What effect can the Nüwa digital human live-streaming platform achieve for merchants?",
+        "options": [
+          "Replace all human customer service",
+          "Enable 24/7 non-stop live streaming and boost sales",
+          "Automatic shipping",
+          "Automatic product selection"
+        ],
+        "answer": "Enable 24/7 non-stop live streaming and boost sales",
+        "explanation": "Taking the Haitian Group as an example, with Nüwa digital human live streaming, monthly sales increased by approximately 200% month-over-month."
+      },
+      {
+        "id": "M08",
+        "question": "What advantage does the KwaiYii model have in inference cost compared to open-source solutions?",
+        "options": [
+          "About the same",
+          "Reduced to 1/5",
+          "Reduced to 1/10",
+          "Reduced to 1/2"
+        ],
+        "answer": "Reduced to 1/10",
+        "explanation": "The KwaiYii model's inference cost is controlled to one-tenth of open-source solutions."
+      },
+      {
+        "id": "M09",
+        "question": "What ranking did the KeTu large model achieve in the Beijing Academy of Artificial Intelligence (BAAI) evaluation?",
+        "options": [
+          "First globally",
+          "Second globally",
+          "Third globally",
+          "Fifth globally"
+        ],
+        "answer": "Second globally",
+        "explanation": "In the BAAI evaluation, KeTu ranked second globally in the text-to-image large model field with a score of 75.23."
+      },
+      {
+        "id": "M10",
+        "question": "How many followers did AI XiaoKuai gain within 6 months of launch?",
+        "options": [
+          "1 million",
+          "5 million",
+          "10 million",
+          "50 million"
+        ],
+        "answer": "10 million",
+        "explanation": "AI XiaoKuai gained over 10 million followers within 6 months of launch."
+      },
+      {
+        "id": "M11",
+        "question": "What is the core requirement of Kuaishou's conflict-of-interest avoidance framework guidelines?",
+        "options": [
+          "Employees cannot hold stock in other companies",
+          "Employees should avoid conflicts between personal and company interests, and proactively report any that arise",
+          "Employees cannot take second jobs",
+          "Employees cannot start businesses"
+        ],
+        "answer": "Employees should avoid conflicts between personal and company interests, and proactively report any that arise",
+        "explanation": "The conflict-of-interest avoidance framework guidelines require employees to identify and avoid conflicts of interest, and proactively report them when they occur."
+      },
+      {
+        "id": "M12",
+        "question": "How many major upgrades did KeLing AI undergo within one month of its 2024 launch?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "5"
+        ],
+        "answer": "3",
+        "explanation": "KeLing AI underwent three major upgrades within one month: text-to-video, image-to-video, and video continuation."
+      },
+      {
+        "id": "M13",
+        "question": "Approximately how many employment opportunities did Kuaishou help create in 2022?",
+        "options": [
+          "5 million",
+          "10 million",
+          "36.21 million",
+          "100 million"
+        ],
+        "answer": "36.21 million",
+        "explanation": "As of 2022, Kuaishou's entire ecosystem facilitated a total of 36.21 million employment opportunities."
+      },
+      {
+        "id": "M14",
+        "question": "What model architecture does KeLing AI use?",
+        "options": [
+          "GAN",
+          "VAE",
+          "DiT (Diffusion Transformer)",
+          "RNN"
+        ],
+        "answer": "DiT (Diffusion Transformer)",
+        "explanation": "KeLing uses a Sora-like DiT structure, replacing traditional convolutional networks with Transformers."
+      },
+      {
+        "id": "M15",
+        "question": "What behavior does Kuaishou's integrity reporting management regulations primarily target?",
+        "options": [
+          "Arriving late or leaving early",
+          "Corruption, bribery, and other violations of integrity and honesty",
+          "Code quality issues",
+          "Information security violations"
+        ],
+        "answer": "Corruption, bribery, and other violations of integrity and honesty",
+        "explanation": "Kuaishou's integrity reporting management regulations aim to combat corruption, bribery, and other violations of integrity and honesty."
+      },
+      {
+        "id": "M16",
+        "question": "How do the security management requirements for Kuaishou's outsourced personnel differ from those for full-time employees?",
+        "options": [
+          "Exactly the same",
+          "Outsourced personnel require additional security reviews and access controls",
+          "Outsourced personnel do not need security training",
+          "Outsourced personnel have higher access privileges"
+        ],
+        "answer": "Outsourced personnel require additional security reviews and access controls",
+        "explanation": "The 'Kuaishou Outsourced Personnel Security Management Requirements' mandate additional security reviews and access controls for outsourced personnel."
+      },
+      {
+        "id": "M17",
+        "question": "Who does the 'Kuaishou Supplier Information Security Management Regulations' primarily govern?",
+        "options": [
+          "All employees",
+          "Suppliers and partners",
+          "Management",
+          "Users"
+        ],
+        "answer": "Suppliers and partners",
+        "explanation": "The 'Kuaishou Supplier Information Security Management Regulations' govern information security requirements for suppliers and partners."
+      },
+      {
+        "id": "M18",
+        "question": "What is the role of the Corporate Governance Committee in Kuaishou's ESG governance?",
+        "options": [
+          "Only oversees finance",
+          "Authorized by the Board to coordinate and formulate ESG strategy",
+          "Only handles recruitment",
+          "Only manages public relations"
+        ],
+        "answer": "Authorized by the Board to coordinate and formulate ESG strategy",
+        "explanation": "The Corporate Governance Committee is authorized to coordinate and formulate ESG strategy."
+      },
+      {
+        "id": "M19",
+        "question": "What exclusive live-streaming capability is supported by Kuaishou's self-developed intelligent video processing chip?",
+        "options": [
+          "4K at 30fps",
+          "4K at 60fps",
+          "8K at 30fps",
+          "1080P at 120fps"
+        ],
+        "answer": "4K at 60fps",
+        "explanation": "Based on its self-developed intelligent video processing chip, Kuaishou supports the industry-exclusive 4K 60fps live streaming."
+      },
+      {
+        "id": "M20",
+        "question": "What does the 'Kuaishou Vulnerability Handling Regulations' primarily specify?",
+        "options": [
+          "Code vulnerability fixing process",
+          "The discovery, reporting, remediation, and response process for security vulnerabilities",
+          "Financial vulnerability handling",
+          "Talent attrition handling"
+        ],
+        "answer": "The discovery, reporting, remediation, and response process for security vulnerabilities",
+        "explanation": "The 'Kuaishou Vulnerability Handling Regulations' specify the process for discovering, reporting, and remediating security vulnerabilities and incident response."
+      },
+      {
+        "id": "M21",
+        "question": "By how much did Kuaishou improve GPU cluster compute utilization efficiency during KwaiYii model training?",
+        "options": [
+          "20%",
+          "30%",
+          "50%",
+          "80%"
+        ],
+        "answer": "50%",
+        "explanation": "Through hardware optimization and hybrid parallel algorithms, the KwaiYii model achieved over 50% improvement in GPU cluster compute utilization efficiency."
+      },
+      {
+        "id": "M22",
+        "question": "What aspects does Kuaishou's information security management cover?",
+        "options": [
+          "Only physical security",
+          "Only network security",
+          "Physical, network, personnel, system security, and more",
+          "Only personnel management"
+        ],
+        "answer": "Physical, network, personnel, system security, and more",
+        "explanation": "Kuaishou's information security policy system covers physical and environmental security, log management, security incident response, and other areas."
+      },
+      {
+        "id": "M23",
+        "question": "What field does Kuaishou's public welfare project 'Enlightening the Future Academy' primarily focus on?",
+        "options": [
+          "Medical and health",
+          "Youth technology education",
+          "Sports competition",
+          "Artistic creation"
+        ],
+        "answer": "Youth technology education",
+        "explanation": "Enlightening the Future Academy is Kuaishou's public welfare project focused on technology education for youth."
+      },
+      {
+        "id": "M24",
+        "question": "What is the core principle of the 'Kuaishou Privacy Protection Regulations'?",
+        "options": [
+          "Collect as much data as possible",
+          "Collect and use personal information lawfully and in compliance, respecting and protecting user privacy",
+          "Only protect privacy when users complain",
+          "Sell privacy data to third parties"
+        ],
+        "answer": "Collect and use personal information lawfully and in compliance, respecting and protecting user privacy",
+        "explanation": "The 'Privacy Protection Regulations' require the lawful and compliant collection and use of personal information, and respect and protection of user privacy."
+      },
+      {
+        "id": "M25",
+        "question": "What exclusive live-streaming capability did Kuaishou achieve when streaming Black Myth: Wukong?",
+        "options": [
+          "1080P streaming",
+          "4K 60fps streaming",
+          "8K streaming",
+          "3D streaming"
+        ],
+        "answer": "4K 60fps streaming",
+        "explanation": "Based on its self-developed intelligent video processing chip, Kuaishou supported the industry-exclusive 4K 60fps live streaming of Black Myth: Wukong."
+      },
+      {
+        "id": "M26",
+        "question": "What does Kuaishou's 'coding as labeling' data flywheel refer to?",
+        "options": [
+          "Using coding to replace labeling",
+          "Data generated from developers' daily coding automatically becomes model training labeled data",
+          "Labelers must know how to code",
+          "Code is documentation"
+        ],
+        "answer": "Data generated from developers' daily coding automatically becomes model training labeled data",
+        "explanation": "Kwaipilot implements the coding-as-labeling data flywheel, where code data from daily development automatically flows back as training data."
+      },
+      {
+        "id": "M27",
+        "question": "What is the Finops methodology mentioned at Kuaishou's 2024 Investor Day?",
+        "options": [
+          "Agile development methodology",
+          "Cloud cost management methodology",
+          "Data governance methodology",
+          "AI training methodology"
+        ],
+        "answer": "Cloud cost management methodology",
+        "explanation": "Finops is a cloud cost management methodology, expected to save hundreds of millions in costs over the next three years."
+      },
+      {
+        "id": "M28",
+        "question": "What does Kuaishou's public welfare project 'Intangible Cultural Heritage Academy' focus on?",
+        "options": [
+          "Programming education",
+          "Intangible cultural heritage transmission",
+          "Foreign language training",
+          "Financial literacy"
+        ],
+        "answer": "Intangible cultural heritage transmission",
+        "explanation": "The Intangible Cultural Heritage Academy is Kuaishou's public welfare project focused on the transmission of intangible cultural heritage."
+      },
+      {
+        "id": "M29",
+        "question": "What was KeLing AI's approximate global user base as of April 2025?",
+        "options": [
+          "1 million",
+          "5 million",
+          "22 million",
+          "100 million"
+        ],
+        "answer": "22 million",
+        "explanation": "Within 10 months of launch, KeLing AI's global user base exceeded 22 million."
+      },
+      {
+        "id": "M30",
+        "question": "What is the core capability of AI XiaoKuai for integrating on-platform and external resources and tools?",
+        "options": [
+          "Simple keyword matching",
+          "Function Calling capability",
+          "Regular expressions",
+          "Manual routing"
+        ],
+        "answer": "Function Calling capability",
+        "explanation": "The core of AI XiaoKuai's ability to link complex user queries with on-platform and external tools is its Function Calling capability."
+      },
+      {
+        "id": "M31",
+        "question": "What is the primary purpose of the 'Kuaishou Employee Account and Access Management Requirements'?",
+        "options": [
+          "Restrict employee internet access",
+          "Standardize the process for creating employee accounts, assigning and revoking access permissions",
+          "Monitor employee behavior",
+          "Control employee overtime"
+        ],
+        "answer": "Standardize the process for creating employee accounts, assigning and revoking access permissions",
+        "explanation": "This regulation aims to standardize account creation, permission assignment and revocation, preventing access abuse."
+      },
+      {
+        "id": "M32",
+        "question": "What does the 'Kuaishou Security Incident Emergency Response Regulations' primarily define?",
+        "options": [
+          "Fire evacuation",
+          "Classification, response, handling, and post-incident review processes for information security incidents",
+          "Public relations crisis management",
+          "Employee safety incident handling"
+        ],
+        "answer": "Classification, response, handling, and post-incident review processes for information security incidents",
+        "explanation": "The 'Security Incident Emergency Response Regulations' standardize the full lifecycle management of information security incident emergency response."
+      },
+      {
+        "id": "M33",
+        "question": "What ranking did KeLing AI achieve in the Artificial Analysis global video generation leaderboard for the image-to-video track?",
+        "options": [
+          "First",
+          "Second",
+          "Third",
+          "Fourth"
+        ],
+        "answer": "First",
+        "explanation": "In March 2025, KeLing 1.6 Pro topped the image-to-video track with a score of 1000."
+      },
+      {
+        "id": "M34",
+        "question": "What risks does the 'Kuaishou Physical and Environmental Security Management' primarily control?",
+        "options": [
+          "Office environment comfort",
+          "Physical access control and environmental security for data centers and office areas",
+          "Air quality",
+          "Noise control"
+        ],
+        "answer": "Physical access control and environmental security for data centers and office areas",
+        "explanation": "The 'Physical and Environmental Security Management' standardizes control requirements for physical access control and environmental security."
+      },
+      {
+        "id": "M35",
+        "question": "What does the 'Kuaishou Personnel Information Security Management Regulations' primarily address?",
+        "options": [
+          "HR recruitment process",
+          "Personnel-related information security controls, including security handling during onboarding, role transfers, and offboarding",
+          "Employee training records",
+          "Employee attendance data"
+        ],
+        "answer": "Personnel-related information security controls, including security handling during onboarding, role transfers, and offboarding",
+        "explanation": "The 'Personnel Information Security Management Regulations' standardize personnel-related information security controls."
+      },
+      {
+        "id": "M36",
+        "question": "What is the positioning of Kuaishou Shop in Kuaishou's live streaming e-commerce?",
+        "options": [
+          "Only sells Kuaishou's own products",
+          "The core transaction infrastructure of Kuaishou's e-commerce",
+          "Only does advertising",
+          "Only handles logistics"
+        ],
+        "answer": "The core transaction infrastructure of Kuaishou's e-commerce",
+        "explanation": "Kuaishou Shop is the core transaction infrastructure of Kuaishou's e-commerce ecosystem, connecting merchants and consumers."
+      },
+      {
+        "id": "M37",
+        "question": "What is Kuaishou's 'Magnetic Engine'?",
+        "options": [
+          "AI training platform",
+          "Kuaishou's commercial marketing service platform",
+          "Video editing tool",
+          "Data center name"
+        ],
+        "answer": "Kuaishou's commercial marketing service platform",
+        "explanation": "Magnetic Engine is Kuaishou's commercial marketing service platform, providing digital marketing solutions for advertisers."
+      },
+      {
+        "id": "M38",
+        "question": "What is the primary role of 'Community Guidelines' in Kuaishou's community governance?",
+        "options": [
+          "Restrict user creativity",
+          "Maintain community content quality and order, and protect user rights",
+          "Increase advertising revenue",
+          "Ban all live streaming"
+        ],
+        "answer": "Maintain community content quality and order, and protect user rights",
+        "explanation": "Community guidelines maintain content quality and order, safeguarding users' rights and experience on the platform."
+      },
+      {
+        "id": "M39",
+        "question": "What is the role of 'Guilds' in Kuaishou's live streaming ecosystem?",
+        "options": [
+          "Only provide technical support",
+          "MCN agencies that help streamers with operations management, training, and resource matching",
+          "Only do advertising",
+          "Only handle content moderation"
+        ],
+        "answer": "MCN agencies that help streamers with operations management, training, and resource matching",
+        "explanation": "Guilds are MCN agencies in Kuaishou's live streaming ecosystem, providing operations, training, and resource support for streamers."
+      },
+      {
+        "id": "M40",
+        "question": "What is the core stance of Kuaishou's anti-corruption policy?",
+        "options": [
+          "Allow small bribes",
+          "Zero tolerance for corruption",
+          "Only hold executives accountable",
+          "Internal notification only"
+        ],
+        "answer": "Zero tolerance for corruption",
+        "explanation": "Kuaishou's anti-corruption policy adopts a zero-tolerance stance toward corrupt behavior."
+      }
+    ],
+    "hard": [
+      {
+        "id": "H01",
+        "question": "What algorithm did the KwaiYii large model use to optimize token efficiency during pre-training?",
+        "options": [
+          "BPE",
+          "Scaffold-BPE",
+          "WordPiece",
+          "SentencePiece"
+        ],
+        "answer": "Scaffold-BPE",
+        "explanation": "The KwaiYii model uses the Scaffold-BPE algorithm to optimize pre-training efficiency."
+      },
+      {
+        "id": "H02",
+        "question": "What innovative loss function did Kuaishou adopt in KwaiYii model training?",
+        "options": [
+          "CrossEntropy",
+          "MiLe Loss",
+          "Focal Loss",
+          "Contrastive Loss"
+        ],
+        "answer": "MiLe Loss",
+        "explanation": "Kuaishou innovatively integrated MiLe Loss and other cutting-edge algorithms to improve pre-training effectiveness."
+      },
+      {
+        "id": "H03",
+        "question": "What innovation did Kuaishou propose in the KwaiYii model decoding strategy?",
+        "options": [
+          "Speculative Decoding",
+          "Parallel decoding prediction strategy",
+          "Beam Search",
+          "Greedy Decoding"
+        ],
+        "answer": "Parallel decoding prediction strategy",
+        "explanation": "Kuaishou proposed an innovative parallel decoding prediction strategy in its decoding approach, significantly boosting inference speed."
+      },
+      {
+        "id": "H04",
+        "question": "What techniques did Kuaishou use in model alignment training?",
+        "options": [
+          "Only SFT",
+          "Iterative DPO/PPO + fine-grained Loss",
+          "Only RLHF",
+          "Only PPO"
+        ],
+        "answer": "Iterative DPO/PPO + fine-grained Loss",
+        "explanation": "Kuaishou improved training stability and model performance through Iterative DPO/PPO, fine-grained Loss, and other strategies."
+      },
+      {
+        "id": "H05",
+        "question": "How does Kuaishou derive a high-quality training set from PB-scale raw data?",
+        "options": [
+          "Random sampling",
+          "Refinement through Rejection Sampling and other techniques",
+          "Retain everything",
+          "Manual screening"
+        ],
+        "answer": "Refinement through Rejection Sampling and other techniques",
+        "explanation": "Kuaishou uses Rejection Sampling and other techniques to distill PB-scale data into TB-scale high-quality training sets."
+      },
+      {
+        "id": "H06",
+        "question": "What diffusion model base does KeLing AI use?",
+        "options": [
+          "DDPM",
+          "Flow model",
+          "VAE",
+          "GAN"
+        ],
+        "answer": "Flow model",
+        "explanation": "To improve computational efficiency, KeLing uses a Flow model as the diffusion model base."
+      },
+      {
+        "id": "H07",
+        "question": "Kwaipilot was the first among major Chinese tech companies to successfully apply what architecture to pre-training a code large model?",
+        "options": [
+          "Transformer",
+          "MoE",
+          "CNN",
+          "RNN"
+        ],
+        "answer": "MoE",
+        "explanation": "Kwaipilot was the first among major Chinese tech companies to successfully apply the MoE architecture to pre-training a code large model."
+      },
+      {
+        "id": "H08",
+        "question": "What learning approach did Kuaishou adopt in organizing KwaiYii model training data?",
+        "options": [
+          "Random ordering",
+          "Curriculum Learning",
+          "Reverse ordering",
+          "Sorted by length"
+        ],
+        "answer": "Curriculum Learning",
+        "explanation": "The KwaiYii model uses a curriculum learning approach for organizing data to ensure efficient and stable training."
+      },
+      {
+        "id": "H09",
+        "question": "What important performance milestone did the KwaiYii large model achieve in 2024?",
+        "options": [
+          "Surpassed GPT-3",
+          "Overall performance in Chinese scenarios surpassed GPT-4",
+          "Surpassed Claude-3",
+          "Surpassed Gemini"
+        ],
+        "answer": "Overall performance in Chinese scenarios surpassed GPT-4",
+        "explanation": "In Q2 2024, the KwaiYii large model's overall performance in Chinese scenarios surpassed GPT-4."
+      },
+      {
+        "id": "H10",
+        "question": "Approximately what proportion of total KeLing AI video creations does image-to-video generation account for?",
+        "options": [
+          "50%",
+          "65%",
+          "85%",
+          "95%"
+        ],
+        "answer": "85%",
+        "explanation": "Image-to-video generation accounts for approximately 85% of KeLing AI's video creations."
+      },
+      {
+        "id": "H11",
+        "question": "What is the core difference between Kuaishou's recommendation large model and traditional recommendation systems?",
+        "options": [
+          "Faster",
+          "Uses large language models to understand video content and user interests, rather than relying solely on feature engineering",
+          "Cheaper",
+          "Only recommends short videos"
+        ],
+        "answer": "Uses large language models to understand video content and user interests, rather than relying solely on feature engineering",
+        "explanation": "Kuaishou uses large language models to understand video content and user interests, replacing traditional feature engineering."
+      },
+      {
+        "id": "H12",
+        "question": "How many concurrent live streams can a single server cluster of the Nüwa digital human live-streaming platform support?",
+        "options": [
+          "500 streams",
+          "1,000 streams",
+          "2,200 streams",
+          "5,000 streams"
+        ],
+        "answer": "2,200 streams",
+        "explanation": "The Nüwa digital human live-streaming system supports 2,200 concurrent live streams per single server cluster."
+      },
+      {
+        "id": "H13",
+        "question": "What tiered structure does Kuaishou's information security policy system adopt?",
+        "options": [
+          "Two tiers",
+          "Three tiers: governance, management, and execution",
+          "Four tiers",
+          "No tiered structure"
+        ],
+        "answer": "Three tiers: governance, management, and execution",
+        "explanation": "Both Kuaishou's information security and ESG governance adopt a three-tier structure of governance, management, and implementation."
+      },
+      {
+        "id": "H14",
+        "question": "What is the purpose of the multi-sample Packing technique in Kuaishou's KwaiYii model training?",
+        "options": [
+          "Reduce data volume",
+          "Improve GPU utilization and reduce padding waste",
+          "Encrypt data",
+          "Compress the model"
+        ],
+        "answer": "Improve GPU utilization and reduce padding waste",
+        "explanation": "Multi-sample Packing reduces padding waste by packing multiple samples into a single sequence."
+      },
+      {
+        "id": "H15",
+        "question": "What was the response time improvement for Kuaishou's advertising lead customer service system after adopting the KwaiYii large model?",
+        "options": [
+          "Within 30 seconds",
+          "Within 10 seconds",
+          "Within 1 minute",
+          "Within 5 seconds"
+        ],
+        "answer": "Within 10 seconds",
+        "explanation": "The KwaiYii large model-based advertising lead customer service system reduced response time to within 10 seconds."
+      },
+      {
+        "id": "H16",
+        "question": "How many renowned directors participated in KeLing AI's Director Co-Creation Program?",
+        "options": [
+          "5",
+          "7",
+          "9",
+          "12"
+        ],
+        "answer": "9",
+        "explanation": "KeLing AI's Director Co-Creation Program invited 9 renowned directors to participate."
+      },
+      {
+        "id": "H17",
+        "question": "How many enterprise clients has KeLing AI's API established partnerships with?",
+        "options": [
+          "Hundreds",
+          "Thousands",
+          "Tens of thousands",
+          "Dozens"
+        ],
+        "answer": "Thousands",
+        "explanation": "KeLing AI has partnered with thousands of enterprise clients, including Xiaomi, Amazon Web Services, Alibaba Cloud, and others."
+      },
+      {
+        "id": "H18",
+        "question": "When streaming Black Myth: Wukong, Kuaishou compressed the bitrate to below what percentage of competitors'?",
+        "options": [
+          "30%",
+          "50%",
+          "70%",
+          "90%"
+        ],
+        "answer": "50%",
+        "explanation": "Based on the self-developed intelligent video processing chip, the 4K 60fps live streaming bitrate was compressed to below 50% of competitors'."
+      },
+      {
+        "id": "H19",
+        "question": "What does the 'Kuaishou Log Management Regulations' primarily govern?",
+        "options": [
+          "Employee daily log records",
+          "Collection, storage, protection, and audit trail of system logs",
+          "Development log standards",
+          "Meeting minutes management"
+        ],
+        "answer": "Collection, storage, protection, and audit trail of system logs",
+        "explanation": "The 'Log Management Regulations' standardize requirements for system log collection, storage, protection, and audit trail."
+      },
+      {
+        "id": "H20",
+        "question": "What types of models does Kwaipilot's model matrix include?",
+        "options": [
+          "Only code completion",
+          "Code completion + Code Embedding + Code Agent + Code/Math Instruct",
+          "Only Code Agent",
+          "Only Code Embedding"
+        ],
+        "answer": "Code completion + Code Embedding + Code Agent + Code/Math Instruct",
+        "explanation": "Kwaipilot's model matrix has gradually expanded from code completion to include Code Embedding, Code Agent, Code/Math Instruct, and more."
+      },
+      {
+        "id": "H21",
+        "question": "What scale of data was used in KwaiYii large model pre-training?",
+        "options": [
+          "Hundreds of billions of tokens",
+          "Trillions of tokens",
+          "Several trillions of tokens",
+          "Millions of tokens"
+        ],
+        "answer": "Several trillions of tokens",
+        "explanation": "The KwaiYii large model, trained on several trillions of tokens, achieved excellent results on authoritative benchmarks such as MMLU and C-Eval."
+      },
+      {
+        "id": "H22",
+        "question": "What performance did Kwaipilot achieve on HumanEval, CoSQA, and SWE-bench?",
+        "options": [
+          "Average level",
+          "SOTA performance",
+          "Below industry average",
+          "Just passed the tests"
+        ],
+        "answer": "SOTA performance",
+        "explanation": "Kwaipilot achieved SOTA performance on HumanEval, CoSQA, and SWE-bench."
+      },
+      {
+        "id": "H23",
+        "question": "What is the purpose of KeLing AI's video description model?",
+        "options": [
+          "Compress video",
+          "Improve text instruction responsiveness",
+          "Generate video music",
+          "Video transcoding"
+        ],
+        "answer": "Improve text instruction responsiveness",
+        "explanation": "KeLing developed a video description model to improve text instruction responsiveness."
+      },
+      {
+        "id": "H24",
+        "question": "What does the 'Kuaishou System Development and Maintenance Security Management' primarily focus on?",
+        "options": [
+          "Code style standards",
+          "Information security controls throughout the system development and maintenance lifecycle",
+          "Office equipment procurement",
+          "Employee attendance system"
+        ],
+        "answer": "Information security controls throughout the system development and maintenance lifecycle",
+        "explanation": "The 'System Development and Maintenance Security Management' standardizes information security control requirements during system development and maintenance."
+      },
+      {
+        "id": "H25",
+        "question": "The total prize pool for Kuaishou's KeLing AI Video Creation Contest exceeded how much?",
+        "options": [
+          "50,000 RMB",
+          "100,000 RMB",
+          "300,000 RMB",
+          "500,000 RMB"
+        ],
+        "answer": "300,000 RMB",
+        "explanation": "The first KeLing AI x KuaiYing Video Creation Contest had a total prize pool exceeding 300,000 RMB."
+      },
+      {
+        "id": "H26",
+        "question": "By how much did Kwaipilot surpass GPT-4 on Kuaishou dialect-specific code semantic understanding and generation tasks?",
+        "options": [
+          "5%",
+          "10%",
+          "20%",
+          "50%"
+        ],
+        "answer": "10%",
+        "explanation": "Kwaipilot surpassed GPT-4 by 10% on Kuaishou dialect-specific code scenarios."
+      },
+      {
+        "id": "H27",
+        "question": "What accuracy did Kuaishou's marketing domain large model achieve in short video content understanding?",
+        "options": [
+          "70%",
+          "80%",
+          "91%",
+          "95%"
+        ],
+        "answer": "91%",
+        "explanation": "The marketing domain large model's short video content understanding accuracy reached 91%, matching GPT-4."
+      },
+      {
+        "id": "H28",
+        "question": "What capabilities did AI XiaoKuai gain after integrating RAG?",
+        "options": [
+          "Only search",
+          "Understanding of time-sensitive information, common knowledge, community culture, and internet memes",
+          "Only translation",
+          "Only video recommendations"
+        ],
+        "answer": "Understanding of time-sensitive information, common knowledge, community culture, and internet memes",
+        "explanation": "RAG integration enabled XiaoKuai to understand time-sensitive information, common knowledge, community culture, internet memes, and more."
+      },
+      {
+        "id": "H29",
+        "question": "Which of the following companies is NOT among KeLing AI's enterprise clients?",
+        "options": [
+          "Xiaomi",
+          "Amazon Web Services",
+          "Alibaba Cloud",
+          "OpenAI"
+        ],
+        "answer": "OpenAI",
+        "explanation": "KeLing AI has partnered with Xiaomi, Amazon Web Services, Alibaba Cloud, and others. OpenAI is not one of its partners."
+      },
+      {
+        "id": "H30",
+        "question": "What is the data processing pipeline for Kuaishou's KwaiYii model training?",
+        "options": [
+          "Use raw data directly",
+          "Raw data → cleaning → Rejection Sampling → curriculum learning organization → high-quality training set",
+          "Manual annotation → training",
+          "Download from the internet for direct training"
+        ],
+        "answer": "Raw data → cleaning → Rejection Sampling → curriculum learning organization → high-quality training set",
+        "explanation": "The KwaiYii model refines PB-scale raw data through cleaning, Rejection Sampling, and curriculum learning organization into TB-scale high-quality training sets."
+      },
+      {
+        "id": "H31",
+        "question": "What was the theme of the large model forum Kuaishou hosted at the 2024 WAIC?",
+        "options": [
+          "AI for All",
+          "New AI · New Applications · New Ecosystem",
+          "Large Models Change the World",
+          "Intelligent Future"
+        ],
+        "answer": "New AI · New Applications · New Ecosystem",
+        "explanation": "During the 2024 WAIC, Kuaishou hosted a large model forum themed 'New AI · New Applications · New Ecosystem'."
+      },
+      {
+        "id": "H32",
+        "question": "What is the primary objective of the 'Kuaishou Information System Security Inspection and Audit Management Regulations'?",
+        "options": [
+          "Audit employees' internet browsing records",
+          "Periodically audit information system security conditions to ensure compliance and security",
+          "Performance evaluation",
+          "Financial audit"
+        ],
+        "answer": "Periodically audit information system security conditions to ensure compliance and security",
+        "explanation": "The 'Information System Security Inspection and Audit Management Regulations' aim to periodically inspect and audit information system security conditions."
+      },
+      {
+        "id": "H33",
+        "question": "How many video assets has Kuaishou's KeLing AI API generated cumulatively?",
+        "options": [
+          "About 1 million",
+          "About 10 million",
+          "About 40 million",
+          "About 100 million"
+        ],
+        "answer": "About 40 million",
+        "explanation": "As of 2025, the KeLing API has cumulatively generated over 40 million video assets."
+      },
+      {
+        "id": "H34",
+        "question": "What are the three dimensions of 3D parallel training used in Kuaishou's KwaiYii model training?",
+        "options": [
+          "Data parallelism, tensor parallelism, pipeline parallelism",
+          "Model parallelism, data parallelism, inference parallelism",
+          "CPU parallelism, GPU parallelism, TPU parallelism",
+          "Forward parallelism, backward parallelism, update parallelism"
+        ],
+        "answer": "Data parallelism, tensor parallelism, pipeline parallelism",
+        "explanation": "3D parallel training refers to the combination of three parallel strategies: data parallelism, tensor parallelism, and pipeline parallelism."
+      },
+      {
+        "id": "H35",
+        "question": "What is the purpose of the Temporal Scaling Law theory proposed by Kuaishou?",
+        "options": [
+          "Video duration prediction",
+          "Large model training hyperparameter optimization",
+          "Live streaming latency optimization",
+          "Recommendation algorithm optimization"
+        ],
+        "answer": "Large model training hyperparameter optimization",
+        "explanation": "The Temporal Scaling Law theory provides new theoretical support for hyperparameter optimization."
+      },
+      {
+        "id": "H36",
+        "question": "How many iterations did Kuaishou's KeLing AI complete within 10 months of launch?",
+        "options": [
+          "5",
+          "10",
+          "Over 20",
+          "Over 50"
+        ],
+        "answer": "Over 20",
+        "explanation": "KeLing AI completed over 20 iterations within 10 months of launch."
+      },
+      {
+        "id": "H37",
+        "question": "What is the next-generation architecture being developed for Kuaishou's KwaiYii large model?",
+        "options": [
+          "GPT architecture",
+          "MoE model",
+          "RNN architecture",
+          "CNN architecture"
+        ],
+        "answer": "MoE model",
+        "explanation": "In 2024, Kuaishou is developing a MoE model for the KwaiYii large model."
+      },
+      {
+        "id": "H38",
+        "question": "What was the overall trend of Kuaishou's e-commerce GMV in 2024?",
+        "options": [
+          "Declining",
+          "Rapid growth",
+          "Flat",
+          "Not disclosed"
+        ],
+        "answer": "Rapid growth",
+        "explanation": "Kuaishou's e-commerce GMV continued to grow rapidly, with e-commerce becoming an important revenue growth engine."
+      },
+      {
+        "id": "H39",
+        "question": "What is the core concept of 'Trust E-commerce' in Kuaishou's live streaming ecosystem?",
+        "options": [
+          "Winning through low prices",
+          "An e-commerce model built on the trust relationship between streamers and their fans",
+          "Only selling branded products",
+          "Only doing advertising"
+        ],
+        "answer": "An e-commerce model built on the trust relationship between streamers and their fans",
+        "explanation": "Kuaishou's 'Trust E-commerce' is based on the trust relationship between streamers and fans, reducing users' decision-making costs through authentic recommendations."
+      },
+      {
+        "id": "H40",
+        "question": "What product did Kuaishou launch for the Southeast Asian market in its international expansion?",
+        "options": [
+          "TikTok",
+          "SnackVideo",
+          "Likee",
+          "Kwai"
+        ],
+        "answer": "SnackVideo",
+        "explanation": "Kuaishou launched SnackVideo in the Southeast Asian market, forming a dual-product overseas strategy alongside Kwai."
+      }
+    ]
+  }
+}
