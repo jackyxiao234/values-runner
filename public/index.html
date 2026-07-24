@@ -496,8 +496,8 @@ const BGM={
 };
 
 const MODES=[
-  {key:'overall', label:'综合知识', hue:0,   pal:{c1:'#3fae9c',lens:'#a5eae2'},
-   bg:{sky1:'#ffd3ae',sky2:'#fff3e6',hillF:'#f0b98a',hillN:'#e2a06a',grass:'#f0c896',dirt:'#c98f5f',cloud:'#ffffff'}},
+  {key:'overall', label:'综合知识', hue:280, pal:{c1:'#a586ff',lens:'#ffcf5c'},
+   bg:{sky1:'#1a1440',sky2:'#3a2a70',hillF:'#5d4696',hillN:'#41307a',grass:'#7a5fbf',dirt:'#4d3985',cloud:'#e8e0ff'}},
   {key:'techops', label:'技术运营', hue:160, pal:{c1:'#29d3e6'},
    bg:{sky1:'#bfe3ff',sky2:'#ecf7ff',hillF:'#a4cdea',hillN:'#88b6da',grass:'#a9d2ec',dirt:'#7d9cba',cloud:'#ffffff'}},
   {key:'hr', label:'人力资源', hue:300, pal:{c1:'#ff6b9d'},
@@ -512,10 +512,10 @@ const MODES=[
    bg:{sky1:'#bde9df',sky2:'#ebfaf6',hillF:'#96d5c6',hillN:'#78c1b0',grass:'#9fdccd',dirt:'#6fa294',cloud:'#ffffff'}},
   {key:'ai', label:'AI 知识', hue:120, pal:{c1:'#58e08a'},
    bg:{sky1:'#ffd6e8',sky2:'#fff2f8',hillF:'#f2b3cd',hillN:'#e495b6',grass:'#f2bcd2',dirt:'#b8809a',cloud:'#ffffff'}},
-  // KDD conference mode — booth-play version. Distinctive purple/gold palette
-  // so it stands out from the internal training modes, and its own leaderboard.
-  {key:'kdd', label:'KDD 2026', hue:280, pal:{c1:'#a586ff',lens:'#ffcf5c'},
-   bg:{sky1:'#1a1440',sky2:'#3a2a70',hillF:'#5d4696',hillN:'#41307a',grass:'#7a5fbf',dirt:'#4d3985',cloud:'#e8e0ff'}},
+  // KDD conference mode — booth-play version. Warm desert palette (previously
+  // used by 综合知识), with its own leaderboard and compact pacing.
+  {key:'kdd', label:'KDD 2026', hue:0, pal:{c1:'#3fae9c',lens:'#a5eae2'},
+   bg:{sky1:'#ffd3ae',sky2:'#fff3e6',hillF:'#f0b98a',hillN:'#e2a06a',grass:'#f0c896',dirt:'#c98f5f',cloud:'#ffffff'}},
 ];
 let selectedMode='overall';
 let MODE=MODES[0];
@@ -997,7 +997,11 @@ function genChunk(sx,len){
   // Score-based difficulty: 0→7000 points scales from easy to max
   const progress=Math.min(1,sc/7000); // 0 at 0pts, 1 at 7000pts
   const pineappleRatio=progress*0.70; // 0% → 70% pineapples
-  const trapRatio=0.25-progress*0.10; // 25% → 15% traps (fire or pineapple)
+  // Trap density: KDD mode scales down by 0.8x to compensate for the faster
+  // scroll speed and shorter time budget — booth players should feel challenged
+  // but not overwhelmed.
+  const trapDensityMul=isKddMode()?0.8:1.0;
+  const trapRatio=(0.25-progress*0.10)*trapDensityMul; // 25% → 15% traps (fire or pineapple)
   const coinRatio=0.06; // 6% coins (reduced 25% from 8%)
   const minGap=280-progress*120; // 280px → 160px spacing
   while(x<sx+len){
@@ -1069,7 +1073,7 @@ function genChunk(sx,len){
           }
           // Traps on layers: HALF the ground's density per layer up
           // (layer1 = 0.5x, layer2 = 0.25x, layer3 = 0.125x the ground rate).
-          const layerTrapChance=0.35*Math.pow(0.5,l);
+          const layerTrapChance=0.35*Math.pow(0.5,l)*trapDensityMul;
           const trapSpacing=(minGap+60);
           for(let tx=platX+90;tx<platX+layerLen-60;tx+=trapSpacing+Math.random()*80){
             if(Math.random()<layerTrapChance&&clearOf(tx)){
@@ -1116,7 +1120,7 @@ function genChunkFlight(sx,len){
   const yTop=band.top+46*f,yBot=band.bottom-46*f;
   const ry=()=>yTop+Math.random()*Math.max(20,(yBot-yTop));
   const progress=Math.min(1,Math.max(0,(sc-15000)/25000));
-  const spikeRatio=0.16+progress*0.14; // 16% → 30% spikes
+  const spikeRatio=(0.16+progress*0.14)*(isKddMode()?0.8:1.0); // 16% → 30% spikes, x0.8 in KDD
   const coinRatio=0.11;
   const minGap=(240-progress*70)*Math.max(f,0.5);
   while(x<sx+len){
@@ -1542,9 +1546,16 @@ async function ansQ(idx){
       skT=15;skM=8;spawnP(cv.width/2,cv.height/2,'#ff4757',20);
     }
     if(r.explanation){document.getElementById('quiz-expl').textContent='💡 '+r.explanation}
-    updH();closeQuiz(r.explanation?3000:1200);return;
+    // Snappier feel: no dwell for a plain correct answer (players *know* they got
+    // it right); only linger when there's an explanation worth reading, and less
+    // for KDD's booth pacing.
+    const kdd=isKddMode();
+    let delay;
+    if(r.correct){delay=r.explanation?(kdd?1400:2000):(kdd?350:500);}
+    else{delay=r.explanation?(kdd?1600:2200):(kdd?600:800);}
+    updH();closeQuiz(delay);return;
   }catch(e){console.warn('answer submit failed',e);cs[idx].classList.add('ok')}
-  updH();closeQuiz(1200);
+  updH();closeQuiz(isKddMode()?400:600);
 }
 
 async function quizTimeout(){
@@ -1558,9 +1569,9 @@ async function quizTimeout(){
     // Dim all non-correct answers
     cs.forEach((c,i)=>{if(i!==r.correctIndex)c.classList.add('dimmed')});
     if(r.explanation){document.getElementById('quiz-expl').textContent='💡 '+r.explanation}
-    updH();closeQuiz(r.explanation?2600:600);return;
+    updH();closeQuiz(r.explanation?(isKddMode()?1600:2200):(isKddMode()?400:600));return;
   }catch(e){console.warn('timeout submit failed',e);co=1;if(qContext!=='bonus')li--}
-  updH();closeQuiz(600);
+  updH();closeQuiz(isKddMode()?400:600);
 }
 
 function updQT(){
@@ -1623,7 +1634,7 @@ async function finishMini(success,msg){
     if(dead)return; // killPlayer already handled the transition
     if(success){showQ('bonus',miniDiff)}
     else{st='running';if(pl)pl.inv=30}
-  },1100);
+  },isKddMode()?500:750);
 }
 
 // Build a XiaoKuai <img> element sized for a mini-game tile.
@@ -1658,7 +1669,11 @@ function showStrikeFlash(n){
 }
 
 function buildMatch(diff){
-  const nPairs=diff===1?4:diff===2?5:6;
+  const targetPairs=diff===1?4:diff===2?5:6;
+  // Cap at what's actually available — if the pool is smaller (KDD tiers have
+  // fewer pairs), we still need a winnable count.
+  const available=(PAIRS[diff]||[]).length;
+  const nPairs=Math.max(2,Math.min(targetPairs,available));
   const pool=[...PAIRS[diff]].sort(()=>Math.random()-0.5).slice(0,nPairs);
   document.getElementById('mini-sub').textContent='把每个术语和它的含义配对 — 最多可以错 3 次！';
   const area=document.getElementById('mini-area');area.innerHTML='';
@@ -1691,7 +1706,7 @@ function buildMatch(diff){
         showStrikeFlash(errs);
         if(errs>=MAX_ERR){
           miniBusy=true; // lock the board while the third strike flashes
-          setTimeout(()=>{miniBusy=false;finishMini(false,'❌ 三次错误 — 挑战失败！')},700);
+          setTimeout(()=>{miniBusy=false;finishMini(false,'❌ 三次错误 — 挑战失败！')},isKddMode()?500:700);
         }
       }};
     colR.appendChild(d);
